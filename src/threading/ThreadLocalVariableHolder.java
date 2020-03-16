@@ -1,3 +1,5 @@
+package threading;
+
 import java.util.Random;
 import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
@@ -48,7 +50,7 @@ class Acessor implements Runnable {
 
     @Override
     public String toString() {
-        return "Acessor{" +
+        return "threading.Acessor{" +
                 "id=" + id + " " + ThreadLocalVariableHolder.get() +
                 '}';
     }
