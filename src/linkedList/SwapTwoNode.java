@@ -44,18 +44,7 @@ public class SwapTwoNode {
                 isYFound = true;
             }
         }
-        node = head;
 
-
-       /* if(preX != null && preY != null){
-
-            Node temp = preX.next;
-            preX.next = preY.next;
-            preY.next = temp;
-            temp = preX.next.next;
-            preX.next.next = preY.next.next;
-            preY.next.next = temp;
-        }*/
 
        if(preX!=null && preY != null){
            Node temp = preX.next;
