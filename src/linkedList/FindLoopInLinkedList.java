@@ -38,12 +38,13 @@ public class FindLoopInLinkedList {
         FindLoopInLinkedList f = new FindLoopInLinkedList();
         Node n = new Node(2);
         f.head = new Node(1);
-        f.head.next = n;
-        f.head.next.next = new Node(3);
+        f.head.next = new Node(3);
+        f.head.next.next = n;
         f.head.next.next.next = new Node(4);
         f.head.next.next.next.next = new Node(5);
         f.head.next.next.next.next.next = new Node(6);
-        f.head.next.next.next.next.next.next = n;
+        f.head.next.next.next.next.next.next = new Node(6);
+        f.head.next.next.next.next.next.next.next = n;
 
         Node k = f.detectLoop(f.head);
         if(k == null){

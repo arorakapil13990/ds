@@ -1,6 +1,6 @@
 package linkedList;
 
-public class InsertNodeInSorted {
+public class InsertNodeInSortedList {
 
     Node head;
 
@@ -38,7 +38,7 @@ public class InsertNodeInSorted {
     }
 
     public static void main(String[] args) {
-        InsertNodeInSorted i = new InsertNodeInSorted();
+        InsertNodeInSortedList i = new InsertNodeInSortedList();
 
         i.head = new Node(1);
         i.head.next = new Node(2);
