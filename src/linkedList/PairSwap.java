@@ -7,7 +7,6 @@ public class PairSwap {
 
     public void swapNode() {
         Node node = head;
-        Node pre = null;
 
         while (node != null && node.next != null) {
             int data = node.data;
