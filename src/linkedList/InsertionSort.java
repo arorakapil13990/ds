@@ -59,6 +59,9 @@ public class InsertionSort {
         d.addToTail(4);
         d.addToTail(20);
         d.addToTail(5);
+       /* d.addToTail(1);
+        d.addToTail(-10);*/
+
 
         d.insertion(d.head);
         d.print(d.head);
