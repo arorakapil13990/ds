@@ -69,6 +69,9 @@ public class Rearrange {
         d.addToTail(3);
         d.addToTail(4);
         d.addToTail(5);
+        d.addToTail(6);
+        d.addToTail(7);
+        d.addToTail(8);
 
         d.rearrangeLL(d.head);
         d.print(d.head);

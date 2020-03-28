@@ -4,7 +4,7 @@ public class InsertionSort {
 
     Node head, sorted;
 
-    public void insertion(Node node) {
+    public Node insertion(Node node) {
         sorted = null;
         Node current = node;
         while (current != null) {
@@ -13,6 +13,7 @@ public class InsertionSort {
             current = next;
         }
         head = sorted;
+        return head;
     }
 
     public void sortedInsert(Node newNode) {
