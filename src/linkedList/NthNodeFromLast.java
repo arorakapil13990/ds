@@ -6,7 +6,7 @@ public class NthNodeFromLast {
 
 
     Node head;
-    static int i =0;
+    static int i = 0;
 
 
     public void insertNode(int data) {
@@ -41,12 +41,12 @@ public class NthNodeFromLast {
     }
 
 
-    public int findNthNodeFromLast(Node node, int n){
+    public int findNthNodeFromLast(Node node, int n) {
 
         int l = getLength(node);
-        int pos = l-n+1;
+        int pos = l - n + 1;
 
-        while(pos -1 > 0){
+        while (pos - 1 > 0) {
             pos--;
             node = node.next;
         }
@@ -54,16 +54,16 @@ public class NthNodeFromLast {
     }
 
 
-    public Integer findNthNodeFromLastUsingRecursion(Node node, int n){
+    public void findNthNodeFromLastUsingRecursion(Node node, int n) {
 
-        if(node != null){
-            findNthNodeFromLastUsingRecursion(node.next,n);
+        if (node != null) {
+            findNthNodeFromLastUsingRecursion(node.next, n);
             i++;
-            if(i == n){
-                return  node.data;
+            if (i == n) {
+                System.out.println(node.data);
             }
         }
-        return null;
+        return;
     }
 
     public static void main(String[] args) {
@@ -74,7 +74,7 @@ public class NthNodeFromLast {
         l.insertNode(4);
         l.insertNode(5);
 
-        System.out.println(l.findNthNodeFromLast(l.head,5));
-        System.out.println(l.findNthNodeFromLastUsingRecursion(l.head,5));
+        //System.out.println(l.findNthNodeFromLast(l.head,2));
+        l.findNthNodeFromLastUsingRecursion(l.head, 2);
     }
 }

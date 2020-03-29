@@ -24,7 +24,7 @@ public class DeleteEveryKthNode {
             if (count == k) {
                 prev.next = node.next;
                 count = 1;
-                node = prev.next;
+                node = node.next; // prev.next
             }
             count++;
             prev = node;
@@ -64,7 +64,7 @@ public class DeleteEveryKthNode {
         d.addToTail(5);
         d.addToTail(6);
         d.addToTail(7);
-        d.delete(d.head, 1);
+        d.delete(d.head, 3);
         d.print(d.head);
     }
 

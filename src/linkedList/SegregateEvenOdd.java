@@ -53,9 +53,9 @@ public class SegregateEvenOdd {
         s.head = new Node(8);
         s.head.next = new Node(20);
         s.head.next.next = new Node(10);
-        /*s.head.next.next.next = new Node(4);
+        s.head.next.next.next = new Node(4);
         s.head.next.next.next.next = new Node(5);
-        s.head.next.next.next.next.next = new Node(7);*/
+        s.head.next.next.next.next.next = new Node(7);
         s.segregateEvenOddLinkedList(s.head);
         s.printList(s.head);
 

@@ -5,16 +5,16 @@ public class CountRotationInSorted {
 
     private void countRotation(Node node) {
 
-        int count =0;
+        int count = 0;
 
         int min = node.data;
 
-        while(node != null){
-            if(min>node.data){
+        while (node != null) {
+            if (min > node.data) {
                 break;
             }
             count++;
-            node=node.next;
+            node = node.next;
         }
         System.out.println(count);
 

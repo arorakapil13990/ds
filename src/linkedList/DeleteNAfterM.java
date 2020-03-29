@@ -26,6 +26,8 @@ public class DeleteNAfterM {
 
         if (node != null) {
             mthNode.next = delete(node.next, m, n);
+        }else {
+            mthNode.next=null;
         }
         return current;
     }
