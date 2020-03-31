@@ -62,7 +62,7 @@ public class LeftRotationByK {
     }
 
     public static void main(String[] args) {
-        int a[] = {1, 2, 3, 4, 5, 6, 7};
+        int a[] = {12,10,5,6,52,36};
         LeftRotationByK l = new LeftRotationByK();
         int b[] = {1, 2, 3, 4, 5, 6, 7};
         l.leftRotate(a, 2);

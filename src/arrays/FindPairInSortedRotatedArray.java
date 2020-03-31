@@ -10,9 +10,9 @@ public class FindPairInSortedRotatedArray {
 
             boolean isFound = false;
 
-        int l = (k + 1) % n;
+        int l = (k + 1) % n;  // points to minimum element
 
-        int r = k;
+        int r = k; // points to maximum element
 
         while (l != r) {
             if (arr_int[l] + arr_int[r] == x) {
@@ -20,9 +20,9 @@ public class FindPairInSortedRotatedArray {
                 break;
             }
             if (arr_int[l] + arr_int[r] < x)
-                l = (l + 1) % n;
+                l = (l + 1) % n; // move to higher sum
             else
-                r = (n + r - 1) % n;
+                r = (n + r - 1) % n;  // move to lower sum
         }
 
         if(isFound){
