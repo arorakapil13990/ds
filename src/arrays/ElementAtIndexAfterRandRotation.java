@@ -25,8 +25,6 @@ public class ElementAtIndexAfterRandRotation {
 
     private static int findElement(int[] arr, int[][] ranges, int rotations, int index) {
         int i;
-
-
         for (i = 0; i < rotations; i++) {
             int left = ranges[i][0];
             int right = ranges[i][1];
