@@ -16,7 +16,7 @@ public class MaxJMinusI {
             lMin[i] = Math.min(lMin[i - 1], a[i]);
         }
 
-        
+
         rMax[n - 1] = a[n - 1];
 
         /* Construct rMax[] such that rMax[i] stores the maximum value
@@ -25,6 +25,7 @@ public class MaxJMinusI {
             rMax[i] = Math.max(rMax[i + 1], a[i]);
         }
 
+        
 
         i = 0; j = 0; maxDiff = -1;
 
