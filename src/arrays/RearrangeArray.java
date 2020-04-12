@@ -22,18 +22,6 @@ import java.util.Arrays;
 public class RearrangeArray {
 
     public static void main(String[] args) {
-        int a[] = {0, 1, 2, 3};
-        int i, elementAtIIndex;
-        int b[] = new int[a.length];
-        for (i = 0; i < a.length; i++) {
-            if (a[i] != i) {
-                elementAtIIndex = a[i];
-                b[elementAtIIndex] = i;
-            } else {
-                b[i] = i;
-            }
-        }
-        System.out.println(Arrays.toString(b));
         rearrange(new int[]{1, 3, 0, 2},4);
     }
 

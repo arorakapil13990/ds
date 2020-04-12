@@ -9,10 +9,9 @@ public class FormBiggestNumber {
 
     public static void main(String[] args) {
         List<String> l = new ArrayList<>();
-        l.add("54");
-        l.add("546");
-        l.add("548");
-        l.add("60");
+        l.add("25");
+        l.add("42");
+        l.add("39");
 
         Collections.sort(l, new Comparator<String>() {
             @Override
