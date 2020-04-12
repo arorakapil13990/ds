@@ -19,6 +19,7 @@
           <entry key="project.open.time.11" value="5" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.32" value="1" />
@@ -26,7 +27,7 @@
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="4" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="27" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -47,12 +48,12 @@
         <counts>
           <entry key="Learning" value="2" />
           <entry key="dummy" value="10" />
-          <entry key="java" value="40982" />
+          <entry key="java" value="40983" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="40982" />
+          <entry key="JAVA" value="40983" />
           <entry key="PLAIN_TEXT" value="10" />
           <entry key="Scratch" value="2" />
         </counts>
@@ -64,12 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/arrays/MaxJMinusI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="e#1135#1136#0" expanded="true" />
-                <element signature="e#1157#1158#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="143">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -191,9 +188,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,6 +212,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,7 +375,7 @@
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.26494345" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.26898223" />
       <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.25282714" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -792,7 +789,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/arrays/MaxJMinusI.java</url>
-          <line>39</line>
+          <line>40</line>
           <properties />
           <option name="timeStamp" value="147" />
         </line-breakpoint>
@@ -1184,12 +1181,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/MaxJMinusI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1157#1158#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="143">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>
