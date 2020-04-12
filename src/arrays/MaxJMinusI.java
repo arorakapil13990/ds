@@ -25,7 +25,6 @@ public class MaxJMinusI {
             rMax[i] = Math.max(rMax[i + 1], a[i]);
         }
 
-        
 
         i = 0; j = 0; maxDiff = -1;
 
