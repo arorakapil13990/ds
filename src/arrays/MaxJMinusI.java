@@ -26,6 +26,7 @@ public class MaxJMinusI {
         }
 
 
+        
         i = 0; j = 0; maxDiff = -1;
 
         while (i < n && j < n) {
