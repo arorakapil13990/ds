@@ -13,12 +13,14 @@
     <session id="-1229985261">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
+          <entry key="project.closed" value="30" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.11" value="5" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.30" value="1" />
@@ -27,20 +29,20 @@
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="4" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Learning" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="503" />
+          <entry key="java" value="563" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="503" />
+          <entry key="JAVA" value="563" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
@@ -48,12 +50,12 @@
         <counts>
           <entry key="Learning" value="2" />
           <entry key="dummy" value="10" />
-          <entry key="java" value="40986" />
+          <entry key="java" value="43657" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="40986" />
+          <entry key="JAVA" value="43657" />
           <entry key="PLAIN_TEXT" value="10" />
           <entry key="Scratch" value="2" />
         </counts>
@@ -61,12 +63,15 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/arrays/MaxJMinusI.java">
+        <entry file="file://$PROJECT_DIR$/src/tree/LevelLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            <state relative-caret-position="323">
+              <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,43 +91,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/linkedList/CountRotationInSorted.java" />
-        <option value="$PROJECT_DIR$/src/linkedList/DeleteNAfterM.java" />
-        <option value="$PROJECT_DIR$/src/linkedList/DeleteEveryKthNode.java" />
-        <option value="$PROJECT_DIR$/src/linkedList/NthNodeFromLast.java" />
-        <option value="$PROJECT_DIR$/src/linkedList/SegregateEvenOdd.java" />
-        <option value="$PROJECT_DIR$/src/linkedList/ReverseNodeInGroup.java" />
-        <option value="$PROJECT_DIR$/src/arrays/RotationByK.java" />
-        <option value="$PROJECT_DIR$/src/arrays/CyclicallyRotateByOne.java" />
-        <option value="$PROJECT_DIR$/src/arrays/SearchElementInRotatedSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/arrays/MaxSumWithRotation.java" />
-        <option value="$PROJECT_DIR$/src/arrays/RotationCount.java" />
-        <option value="$PROJECT_DIR$/src/arrays/RightRotationByK.java" />
-        <option value="$PROJECT_DIR$/src/arrays/ElementatIndexAfterRangeRotation.java" />
-        <option value="$PROJECT_DIR$/src/arrays/LeftRotationByK.java" />
-        <option value="$PROJECT_DIR$/src/arrays/SplitArrayByKAndAddLast.java" />
         <option value="$PROJECT_DIR$/src/arrays/CheckIfPossibleArrayAscDesc.java" />
         <option value="$PROJECT_DIR$/src/arrays/RearrangeArrayElementAtIndex.java" />
         <option value="$PROJECT_DIR$/src/arrays/ReverseArray.java" />
-        <option value="$PROJECT_DIR$/src/arrays/DistanceBetweenClosestMinimum.java" />
         <option value="$PROJECT_DIR$/src/sorting/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/sorting/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/sorting/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/sorting/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/arrays/ReaarangePositiveNegative.java" />
-        <option value="$PROJECT_DIR$/src/arrays/MoveZeroToEnd.java" />
         <option value="$PROJECT_DIR$/src/arrays/RearangePositiveNegative.java" />
         <option value="$PROJECT_DIR$/src/arrays/MinimumSwap.java" />
         <option value="$PROJECT_DIR$/src/arrays/RearrangePositiveNegativeAlternatively.java" />
         <option value="$PROJECT_DIR$/src/arrays/ElementAtIndexAfterRandRotation.java" />
-        <option value="$PROJECT_DIR$/src/arrays/FindPairInSortedRotatedArray.java" />
-        <option value="$PROJECT_DIR$/src/arrays/RearrangeArrayEvenPosGreaterOddPos.java" />
         <option value="$PROJECT_DIR$/src/sorting/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/arrays/RearrangePositiveNegative.java" />
-        <option value="$PROJECT_DIR$/src/arrays/RearrangeEvenOddPosition.java" />
         <option value="$PROJECT_DIR$/src/arrays/RearrangeSmallestLargest.java" />
-        <option value="$PROJECT_DIR$/src/arrays/DoubleTheFirstElement.java" />
-        <option value="$PROJECT_DIR$/src/arrays/ReorderAccordingIndexes.java" />
         <option value="$PROJECT_DIR$/src/arrays/KadanesAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/arrays/Algorithm.java" />
         <option value="$PROJECT_DIR$/src/arrays/ContiguouSumAlgorithm.java" />
@@ -133,10 +116,32 @@
         <option value="$PROJECT_DIR$/src/arrays/SubArrayWithLeastAvg.java" />
         <option value="$PROJECT_DIR$/src/arrays/MaxProfitBuySellKTransaction.java" />
         <option value="$PROJECT_DIR$/src/arrays/MinimumDistanceTwoNumbers.java" />
-        <option value="$PROJECT_DIR$/src/arrays/MinimizeMaxDiffBetweenHeights.java" />
-        <option value="$PROJECT_DIR$/src/arrays/FormBiggestNumber.java" />
         <option value="$PROJECT_DIR$/src/arrays/RearrangeArray.java" />
         <option value="$PROJECT_DIR$/src/arrays/MaxJMinusI.java" />
+        <option value="$PROJECT_DIR$/src/arrays/DistanceBetweenClosestMinimum.java" />
+        <option value="$PROJECT_DIR$/src/arrays/DoubleTheFirstElement.java" />
+        <option value="$PROJECT_DIR$/src/arrays/FindPairInSortedRotatedArray.java" />
+        <option value="$PROJECT_DIR$/src/arrays/FormBiggestNumber.java" />
+        <option value="$PROJECT_DIR$/src/arrays/MaxSumWithRotation.java" />
+        <option value="$PROJECT_DIR$/src/arrays/MinimizeMaxDiffBetweenHeights.java" />
+        <option value="$PROJECT_DIR$/src/arrays/RearrangeArrayEvenPosGreaterOddPos.java" />
+        <option value="$PROJECT_DIR$/src/arrays/RearrangeEvenOddPosition.java" />
+        <option value="$PROJECT_DIR$/src/arrays/MoveZeroToEnd.java" />
+        <option value="$PROJECT_DIR$/src/arrays/ReorderAccordingIndexes.java" />
+        <option value="$PROJECT_DIR$/src/tree/Node.java" />
+        <option value="$PROJECT_DIR$/src/tree/PreOrder.java" />
+        <option value="$PROJECT_DIR$/src/tree/PreOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/tree/LevelOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/tree/MaxElement.java" />
+        <option value="$PROJECT_DIR$/src/tree/SearchInBT.java" />
+        <option value="$PROJECT_DIR$/src/tree/InsertANode.java" />
+        <option value="$PROJECT_DIR$/src/tree/Size.java" />
+        <option value="$PROJECT_DIR$/src/tree/LevelOrderReversal.java" />
+        <option value="$PROJECT_DIR$/src/tree/Depth.java" />
+        <option value="$PROJECT_DIR$/src/tree/MinimumDepth.java" />
+        <option value="$PROJECT_DIR$/src/tree/CreateBSTFromArray.java" />
+        <option value="$PROJECT_DIR$/src/tree/fd.java" />
+        <option value="$PROJECT_DIR$/src/tree/LevelLinkedList.java" />
       </list>
     </option>
   </component>
@@ -188,7 +193,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -206,18 +210,19 @@
               <item name="Sample" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/kapilarora/Sample/src/linkedList/ReverseNodeInGroup.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586636843679" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586900611861" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -235,20 +240,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaxJMinusI">
+  <component name="RunManager" selected="Application.LevelLinkedList">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormBiggestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.FormBiggestNumber" />
+    <configuration name="CreateBSTFromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.CreateBSTFromArray" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -256,13 +261,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxJMinusI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.MaxJMinusI" />
+    <configuration name="Depth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.Depth" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,13 +275,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimizeMaxDiffBetweenHeights" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.MinimizeMaxDiffBetweenHeights" />
+    <configuration name="LevelLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.LevelLinkedList" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,13 +289,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumDistanceTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.MinimumDistanceTwoNumbers" />
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.LinkedList" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,13 +303,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RearrangeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.RearrangeArray" />
+    <configuration name="MinimumDepth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.MinimumDepth" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -342,19 +347,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MinimumDistanceTwoNumbers" />
-      <item itemvalue="Application.MinimizeMaxDiffBetweenHeights" />
-      <item itemvalue="Application.FormBiggestNumber" />
-      <item itemvalue="Application.RearrangeArray" />
-      <item itemvalue="Application.MaxJMinusI" />
+      <item itemvalue="Application.Depth" />
+      <item itemvalue="Application.MinimumDepth" />
+      <item itemvalue="Application.CreateBSTFromArray" />
+      <item itemvalue="Application.LinkedList" />
+      <item itemvalue="Application.LevelLinkedList" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaxJMinusI" />
-        <item itemvalue="Application.RearrangeArray" />
-        <item itemvalue="Application.FormBiggestNumber" />
-        <item itemvalue="Application.MinimizeMaxDiffBetweenHeights" />
-        <item itemvalue="Application.MinimumDistanceTwoNumbers" />
+        <item itemvalue="Application.LevelLinkedList" />
+        <item itemvalue="Application.LinkedList" />
+        <item itemvalue="Application.CreateBSTFromArray" />
+        <item itemvalue="Application.MinimumDepth" />
+        <item itemvalue="Application.Depth" />
       </list>
     </recent_temporary>
   </component>
@@ -375,7 +380,7 @@
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.26898223" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.27705976" />
       <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.25282714" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -686,12 +691,6 @@
           <option name="timeStamp" value="110" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/arrays/DistanceBetweenClosestMinimum.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="111" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sorting/QuickSort.java</url>
           <line>18</line>
           <properties />
@@ -741,7 +740,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/arrays/DoubleTheFirstElement.java</url>
-          <line>9</line>
+          <line>18</line>
           <properties />
           <option name="timeStamp" value="133" />
         </line-breakpoint>
@@ -793,6 +792,56 @@
           <properties />
           <option name="timeStamp" value="147" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/CheckIfPossibleArrayAscDesc.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/CheckIfPossibleArrayAscDesc.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/CheckIfPossibleArrayAscDesc.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/DistanceBetweenClosestMinimum.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/MaxElement.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/Depth.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/LevelLinkedList.java</url>
+          <line>49</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/LevelLinkedList.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -828,98 +877,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/linkedList/SwapTwoNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="49" column="18" selection-start-line="49" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedList/CountRotationInSorted.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/ElementatIndexAfterRangeRotation.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/DualPivotQuicksort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedList/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="47" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedList/ReverseFirstKNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedList/ReverseNodeInGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedList/SortAbsoluteValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedList/SortZeroOneTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="3590" selection-start-line="3590" selection-end-line="3590" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedList/AlternateEvenOdd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -941,6 +898,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sorting/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-172">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/MaximumProfit.java" />
+    <entry file="file://$PROJECT_DIR$/src/recursion/TowerOfHanoi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/CheckIfPossibleArrayAscDesc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="78" column="44" lean-forward="true" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/ContiguousSumAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/CyclicallyRotateByOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -950,50 +936,154 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/DistanceBetweenClosestMinimum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="44" />
+        <state relative-caret-position="345">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/DoubleTheFirstElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/ElementAtIndexAfterRandRotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        <state relative-caret-position="225">
+          <caret line="15" column="60" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/RightRotationByK.java">
+    <entry file="file://$PROJECT_DIR$/src/arrays/FindPairInSortedRotatedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="248">
+          <caret line="24" column="58" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="24" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/RotationCount.java">
+    <entry file="file://$PROJECT_DIR$/src/arrays/FormBiggestNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-201">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="270">
+          <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/SearchElementInRotatedSortedArray.java">
+    <entry file="file://$PROJECT_DIR$/src/arrays/LeftRotationByK.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/SplitArrayByKAndAddLast.java">
+    <entry file="file://$PROJECT_DIR$/src/arrays/MaxJMinusI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="363">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/MaxProfitBuySellKTransaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/MaxSumWithRotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/MinimizeMaxDiffBetweenHeights.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="36" column="72" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/MinimumDistanceTwoNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/MinimumSwap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/RearrangeArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/RearrangeArrayElementAtIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/RearrangeArrayEvenPosGreaterOddPos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="165">
+          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/RearrangeEvenOddPosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/MoveZeroToEnd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="72" column="38" lean-forward="true" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/RearrangePositiveNegative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="40" column="38" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/RearrangePositiveNegativeAlternatively.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/RearrangeSmallestLargest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/ReorderAccordingIndexes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1004,109 +1094,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/RearrangePositiveNegativeAlternatively.java">
+    <entry file="file://$PROJECT_DIR$/src/arrays/RightRotationByK.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="-4">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/MergeSort.java">
+    <entry file="file://$PROJECT_DIR$/src/arrays/RotationCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-172">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="221">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/RearrangeEvenOddPosition.java">
+    <entry file="file://$PROJECT_DIR$/src/arrays/SearchElementInRotatedSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="263">
+          <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/MoveZeroToEnd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/LeftRotationByK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="64" column="36" lean-forward="true" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/ReorderAccordingIndexes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/RearrangePositiveNegative.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/DoubleTheFirstElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/FindPairInSortedRotatedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/MinimumSwap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/MaxSumWithRotation.java">
+    <entry file="file://$PROJECT_DIR$/src/arrays/SplitArrayByKAndAddLast.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/CheckIfPossibleArrayAscDesc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="130" column="38" selection-start-line="130" selection-start-column="38" selection-end-line="130" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/ContiguousSumAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/MaximumProfit.java" />
-    <entry file="file://$PROJECT_DIR$/src/arrays/SubArrayWithLeastAvg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/RearrangeSmallestLargest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1114,75 +1126,126 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="69" column="42" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/recursion/TowerOfHanoi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/MinimumDistanceTwoNumbers.java">
+    <entry file="file://$PROJECT_DIR$/src/arrays/SubArrayWithLeastAvg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="34" />
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/MaxProfitBuySellKTransaction.java">
+    <entry file="file://$PROJECT_DIR$/src/tree/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/LevelOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="37" lean-forward="true" selection-start-line="25" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/PreOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/MaxElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/LevelOrderReversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/Depth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="193" column="17" selection-start-line="193" selection-start-column="17" selection-end-line="193" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/SearchInBT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/Size.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/InsertANode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/MinimizeMaxDiffBetweenHeights.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/FormBiggestNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <caret line="17" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/RearrangeArray.java">
+    <entry file="file://$PROJECT_DIR$/src/tree/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding>
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-125">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/RearrangeArrayElementAtIndex.java">
+    <entry file="file://$PROJECT_DIR$/src/tree/CreateBSTFromArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="165">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/MinimumDepth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/MaxJMinusI.java">
+    <entry file="file://$PROJECT_DIR$/src/tree/LevelLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        <state relative-caret-position="323">
+          <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

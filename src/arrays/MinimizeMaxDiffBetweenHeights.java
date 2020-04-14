@@ -34,7 +34,7 @@ public class MinimizeMaxDiffBetweenHeights {
                 a[i] += k;
             } else if (a[i] > max) {
                 a[i] -= k;
-            } else if ((a[i] - min) > (max - a[i])) {
+            } else if ((a[i] - min) > (max - a[i])) {  // closest to max
                 a[i] -= k;
             } else {
                 a[i] += k;

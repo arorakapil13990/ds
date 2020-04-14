@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class ReorderAccordingIndexes {
 
     public static void reorder(int a[], int indexes[]) {
-        int i, t;
+        int i;
         int temp[] = new int[a.length];
 
         for (i = 0; i < indexes.length; i++) {

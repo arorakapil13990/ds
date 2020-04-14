@@ -6,7 +6,7 @@ public class RearrangeArrayEvenPosGreaterOddPos {
 
     public static void main(String[] args) {
 
-        int a[] = {1, 2, 1, 4, 5, 6, 8, 8};
+        int a[] = {9, 8, 13, 2, 19, 14};
         int b[] = new int[a.length];
         Arrays.sort(a);
         System.out.println(Arrays.toString(a));

@@ -2,6 +2,15 @@ package arrays;
 
 import java.util.Arrays;
 
+/*
+ *
+ * Given an array of integers of size n. Assume ‘0’ as invalid number and all other as valid number.
+ * Convert the array in such a way that if next number is a valid number and same as current number,
+ * double its value and replace the next number with 0.
+ * After the modification, rearrange the array such that all 0’s are shifted to the end.
+ *
+ * */
+
 public class DoubleTheFirstElement {
 
     public static void rearrange(int a[]) {

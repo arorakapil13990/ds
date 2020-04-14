@@ -26,6 +26,8 @@ public class DistanceBetweenClosestMinimum {
                 }
             }
         }
+
+        // check if only single instance of minimum is present
         if(dist < minD){
             minD = dist;
         }
