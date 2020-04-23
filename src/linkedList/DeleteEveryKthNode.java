@@ -1,5 +1,8 @@
 package linkedList;
 
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
 public class DeleteEveryKthNode {
     Node head;
 
@@ -33,6 +36,7 @@ public class DeleteEveryKthNode {
         }
 
     }
+
 
     public void addToTail(int data) {
 
