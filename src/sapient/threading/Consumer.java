@@ -1,7 +1,6 @@
 package sapient.threading;
 
 import java.util.Queue;
-import java.util.concurrent.TimeUnit;
 
 public class Consumer implements Runnable {
     Queue<Integer> stringQueue;
@@ -12,23 +11,39 @@ public class Consumer implements Runnable {
 
     @Override
     public void run() {
-        try {
-            consume();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        consume();
     }
 
-    public void consume() throws InterruptedException {
+    /*public void consume() throws InterruptedException {
         while (true) {
             synchronized (stringQueue) {
-                while (stringQueue.size() == 0) {
+                while (stringQueue.isEmpty()) {
                     stringQueue.wait();
                 }
                 int val = stringQueue.poll();
                 System.out.println("Consumer consumed - " + val);
                 stringQueue.notify();
                 TimeUnit.SECONDS.sleep(1);
+            }
+        }
+    }*/
+
+
+    public void consume() {
+        while (true) {
+            synchronized (stringQueue) {
+                if (stringQueue.isEmpty()) {
+                    try {
+                        System.out.println("Queue is Empty");
+                        stringQueue.notify();
+                        stringQueue.wait();
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                } else {
+                    int val = stringQueue.poll();
+                    System.out.println("Consumer consumed - " + val);
+                }
             }
         }
     }

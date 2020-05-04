@@ -13,6 +13,7 @@ public class StringExample {
         System.out.println(s4.equals(s3));
         System.out.println(s1.equals(s3));
 
-
+        String s5 = new String("abc").intern();
+        System.out.println(s1 == s5);
     }
 }

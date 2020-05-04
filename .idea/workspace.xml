@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09728682-12e3-49f5-945a-bc0f3a91308d" name="Default Changelist" comment="" />
+    <list default="true" id="09728682-12e3-49f5-945a-bc0f3a91308d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sapient/java8/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/sapient/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/StringExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/sapient/StringExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/builder/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/builder/CarBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/factory/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/factory/CarFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/factory/CarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/factory/CarType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/factory/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/factory/Hatchback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/factory/Sedan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/serialization/DeserializationExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/sapient/serialization/DeserializationExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/serialization/SerializationExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/sapient/serialization/SerializationExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/serialization/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/sapient/serialization/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/strategy/BankAccountPaymentMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/strategy/CreditCardPaymentMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/strategy/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/strategy/Invoice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/strategy/PaymentMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/threading/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/sapient/threading/Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/threading/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/sapient/threading/Producer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sapient/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sapient/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sapient/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sapient/Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sapient/StringExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sapient/StringExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sapient/builder/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sapient/builder/CarBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sapient/factory/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sapient/factory/CarFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sapient/factory/CarType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sapient/factory/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sapient/factory/Hatchback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sapient/factory/Sedan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sapient/serialization/DeserializationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sapient/serialization/DeserializationExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sapient/serialization/SerializationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sapient/serialization/SerializationExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sapient/serialization/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sapient/serialization/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sapient/strategy/BankAccountPaymentMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sapient/strategy/CreditCardPaymentMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sapient/strategy/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sapient/strategy/Invoice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sapient/strategy/PaymentMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sapient/threading/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sapient/threading/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sapient/threading/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sapient/threading/Producer.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,49 +62,53 @@
     <session id="-1229985261">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="31" />
+          <entry key="project.closed" value="36" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.11" value="5" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="3" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="32" />
+          <entry key="project.opened" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Learning" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="758" />
+          <entry key="java" value="823" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="758" />
+          <entry key="JAVA" value="823" />
           <entry key="Scratch" value="1" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Learning" value="2" />
           <entry key="dummy" value="10" />
-          <entry key="java" value="49591" />
+          <entry key="java" value="52671" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="49591" />
+          <entry key="JAVA" value="52671" />
           <entry key="PLAIN_TEXT" value="10" />
           <entry key="Scratch" value="2" />
         </counts>
@@ -64,11 +117,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/arrays/ContiguousSumAlgorithm.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sapient/java8/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="450">
+              <caret line="32" column="31" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sapient/java8/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sapient/MapIteration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="64" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sapient/java8/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -95,44 +186,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sapient/strategy/CreditCardPaymentMethod.java" />
-        <option value="$PROJECT_DIR$/src/sapient/sads.java" />
-        <option value="$PROJECT_DIR$/src/sapient/TrafficLight.java" />
-        <option value="$PROJECT_DIR$/src/sapient/Manager.java" />
-        <option value="$PROJECT_DIR$/src/linkedList/DeleteEveryKthNode.java" />
-        <option value="$PROJECT_DIR$/src/sapient/FailFastFailSafe.java" />
-        <option value="$PROJECT_DIR$/src/sapient/MapIteration.java" />
-        <option value="$PROJECT_DIR$/src/sapient/Employee.java" />
-        <option value="$PROJECT_DIR$/src/sapient/ComaparableTest.java" />
-        <option value="$PROJECT_DIR$/src/sapient/ComparableTest.java" />
-        <option value="$PROJECT_DIR$/src/sapient/ComparableComparatorTest.java" />
-        <option value="$PROJECT_DIR$/src/sapient/NameComparator.java" />
-        <option value="$PROJECT_DIR$/src/sapient/Demo.java" />
-        <option value="$PROJECT_DIR$/src/sapient/ThreadDemo.java" />
-        <option value="$PROJECT_DIR$/src/arrays/sfd.java" />
-        <option value="$PROJECT_DIR$/src/sapient/ProducerConsumerWaitNotify.java" />
-        <option value="$PROJECT_DIR$/src/sapient/threading/Consumer.java" />
-        <option value="$PROJECT_DIR$/src/sapient/threading/ProducerConsumerDemo.java" />
-        <option value="$PROJECT_DIR$/src/sapient/serialization/SerializationExample.java" />
-        <option value="$PROJECT_DIR$/src/sapient/serialization/DeserializationExample.java" />
-        <option value="$PROJECT_DIR$/src/sapient/serialization/Human.java" />
-        <option value="$PROJECT_DIR$/src/sapient/serialization/User.java" />
-        <option value="$PROJECT_DIR$/src/sapient/threading/ProducerConsumerPattern.java" />
-        <option value="$PROJECT_DIR$/src/sapient/threading/ProducerConsumerWaitNotify.java" />
-        <option value="$PROJECT_DIR$/src/sapient/threading/ThreadDemo.java" />
-        <option value="$PROJECT_DIR$/src/sapient/threading/TrafficLight.java" />
-        <option value="$PROJECT_DIR$/src/sapient/threading/PrintSequenceMultipleThreads.java" />
-        <option value="$PROJECT_DIR$/src/sapient/threading/PrintSequenceDemo.java" />
-        <option value="$PROJECT_DIR$/src/sapient/threading/PrintSequenceRunnable.java" />
-        <option value="$PROJECT_DIR$/src/arrays/SumOfPairs.java" />
-        <option value="$PROJECT_DIR$/src/sapient/CheckBalancedParenthesis.java" />
-        <option value="$PROJECT_DIR$/src/sapient/threading/fdsds.java" />
-        <option value="$PROJECT_DIR$/src/sapient/threading/escds.java" />
-        <option value="$PROJECT_DIR$/src/sapient/threading/CustomThreadPool.java" />
-        <option value="$PROJECT_DIR$/src/sapient/threading/CustomThreadPoolExample.java" />
-        <option value="$PROJECT_DIR$/src/sapient/StringExample.java" />
         <option value="$PROJECT_DIR$/src/sapient/Product.java" />
-        <option value="$PROJECT_DIR$/src/sapient/threading/Producer.java" />
         <option value="$PROJECT_DIR$/src/sapient/dscds.java" />
         <option value="$PROJECT_DIR$/src/sapient/ImmutableClass.java" />
         <option value="$PROJECT_DIR$/src/sapient/factory/sa.java" />
@@ -146,6 +200,43 @@
         <option value="$PROJECT_DIR$/src/sapient/factory/Demo.java" />
         <option value="$PROJECT_DIR$/src/sapient/Singleton.java" />
         <option value="$PROJECT_DIR$/src/arrays/ContiguousSumAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/sapient/composite/Department.java" />
+        <option value="$PROJECT_DIR$/src/sapient/composite/SalesDepartment.java" />
+        <option value="$PROJECT_DIR$/src/sapient/composite/FinancialDepartment.java" />
+        <option value="$PROJECT_DIR$/src/sapient/composite/Component.java" />
+        <option value="$PROJECT_DIR$/src/sapient/composite/HeadDepartment.java" />
+        <option value="$PROJECT_DIR$/src/sapient/composite/CompositeTest.java" />
+        <option value="$PROJECT_DIR$/src/sapient/java8/Binary.java" />
+        <option value="$PROJECT_DIR$/src/sapient/java8/BinaryIntOp.java" />
+        <option value="$PROJECT_DIR$/src/sapient/java8/Employee.java" />
+        <option value="$PROJECT_DIR$/src/sapient/TestWithoutHashCode.java" />
+        <option value="$PROJECT_DIR$/src/sapient/Employee.java" />
+        <option value="$PROJECT_DIR$/src/sapient/HashCodeEqualsTest.java" />
+        <option value="$PROJECT_DIR$/src/sapient/designPatterns/SingletonEnum.java" />
+        <option value="$PROJECT_DIR$/src/sapient/designPatterns/SingletonEnumTest.java" />
+        <option value="$PROJECT_DIR$/src/sapient/constant/Constant.java" />
+        <option value="$PROJECT_DIR$/src/sapient/threading/Consumer.java" />
+        <option value="$PROJECT_DIR$/src/sapient/threading/Producer.java" />
+        <option value="$PROJECT_DIR$/src/sapient/CallByReference.java" />
+        <option value="$PROJECT_DIR$/src/sapient/StringExample.java" />
+        <option value="$PROJECT_DIR$/src/sapient/threading/ClassLocking.java" />
+        <option value="$PROJECT_DIR$/src/sapient/threading/PrintintJob.java" />
+        <option value="$PROJECT_DIR$/src/sapient/threading/PrinterQueue.java" />
+        <option value="$PROJECT_DIR$/src/sapient/threading/PrintingJob.java" />
+        <option value="$PROJECT_DIR$/src/sapient/threading/LockExample.java" />
+        <option value="$PROJECT_DIR$/src/sapient/MapIteration.java" />
+        <option value="$PROJECT_DIR$/src/sapient/jaxb/Employee.java" />
+        <option value="$PROJECT_DIR$/src/sapient/jaxb/Book.java" />
+        <option value="$PROJECT_DIR$/src/sapient/LRU.java" />
+        <option value="$PROJECT_DIR$/src/sapient/LRUCache.java" />
+        <option value="$PROJECT_DIR$/src/sapient/designPatterns/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/sapient/serialization/SerializationExample.java" />
+        <option value="$PROJECT_DIR$/src/sapient/serialization/DeserializationExample.java" />
+        <option value="$PROJECT_DIR$/src/sapient/serialization/User.java" />
+        <option value="$PROJECT_DIR$/src/sapient/serialization/SingletonSerializationTest.java" />
+        <option value="$PROJECT_DIR$/src/sapient/java8/Product.java" />
+        <option value="$PROJECT_DIR$/src/sapient/Test.java" />
+        <option value="$PROJECT_DIR$/src/sapient/java8/User.java" />
       </list>
     </option>
   </component>
@@ -197,6 +288,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,30 +306,37 @@
               <item name="Sample" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="sapient" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Sample" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="sapient" type="462c0819:PsiDirectoryNode" />
+              <item name="java8" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/kapilarora/Sample/src/tree/MinimumDepth.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587668848101" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588567550930" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -250,57 +350,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ContiguousSumAlgorithm">
+  <component name="RunManager" selected="Application.User">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContiguousSumAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.ContiguousSumAlgorithm" />
-      <module name="Sample" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sapient.factory.Demo" />
-      <module name="Sample" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sapient.factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Manager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sapient.Manager" />
-      <module name="Sample" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sapient.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProducerConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sapient.threading.ProducerConsumerDemo" />
+    <configuration name="ClassLocking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sapient.threading.ClassLocking" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -313,13 +371,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sapient.Singleton" />
+    <configuration name="Product" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sapient.java8.Product" />
+      <module name="Sample" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sapient.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sapient.Test" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sapient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrafficLight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sapient.threading.TrafficLight" />
+      <module name="Sample" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sapient.threading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sapient.java8.User" />
+      <module name="Sample" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sapient.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,19 +457,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ProducerConsumerDemo" />
-      <item itemvalue="Application.Demo" />
-      <item itemvalue="Application.Singleton" />
-      <item itemvalue="Application.Manager" />
-      <item itemvalue="Application.ContiguousSumAlgorithm" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Product" />
+      <item itemvalue="Application.TrafficLight" />
+      <item itemvalue="Application.ClassLocking" />
+      <item itemvalue="Application.User" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ContiguousSumAlgorithm" />
-        <item itemvalue="Application.Manager" />
-        <item itemvalue="Application.Singleton" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.ProducerConsumerDemo" />
+        <item itemvalue="Application.User" />
+        <item itemvalue="Application.ClassLocking" />
+        <item itemvalue="Application.TrafficLight" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Product" />
       </list>
     </recent_temporary>
   </component>
@@ -388,8 +488,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.28513733" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.25040388" />
       <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.25282714" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -402,7 +503,7 @@
       <window_info id="Learn" order="10" weight="0.33441034" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35182482" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25985402" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -899,6 +1000,18 @@
           <properties />
           <option name="timeStamp" value="177" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sapient/LRUCache.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sapient/Test.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -911,6 +1024,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>j++</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>map</expression-string>
         <language-id>JAVA</language-id>
@@ -939,442 +1057,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/linkedList/ReverseList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedList/PartitionByX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedList/PalindromeList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/serialization/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding>
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/serialization/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
-          <folding>
-            <element signature="e#72#73#0" expanded="true" />
-            <element signature="e#108#109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/serialization/SerializationExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/serialization/DeserializationExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/threading/ProducerConsumerPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/threading/ThreadDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/threading/TrafficLight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/threading/PrintSequenceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/threading/PrintSequenceRunnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/SumOfPairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/CheckBalancedParenthesis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/threading/CustomThreadPoolExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/threading/CustomThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/threading/ProducerConsumerWaitNotify.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/threading/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/threading/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/dscds.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#1182#1183#0" expanded="true" />
-            <element signature="e#1220#1221#0" expanded="true" />
-            <element signature="e#1366#1367#0" expanded="true" />
-            <element signature="e#1404#1405#0" expanded="true" />
-            <element signature="e#1673#1674#0" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
-            <element signature="e#1774#1775#0" expanded="true" />
-            <element signature="e#1857#1858#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/threading/ProducerConsumerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/ImmutableClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/MapIteration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/NameComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/factory/Sedan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding>
-            <element signature="e#110#111#0" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/factory/w.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/factory/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/StringExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/factory/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/factory/Hatchback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding>
-            <element signature="e#114#115#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/factory/CarType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/factory/CarFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sapient/ComparableComparatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/CheckBalancedTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/CreateBSTFromArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/Depth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/CheckBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/LevelOrderReversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/LevelLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/LevelOrderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/MaxElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/MinimumDepth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/SearchInBT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tree/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1398,8 +1080,357 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/ContiguousSumAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/designPatterns/composite/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/designPatterns/composite/FinancialDepartment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="5" selection-start-line="2" selection-start-column="33" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/designPatterns/composite/SalesDepartment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="5" selection-start-line="2" selection-start-column="29" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/designPatterns/composite/HeadDepartment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/designPatterns/composite/CompositeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/java8/BinaryIntOp.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/NameComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/HashCodeEqualsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="78" column="5" selection-start-line="75" selection-start-column="4" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#1555#1556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/threading/ProducerConsumerPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/designPatterns/SingletonEnumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/constant/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/threading/ProducerConsumerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/threading/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/threading/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/CallByReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/StringExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/threading/PrintingJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="93" selection-start-line="12" selection-start-column="93" selection-end-line="12" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/threading/ProducerConsumerWaitNotify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/threading/PrinterQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/threading/LockExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-jaxb.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/jaxb/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="87" column="26" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="47" column="34" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="34" />
+          <folding>
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/serialization/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/designPatterns/builder/CarBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/designPatterns/builder/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/designPatterns/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/serialization/SerializationExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="53" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="20" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="115" column="11" lean-forward="true" selection-start-line="115" selection-start-column="11" selection-end-line="115" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="1460" column="22" selection-start-line="1460" selection-start-column="16" selection-end-line="1460" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/serialization/SingletonSerializationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/serialization/DeserializationExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/ObjectInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-334">
+          <caret line="3761" column="21" lean-forward="true" selection-start-line="3761" selection-start-column="21" selection-end-line="3761" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/serialization/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedList/StackUsingLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-232">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/threading/PrintSequenceRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/threading/ThreadDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/threading/TrafficLight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/threading/ClassLocking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/java8/Binary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/java8/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/java8/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/MapIteration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/java8/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1443,7 +1474,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>11</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1479,6 +1510,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>eu.ocathain.javax.activation:activation:1.1.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

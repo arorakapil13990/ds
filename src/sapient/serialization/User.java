@@ -7,12 +7,17 @@ public class User extends Human implements Serializable {
 
     private String name;
     private int age;
-
-    public User(String name, int age) {
-        System.out.println("User Constructor called");
-        this.name = name;
-        this.age = age;
+    private static volatile User user=null;
+    private  User() {
     }
+
+    public static User getInstance() {
+        if (user == null) {
+            user = new User();
+        }
+        return user;
+    }
+
 
     public String getName() {
         return name;
@@ -28,6 +33,11 @@ public class User extends Human implements Serializable {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    private Object readResolve()  {
+        System.out.println("Read resolve is called");
+        return user;
     }
 
     @Override

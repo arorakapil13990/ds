@@ -1,5 +1,7 @@
 package sapient.threading;
 
+import sapient.constant.Constant;
+
 import java.util.Queue;
 import java.util.concurrent.TimeUnit;
 
@@ -20,16 +22,31 @@ public class Producer implements Runnable {
         }
     }
 
-    public void produce() throws InterruptedException {
+    /*public void produce() throws InterruptedException {
         while (true) {
             synchronized (stringQueue) {
-                while (stringQueue.size() == 5) {
+                while (stringQueue.size() == Constant.DEFAULT_QUEUE_SIZE) {
                     stringQueue.wait();
                 }
                 System.out.println("Producer produced - " + val);
                 stringQueue.add(val++);
                 stringQueue.notify();
                 TimeUnit.SECONDS.sleep(1);
+            }
+        }
+    }*/
+
+
+    public void produce() throws InterruptedException {
+        while (val < 15){
+            synchronized (stringQueue){
+                if(stringQueue.size() == Constant.DEFAULT_QUEUE_SIZE){
+                    stringQueue.wait();
+                }else {
+                    System.out.println("Producer produced - " + val);
+                    stringQueue.add(val++);
+                    stringQueue.notify();
+                }
             }
         }
     }

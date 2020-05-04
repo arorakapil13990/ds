@@ -7,5 +7,9 @@
     </content>
     <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="com.sun.xml.bind:jaxb-core:2.3.0.1" level="project" />
+    <orderEntry type="library" name="javax.xml.bind:jaxb-api:2.3.1" level="project" />
+    <orderEntry type="library" name="com.sun.xml.bind:jaxb-impl:2.3.1" level="project" />
+    <orderEntry type="library" name="eu.ocathain.javax.activation:activation:1.1.1" level="project" />
   </component>
 </module>

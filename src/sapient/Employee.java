@@ -1,11 +1,19 @@
 package sapient;
 
 
+import java.util.Objects;
+
 public class Employee implements Comparable<Employee> {
 
+    private int id;
     private String name;
     public int age = 30;
     public static double salary = 3000.00;
+
+    public Employee(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 
     public Employee() {
         System.out.println("Parent Constructor");
@@ -55,5 +63,18 @@ public class Employee implements Comparable<Employee> {
         return "Employee{" +
                 "name='" + name + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Employee)) return false;
+        Employee employee = (Employee) o;
+        return id == employee.id;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
     }
 }
