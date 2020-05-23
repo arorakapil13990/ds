@@ -21,8 +21,42 @@ public class DeleteAlternate {
         a.head.next.next.next = new Node(4);
         a.head.next.next.next.next = new Node(5);
         a.head.next.next.next.next.next = new Node(6);
-        a.delete(a.head);
-        a.printList(a.head);
+        /*a.delete(a.head);
+        a.printList(a.head);*/
+        /*a.deleteAlternate(a.head);
+        a.printList(a.head);*/
+
+        a.printList(a.recursiveDelete(a.head));
+    }
+
+    private Node recursiveDelete(Node head) {
+
+        if(head == null){
+            return null;
+        }
+        Node node = head.next;
+
+        if(node == null){
+            return null;
+        }
+        head.next = node.next;
+
+        head.next= recursiveDelete(head.next);
+
+        return head;
+    }
+
+    private void deleteAlternate(Node node) {
+        Node pre = node;
+        node = node.next;
+
+        while (pre != null && node != null) {
+            pre.next = node.next;
+            pre = pre.next;
+            if (pre != null) {
+                node = pre.next;
+            }
+        }
 
     }
 
@@ -32,7 +66,7 @@ public class DeleteAlternate {
         int counter = 1;
         while (node != null) {
             if (counter % 2 == 0) {
-                pre.next=node.next;
+                pre.next = node.next;
             }
             pre = node;
             node = node.next;

@@ -22,28 +22,30 @@ public class AlternateEvenOdd {
             node = node.next;
         }
 
-        int counter =1;
-        while (!odd.isEmpty() && !even.isEmpty()){
-            if(res == null){
-                res=newHead=new Node(odd.pop());
-            }else {
-                if(counter%2 == 0){
-                    res.next= new Node(even.pop());
-                }else {
-                    res.next= new Node(odd.pop());
+        int counter = 1;
+        while (!odd.isEmpty() && !even.isEmpty()) {
+            if (res == null) {
+                res = newHead = new Node(odd.pop());
+            } else {
+                if (counter % 2 == 0) {
+                    res.next = new Node(even.pop());
+                } else {
+                    res.next = new Node(odd.pop());
                 }
-                res=res.next;
+                res = res.next;
 
             }
             counter++;
         }
 
-        while (!odd.isEmpty()){
-            res.next= new Node(odd.pop());
+        while (!odd.isEmpty()) {
+            res.next = new Node(odd.pop());
+            res=res.next;
         }
 
-        while (!even.isEmpty()){
-            res.next= new Node(even.pop());
+        while (!even.isEmpty()) {
+            res.next = new Node(even.pop());
+            res=res.next;
         }
 
 
@@ -68,6 +70,8 @@ public class AlternateEvenOdd {
         a.head.next.next.next = new Node(55);
         a.head.next.next.next.next = new Node(77);
         a.head.next.next.next.next.next = new Node(80);
+        a.head.next.next.next.next.next.next = new Node(30);
+        a.head.next.next.next.next.next.next .next= new Node(60);
 
         a.printList(a.alternate(a.head));
 

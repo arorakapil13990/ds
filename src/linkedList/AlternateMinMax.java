@@ -14,24 +14,25 @@ public class AlternateMinMax {
         current = sorted;
         Stack<Node> st = new Stack<>();
 
-        int l  = getLength(node);
+        int l = getLength(node);
 
         while (current != null) {
             st.push(current);
             current = current.next;
         }
 
-        int c = l/2;
-        while (c>0 && sorted != null){
+        int c = l / 2;
+        while (c > 0 && sorted != null) {
             Node next = sorted.next;
             sorted.next = st.pop();
-            sorted.next.next=next;
-            sorted=next;
+            sorted.next.next = next;
+            sorted = next;
             c--;
         }
-        sorted.next=null;
+        sorted.next = null;
         printList(head);
     }
+
     private int getLength(Node node) {
         int c = 0;
         while (node != null) {

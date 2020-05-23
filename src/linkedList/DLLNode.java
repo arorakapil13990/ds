@@ -1,8 +1,8 @@
 package linkedList;
 
 public class DLLNode {
-    DLLNode next, prev;
-    int data;
+    public DLLNode next, prev;
+    public int data;
 
     public DLLNode(int data) {
         this.data = data;

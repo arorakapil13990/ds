@@ -3,6 +3,7 @@ package sapient;
 public class CallByReference {
     int id;
 
+
     public CallByReference(int id) {
         this.id = id;
     }
@@ -13,6 +14,7 @@ public class CallByReference {
 
     public int getId() {
         return id;
+
     }
 
     public void changeReference(CallByReference obj) {
@@ -24,6 +26,7 @@ public class CallByReference {
     }
 
     public static void main(String[] args) {
+
         CallByReference obj = new CallByReference(5);
         System.out.println("Before changing reference :: " + obj.getId());
 

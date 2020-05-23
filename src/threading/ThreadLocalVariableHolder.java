@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 public class ThreadLocalVariableHolder {
 
+
     private static ThreadLocal<Integer> local = new ThreadLocal<Integer>() {
 
         Random r = new Random(55);

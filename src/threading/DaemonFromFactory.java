@@ -18,6 +18,7 @@ public class DaemonFromFactory implements Runnable {
         }
     }
 
+
     public static void main(String[] args) {
         Executor ex = Executors.newCachedThreadPool(new DaemonThreadFactory());
         for(int i = 0;i<5;i++){
