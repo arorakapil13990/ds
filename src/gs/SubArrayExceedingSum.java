@@ -2,6 +2,8 @@ package gs;
 
 // https://www.youtube.com/watch?v=Ofl4KgFhLsM
 
+// https://www.geeksforgeeks.org/minimum-length-subarray-sum-greater-given-value/
+
 public class SubArrayExceedingSum {
 
     public static int subArrayExceedsSum(int arr[], int target) {

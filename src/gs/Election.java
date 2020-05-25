@@ -7,6 +7,7 @@ import java.util.stream.IntStream;
 public class Election {
 
 
+
     public static int whoIsElected2(int n, int k) {
         List<Integer> list;
         list = IntStream.rangeClosed(1, n).boxed().collect(Collectors.toList());
@@ -20,6 +21,9 @@ public class Election {
 
 
     public static void main(String[] args) {
-        System.out.println(whoIsElected2(100, 2));
+        System.out.println(whoIsElected2(5, 2));
     }
+
+
+
 }
