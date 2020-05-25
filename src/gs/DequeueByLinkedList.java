@@ -1,10 +1,21 @@
 package gs;
 
-import linkedList.DLLNode;
 
 public class DequeueByLinkedList {
 
     DLLNode head, tail;
+
+
+    class DLLNode {
+        DLLNode next, prev;
+        int data;
+
+        public DLLNode(DLLNode next, DLLNode prev, int data) {
+            this.next = next;
+            this.prev = prev;
+            this.data = data;
+        }
+    }
 
     public void addFront(int data) {
         DLLNode n = new DLLNode(null, null, data);
@@ -13,7 +24,6 @@ public class DequeueByLinkedList {
         } else {
             n.next = head;
             head.prev = n;
-
         }
         head = n;
     }

@@ -52,6 +52,6 @@ public class GroupAnagram {
 
     public static void main(String[] args) {
         String input = "cat dog tac sat tas god dog";
-        group(input);
+        groupAnagram(input);
     }
 }

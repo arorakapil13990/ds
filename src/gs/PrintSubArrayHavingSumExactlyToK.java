@@ -11,7 +11,16 @@ import java.util.stream.IntStream;
 
 public class PrintSubArrayHavingSumExactlyToK {
     // Utility function to insert <key, value> pair into the Multimap
-    private static <K, V> void insert(Map<K, List<V>> hashMap, K key, V value) {
+    /*private static <K, V> void insert(Map<K, List<V>> hashMap, K key, V value) {
+        // if the key is seen for the first time, initialize the list
+        if (!hashMap.containsKey(key)) {
+            hashMap.put(key, new ArrayList<>());
+        }
+
+        hashMap.get(key).add(value);
+    }*/
+
+    private static void insert(Map<Integer, List<Integer>> hashMap, Integer key, Integer value) {
         // if the key is seen for the first time, initialize the list
         if (!hashMap.containsKey(key)) {
             hashMap.put(key, new ArrayList<>());
@@ -29,7 +38,7 @@ public class PrintSubArrayHavingSumExactlyToK {
     }
 
     // Function to find subarrays with given sum in an array
-    public static void printallSubarrays(int[] A, int sum) {
+    public static void printAllSubArrays(int[] A, int sum) {
         // create a map for storing end index of all subarrays with
         // sum of elements so far
         Map<Integer, List<Integer>> hashMap = new HashMap<>();
@@ -63,6 +72,6 @@ public class PrintSubArrayHavingSumExactlyToK {
         int[] A = {10, 2, -2, -20, 10};
         int sum = -10;
 
-        printallSubarrays(A, sum);
+        printAllSubArrays(A, sum);
     }
 }

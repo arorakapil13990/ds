@@ -31,10 +31,13 @@ public class DistanceBetweenTwoWords {
     }
 
     public static boolean pass() {
-        return shortestDistance(document, "and", "graphic") == 6d
+        return shortestDistance(document, "geeks", "practice") == 6d;
+
+        /*return shortestDistance(document, "and", "graphic") == 6d
                 && shortestDistance(document, "transfer", "it") == 14d
-                && shortestDistance(document, "Design", "filler") == 25d;
+                && shortestDistance(document, "Design", "filler") == 25d;*/
     }
+
     public static void main(String[] args) {
         if (pass()) {
             System.out.println("Pass");
@@ -46,6 +49,8 @@ public class DistanceBetweenTwoWords {
     private static final String document;
 
     static {
+
+        /*
         StringBuffer sb = new StringBuffer();
         sb.append(
                 "In publishing and graphic design, lorem ipsum is a filler text commonly used to demonstrate the graphic elements");
@@ -56,5 +61,8 @@ public class DistanceBetweenTwoWords {
 
 
         document = sb.toString();
+*/
+        document = "geeks for geeks contribute practice";
+
     }
 }

@@ -24,13 +24,13 @@ public class UniqueTuples {
             char cur = input.charAt(i);
             input = input.substring(i + 1); //take only the leftover string, unless you want
             //to generate all possible combinations like 'ba'
-            createTuples(input, subStr, len, result); //current not considered // Exclude
             createTuples(input, subStr + cur, len, result); //current considered // Include
+            createTuples(input, subStr, len, result); //current not considered // Exclude
         }
     }
 
     public static void main(String[] args) {
-        String input = "abczs";
+        String input = "aab";
         HashSet<String> result = uniqueTuples(input, 2);
         System.out.println(result);
         if (result.contains("aa") && result.contains("ab")) {

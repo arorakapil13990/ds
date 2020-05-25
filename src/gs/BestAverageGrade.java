@@ -19,6 +19,8 @@ public class BestAverageGrade {
             avgScoreListMap.put(s[0], studentScores);
         });
 
+
+
         // convert map of list of integer to double
         Map<String, Double> map = avgScoreListMap.entrySet()
                 .stream()
@@ -26,8 +28,8 @@ public class BestAverageGrade {
                         e -> e.getKey(),
                         e -> e.getValue().stream().mapToInt(s -> s).average().getAsDouble()
                 ));
-
-        // avg.values().stream().reduce(Double::max).get()
+        
+        // map.values().stream().reduce(Double::max).get()
         return map.values().stream().mapToDouble(s -> s).max().getAsDouble();
     }
 

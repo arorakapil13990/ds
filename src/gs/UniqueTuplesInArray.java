@@ -28,8 +28,9 @@ public class UniqueTuplesInArray {
             char ch = input.charAt(i);
 
             input = input.substring(i + 1);
-            findTuple(input, substr, len, set);
+
             findTuple(input, substr + ch, len, set);
+            findTuple(input, substr, len, set);
         }
 
     }
@@ -46,7 +47,7 @@ public class UniqueTuplesInArray {
         if (index == r) {
             for (int j = 0; j < r; j++)
                 System.out.print(data[j] + " ");
-            System.out.println("");
+            System.out.println();
             return;
         }
 

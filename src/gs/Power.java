@@ -19,7 +19,7 @@ public class Power {
         if (base == 0) return 0;
         if (exp == 0) return 1;
         if (exp == 1) return base;
-        int positiveExp = (exp < 0) ? exp * -1 : exp;
+        int positiveExp = Math.abs(exp);
         double result = (positiveExp % 2 == 0) ? powerOptimised(base * base, positiveExp / 2)
                                                : base * powerOptimised(base * base, (positiveExp - 1) / 2);
         return exp < 0 ? 1 / result : result;
