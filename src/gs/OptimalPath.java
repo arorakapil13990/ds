@@ -80,8 +80,8 @@ public class OptimalPath {
         result &= optimalPath(new Integer[][]{
                 {0, 0, 10},
                 {0, 1, 1},
-                {2, 0, 5}}) == 18;
-*/
+                {2, 0, 5}}) == 18;*/
+
         result &= optimalPathSecond(new Integer[][]{
                 {0, 0, 0, 0, 5},
                 {0, 1, 1, 1, 0},
