@@ -11,6 +11,14 @@ public class StringReverse {
         System.out.println(sb.toString());
     }
 
+
+    static String stringReverse(String str){
+        if(str == null || str.length() <=1){
+            return str;
+        }
+        return str.substring(str.length()-1)+ stringReverse(str.substring(0,str.length()-1));
+    }
+
     static void reverseRecursive(String str) {
 
         if (str == null || str.length() <= 1) {
@@ -24,5 +32,7 @@ public class StringReverse {
     public static void main(String[] args) {
         reverse("abcd");
         reverseRecursive("abcd");
+        System.out.println();
+        System.out.println(stringReverse("abcd"));
     }
 }

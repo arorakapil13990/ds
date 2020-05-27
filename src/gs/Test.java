@@ -1,9 +1,9 @@
 package gs;
 
-public class DistanceBetweenTwoWords {
+public class Test {
 
-    // correct
-    public static double distance(String paragraph, String wordOne, String wordTwo) {
+
+    public static double shortestDistance(String paragraph, String word1, String word2) {
         String[] wordsFromParagraph = paragraph.split("[,. ]");
 
         int wordIndex = 0;
@@ -12,9 +12,9 @@ public class DistanceBetweenTwoWords {
         double shortestDistance = paragraph.length();
 
         for (String word : wordsFromParagraph) {
-            if (word.equalsIgnoreCase(wordOne)) {
+            if (word.equalsIgnoreCase(word1)) {
                 wordOneLocation = wordIndex + (word.length() / 2d);
-            } else if (word.equalsIgnoreCase(wordTwo)) {
+            } else if (word.equalsIgnoreCase(word2)) {
                 wordTwoLocation = wordIndex + (word.length() / 2d);
             }
 
@@ -32,34 +32,7 @@ public class DistanceBetweenTwoWords {
             return -1;
         }
 
-        return shortestDistance;
-    }
-
-    public static double shortestDistance(String document, String word1, String word2) {
-        word1 = word1.toLowerCase();
-        word2 = word2.toLowerCase();
-        document= document.toLowerCase();
-
-        int shortestDist = Integer.MAX_VALUE;
-        String[] words = document.split("\\s+");
-        for (int i = 0; i < words.length; i++) {
-            if (words[i].equals(word1)) {
-                for (int j = 0; j < words.length; j++) {
-                    if (words[j].equals(word2)) {
-                        int start = Math.min(i, j);
-                        int end = Math.max(i, j);
-                        int dist = end - start; // no of spaces
-                        dist += (word1.length() + word2.length())/ 2;
-                        for (int k = start + 1; k < end; k++) {
-                            dist += words[k].length();
-                        }
-                        shortestDist = Math.min(shortestDist, dist);
-                    }
-                }
-            }
-        }
-        System.out.println("word1 = "+word1+", word2 = "+word2+", shortestDist = "+shortestDist);
-        return shortestDist;
+        return Math.floor(shortestDistance);
     }
 
     public static boolean pass() {
@@ -67,19 +40,6 @@ public class DistanceBetweenTwoWords {
                 && shortestDistance(document, "transfer", "it") == 14d
                 && shortestDistance(document, "Design", "filler") == 25d;
     }
-/*
-
-    public static boolean pass() {
-        return distance(document, "geeks", "practice") == 18d;
-
-        */
-/*return shortestDistance(document, "and", "graphic") == 6d
-                && shortestDistance(document, "transfer", "it") == 14d
-                && shortestDistance(document, "Design", "filler") == 25d;*//*
-
-    }
-*/
-
 
     public static void main(String[] args) {
         if (pass()) {
@@ -87,10 +47,12 @@ public class DistanceBetweenTwoWords {
         } else {
             System.out.println("Some Fail");
         }
+
+        System.out.println(shortestDistance("geeks for geeks contribute practice ","geeks","practice"));
+        System.out.println(shortestDistance("Example we just made up ","we","just"));
     }
 
     private static final String document;
-
     static {
         StringBuffer sb = new StringBuffer();
         sb.append(
@@ -101,7 +63,5 @@ public class DistanceBetweenTwoWords {
                 " for Letraset transfer sheets. It was introduced to the Information Age in the mid-1980s by Aldus Corporation, which");
 
         document = sb.toString();
-       // document = "geeks for geeks contribute practice";
-
     }
 }

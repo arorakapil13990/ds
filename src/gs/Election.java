@@ -21,7 +21,7 @@ public class Election {
 
 
     public static void main(String[] args) {
-        System.out.println(whoIsElected2(5, 2));
+        System.out.println(whoIsElected2(3, 2));
     }
 
 
