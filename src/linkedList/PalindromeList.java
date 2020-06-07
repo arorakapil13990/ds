@@ -38,7 +38,7 @@ public class PalindromeList {
         PalindromeList p = new PalindromeList();
         p.head = new Node(1);
         p.head.next = new Node(3);
-        p.head.next.next = new Node(4);
+        p.head.next.next = new Node(3);
         p.head.next.next.next = new Node(1);
         p.isPalindrome(p.head);
     }

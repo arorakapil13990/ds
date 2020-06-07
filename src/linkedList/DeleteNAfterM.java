@@ -16,6 +16,9 @@ public class DeleteNAfterM {
 
         Node mthNode = node;
 
+        if (node == null) {
+            return current;
+        }
         node = node.next; // move to the next node i.e node = 3;
 
         c = 1;
@@ -26,8 +29,8 @@ public class DeleteNAfterM {
 
         if (node != null) {
             mthNode.next = delete(node.next, m, n);
-        }else {
-            mthNode.next=null;
+        } else {
+            mthNode.next = null;
         }
         return current;
     }
@@ -54,6 +57,9 @@ public class DeleteNAfterM {
 
     }
 
+
+
+
     public static void main(String[] args) {
         DeleteNAfterM d = new DeleteNAfterM();
         d.addToTail(1);
@@ -66,7 +72,7 @@ public class DeleteNAfterM {
         d.addToTail(8);
         d.addToTail(9);
         d.addToTail(10);
-        d.delete(d.head, 2, 3);
+        d.delete(d.head, 4, 4);
         d.print(d.head);
 
     }

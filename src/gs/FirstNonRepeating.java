@@ -46,6 +46,27 @@ public class FirstNonRepeating {
         return str.charAt(index);
     }
 
+
+    static char test(String str) {
+        char ch[] = new char[26];
+        str = str.toUpperCase();
+        int index = -1;
+        for (int i = 0; i < str.length(); i++) {
+            int ascii = str.charAt(i) - 65;
+            ch[ascii]++;
+        }
+
+        for (int i = 0; i < str.length(); i++) {
+            int ascii = str.charAt(i) - 65;
+            if (ch[ascii] == 1) {
+                index = i;
+                break;
+            }
+        }
+        return str.charAt(index);
+
+    }
+
     public static char getFirstNonRepeatedChar(String str) {
         Map<Character, Integer> counts = new LinkedHashMap<>(str.length());
         for (char c : str.toCharArray()) {
@@ -83,6 +104,8 @@ public class FirstNonRepeating {
         } else {
             System.out.println("Fail");
         }
+
+        System.out.println(test("apple"));
     }
 
 

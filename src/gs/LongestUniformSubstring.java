@@ -19,7 +19,7 @@ public class LongestUniformSubstring {
         str = str.toUpperCase();
         int n = str.length();
 
-        for (int i = 0; i < n - 1; i++) {
+        for (int i = 0; i < n; i++) {
             startIndex = i;
             while (i < n - 1 && str.charAt(i) == str.charAt(i + 1)) {
                 i++;
@@ -32,7 +32,7 @@ public class LongestUniformSubstring {
                 maxLength = (endIndex - startIndex) + 1;
             }
         }
-        System.out.println(maxLength + " "  + startIndexOfRepeatingCharacter + " " + endIndexOfRepeatingCharacter);
+        System.out.println(str + " " +maxLength + " "  + startIndexOfRepeatingCharacter + " " + endIndexOfRepeatingCharacter);
     }
 
 

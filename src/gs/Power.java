@@ -21,7 +21,7 @@ public class Power {
         if (exp == 1) return base;
         int positiveExp = Math.abs(exp);
         double result = (positiveExp % 2 == 0) ? powerOptimised(base * base, positiveExp / 2)
-                                               : base * powerOptimised(base * base, (positiveExp - 1) / 2);
+                                               : base * powerOptimised(base * base, (positiveExp) / 2);
         return exp < 0 ? 1 / result : result;
     }
 
@@ -33,10 +33,12 @@ public class Power {
     }
 
     public static void main(String[] args) {
-        if (doTestPass()) {
+       /* if (doTestPass()) {
             System.out.println("Pass");
         } else {
             System.out.println("There are failures");
-        }
+        }*/
+
+        System.out.println(powerOptimised(2,5));
     }
 }

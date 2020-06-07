@@ -2,7 +2,7 @@ package arrays;
 
 
 //Rearrange an array such that ‘arr[j]’ becomes ‘i’ if ‘arr[i]’ is ‘j’
-
+// https://www.geeksforgeeks.org/rearrange-array-arrj-becomes-arri-j/
 /*
 *
 * Input: arr[]  = {1, 3, 0, 2};
@@ -22,7 +22,9 @@ import java.util.Arrays;
 public class RearrangeArray {
 
     public static void main(String[] args) {
-        rearrange(new int[]{1, 3, 0, 2},4);
+        rearrange(new int[]{1, 3, 0, 2}, 4);
+
+        rearrangeArray(new int[]{1, 3, 0, 2});
     }
 
 
@@ -49,6 +51,18 @@ public class RearrangeArray {
             arr[i] /= n;
         }
         System.out.println(Arrays.toString(arr));
+    }
+
+
+    static void rearrangeArray(int a[]) {
+
+        int temp[] = new int[a.length];
+
+        for (int i = 0; i < a.length; i++) {
+
+            temp[a[i]] = i;
+        }
+        System.out.println(Arrays.toString(temp));
     }
 
 }

@@ -60,6 +60,9 @@ public class DeleteAlternate {
 
     }
 
+
+
+
     private void delete(Node node) {
 
         Node pre = null;

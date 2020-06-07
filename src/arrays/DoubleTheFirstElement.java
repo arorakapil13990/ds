@@ -18,7 +18,8 @@ public class DoubleTheFirstElement {
 
         for (i = 0; i < a.length; i++) {
             if (a[i] != 0) {
-                if ((i + 1) < a.length && a[i + 1] == a[i]) {
+                //if ((i + 1) < a.length && a[i + 1] == a[i]) {
+                if (i < a.length-1 && a[i + 1] == a[i]) {
                     a[i + 1] = 0;
                     a[i] = a[i] * 2;
                 }

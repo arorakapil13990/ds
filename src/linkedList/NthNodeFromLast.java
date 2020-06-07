@@ -8,7 +8,6 @@ public class NthNodeFromLast {
     Node head;
     static int i = 0;
 
-
     public void insertNode(int data) {
         Node n = new Node(data);
         if (head == null) {

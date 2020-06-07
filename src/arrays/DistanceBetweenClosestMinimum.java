@@ -1,5 +1,7 @@
 package arrays;
 
+// https://www.geeksforgeeks.org/distance-two-closest-minimum/?ref=lbp
+
 public class DistanceBetweenClosestMinimum {
 
     public static void main(String[] args) {

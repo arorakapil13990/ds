@@ -21,7 +21,7 @@ public class ApacheLog {
         }*/
 
 
-        Arrays.stream(inputs).forEach(e -> {
+        /*Arrays.stream(inputs).forEach(e -> {
             String[] arr = e.split("-");
             Integer count = map.get(arr[0]);
             if (count == null) {
@@ -30,7 +30,15 @@ public class ApacheLog {
                 map.put(arr[0], count + 1);
             }
 
+        });*/
+
+
+        Arrays.stream(inputs).forEach(e ->{
+            String[] arr = e.split("-");
+            map.merge(arr[0],1,Integer::sum);
         });
+
+        System.out.println(map);
 
         return map.entrySet().stream()
                 .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))

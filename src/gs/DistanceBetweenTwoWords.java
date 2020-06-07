@@ -32,13 +32,13 @@ public class DistanceBetweenTwoWords {
             return -1;
         }
 
-        return shortestDistance;
+        return Math.floor(shortestDistance);
     }
 
     public static double shortestDistance(String document, String word1, String word2) {
         word1 = word1.toLowerCase();
         word2 = word2.toLowerCase();
-        document= document.toLowerCase();
+        document = document.toLowerCase();
 
         int shortestDist = Integer.MAX_VALUE;
         String[] words = document.split("\\s+");
@@ -49,7 +49,7 @@ public class DistanceBetweenTwoWords {
                         int start = Math.min(i, j);
                         int end = Math.max(i, j);
                         int dist = end - start; // no of spaces
-                        dist += (word1.length() + word2.length())/ 2;
+                        dist += (word1.length() + word2.length()) / 2;
                         for (int k = start + 1; k < end; k++) {
                             dist += words[k].length();
                         }
@@ -58,14 +58,14 @@ public class DistanceBetweenTwoWords {
                 }
             }
         }
-        System.out.println("word1 = "+word1+", word2 = "+word2+", shortestDist = "+shortestDist);
+        System.out.println("word1 = " + word1 + ", word2 = " + word2 + ", shortestDist = " + shortestDist);
         return shortestDist;
     }
 
     public static boolean pass() {
-        return  shortestDistance(document, "and", "graphic") == 6d
-                && shortestDistance(document, "transfer", "it") == 14d
-                && shortestDistance(document, "Design", "filler") == 25d;
+        return distance(document, "and", "graphic") == 6d
+                && distance(document, "transfer", "it") == 14d
+                && distance(document, "Design", "filler") == 25d;
     }
 /*
 
@@ -101,7 +101,7 @@ public class DistanceBetweenTwoWords {
                 " for Letraset transfer sheets. It was introduced to the Information Age in the mid-1980s by Aldus Corporation, which");
 
         document = sb.toString();
-       // document = "geeks for geeks contribute practice";
+        // document = "geeks for geeks contribute practice";
 
     }
 }

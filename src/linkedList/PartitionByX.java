@@ -1,5 +1,7 @@
 package linkedList;
 
+// Partitioning a linked list around a given value and keeping the original order
+// https://www.geeksforgeeks.org/partitioning-a-linked-list-around-a-given-value-and-keeping-the-original-order/
 public class PartitionByX {
 
     Node head;
@@ -87,7 +89,7 @@ public class PartitionByX {
         p.head.next.next.next.next.next = new Node(2);
         p.head.next.next.next.next.next.next = new Node(3);
 
-        Node n = p.partition(p.head, 3);
+        Node n = p.partition(p.head, 2);
         p.printList(n);
     }
 }

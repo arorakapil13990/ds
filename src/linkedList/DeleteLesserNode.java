@@ -28,13 +28,14 @@ public class DeleteLesserNode {
     void delLesserNodes()
     {
         /* 1.Reverse the linked list */
-        reverseList();
+        reverseList(); // 60 50 40 30 20 10
 
         /* 2) In the reversed list, delete nodes which
            have a node with greater value node on left
            side. Note that head node is never deleted
            because it is the leftmost node.*/
-        delete();
+
+        deleteNew();  // or deleteNew();
 
         /* 3) Reverse the linked list again to retain
            the original order */
@@ -67,6 +68,35 @@ public class DeleteLesserNode {
     }
 
 
+    // https://www.youtube.com/watch?v=RJhZ1Ld-rwA
+/*
+    12 99 8 39 5
+
+    reverse 5 39 8 99 12
+    delete  5 39 99 12   1s delete
+    delete  5 39 99      2nd delete
+    reverse 99 39 5      ans
+
+    */
+    void deleteNew(){
+
+        int max  = head.data;
+        Node current = head;
+
+        while(current.next != null){
+
+            if(current.next.data>max){
+                max=current.next.data;
+                current=current.next;
+            }else{
+                current.next=current.next.next;
+            }
+
+        }
+
+    }
+
+
 
     public void printList(Node node) {
         while (node != null) {
@@ -78,15 +108,21 @@ public class DeleteLesserNode {
 
     public static void main(String[] args) {
         DeleteLesserNode m = new DeleteLesserNode();
+        m.head = new Node(12);
+        m.head.next = new Node(99);
+        m.head.next.next = new Node(8);
+        m.head.next.next.next = new Node(39);
+        m.head.next.next.next.next = new Node(5);
+        //m.head.next.next.next.next.next = new Node(60);
 
-        m.head = new Node(200);
+        /*m.head = new Node(200);
         m.head.next = new Node(100);
         m.head.next.next = new Node(300);
         m.head.next.next.next = new Node(150);
         m.head.next.next.next.next = new Node(5);
         m.head.next.next.next.next.next = new Node(500);
         m.head.next.next.next.next.next.next = new Node(80);
-        m.head.next.next.next.next.next.next.next = new Node(10);
+        m.head.next.next.next.next.next.next.next = new Node(10);*/
 
         m.delLesserNodes();
         m.printList(m.head);

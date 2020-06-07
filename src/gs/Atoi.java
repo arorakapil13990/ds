@@ -35,6 +35,7 @@ public class Atoi {
         result = result && atoi("123a") == 123;
         result = result && atoi("a") == 0;
         result = result && atoi("") == 0;
+        result = result && atoi("1w234e") == 1234;
 
         String intMax = String.valueOf(Integer.MAX_VALUE);
         result = result && atoi(intMax) == Integer.MAX_VALUE;

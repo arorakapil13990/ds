@@ -10,6 +10,7 @@ public class BestAverageGrade {
 
         Map<String, List<Integer>> avgScoreListMap = new HashMap<>();
 
+
         Arrays.stream(scores).forEach(s -> {
             List<Integer> studentScores = avgScoreListMap.get(s[0]);
             if (studentScores == null) {

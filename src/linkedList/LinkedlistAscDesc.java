@@ -1,5 +1,6 @@
 package linkedList;
 
+// Sort a linked list that is sorted alternating ascending and descending orders?
 public class LinkedlistAscDesc {
     Node head;
 
