@@ -3,51 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="09728682-12e3-49f5-945a-bc0f3a91308d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/arrays/DistanceBetweenClosestMinimum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/arrays/DistanceBetweenClosestMinimum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/arrays/DoubleTheFirstElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/arrays/DoubleTheFirstElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/arrays/FormBiggestNumber$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/arrays/FormBiggestNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/arrays/FormBiggestNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/arrays/MinimumDistanceTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/arrays/MinimumDistanceTwoNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/arrays/RearrangeArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/arrays/RearrangeArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/ApacheLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/ApacheLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/Atoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/Atoi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/BestAverageGrade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/BestAverageGrade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/DistanceBetweenTwoWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/DistanceBetweenTwoWords.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/FirstNonRepeating.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/FirstNonRepeating.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/LongestUniformSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/LongestUniformSubstring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/Panagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/Panagram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/Power.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/Power.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/DeleteAlternate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/DeleteAlternate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/DeleteEveryKthNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/DeleteEveryKthNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/DeleteLesserNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/DeleteLesserNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/DeleteNAfterM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/DeleteNAfterM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/LinkedlistAscDesc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/LinkedlistAscDesc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/NthNodeFromLast.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/NthNodeFromLast.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/PalindromeList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/PalindromeList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/PartitionByX.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/PartitionByX.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/RemoveAllDuplicatesSortedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/RemoveAllDuplicatesSortedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/DistanceBetweenClosestMinimum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/DistanceBetweenClosestMinimum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/DoubleTheFirstElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/DoubleTheFirstElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/FormBiggestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/FormBiggestNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/MinimumDistanceTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/MinimumDistanceTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/RearrangeArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/RearrangeArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gs/ApacheLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/ApacheLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gs/Atoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/Atoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gs/BestAverageGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/BestAverageGrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gs/DistanceBetweenTwoWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/DistanceBetweenTwoWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gs/FirstNonRepeating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/FirstNonRepeating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gs/LongestUniformSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/LongestUniformSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gs/Panagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/Panagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gs/Power.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/Power.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/DeleteAlternate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/DeleteAlternate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/DeleteEveryKthNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/DeleteEveryKthNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/DeleteLesserNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/DeleteLesserNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/DeleteNAfterM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/DeleteNAfterM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedlistAscDesc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedlistAscDesc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/NthNodeFromLast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/NthNodeFromLast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/PalindromeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/PalindromeList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/PartitionByX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/PartitionByX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/RemoveAllDuplicatesSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/RemoveAllDuplicatesSortedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/CustomHashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/CustomHashSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/HashMapCustom$Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/HashMapCustom$Entry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/HashMapCustom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/HashMapCustom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/HashSetCustom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/HashSetCustom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gs/CountLengthOfCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/CountLengthOfCycle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,10 +25,10 @@
     <session id="-1229985261">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="50" />
+          <entry key="project.closed" value="51" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="6" />
-          <entry key="project.open.time.11" value="8" />
+          <entry key="project.open.time.11" value="9" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="4" />
           <entry key="project.open.time.15" value="1" />
@@ -84,21 +44,21 @@
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="8" />
-          <entry key="project.opened" value="51" />
+          <entry key="project.opened" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Learning" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="1558" />
+          <entry key="java" value="1578" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="1558" />
+          <entry key="JAVA" value="1578" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -107,12 +67,12 @@
         <counts>
           <entry key="Learning" value="2" />
           <entry key="dummy" value="10" />
-          <entry key="java" value="76733" />
+          <entry key="java" value="77188" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="76733" />
+          <entry key="JAVA" value="77188" />
           <entry key="PLAIN_TEXT" value="10" />
           <entry key="Scratch" value="2" />
         </counts>
@@ -122,29 +82,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/gs/CustomHashSet.java">
+        <entry file="file://$PROJECT_DIR$/src/gs/DequeueByLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-775">
-              <caret line="89" selection-end-line="272" selection-end-column="1" />
-              <folding>
-                <element signature="e#120#121#0" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#883#884#0" expanded="true" />
-                <element signature="e#1588#1618#0" expanded="true" />
-                <element signature="e#1529#1530#0" expanded="true" />
-                <element signature="e#1572#1573#0" expanded="true" />
-                <element signature="e#2360#2366#0" expanded="true" />
-                <element signature="e#6672#6673#0" expanded="true" />
-                <element signature="e#6730#6731#0" expanded="true" />
-                <element signature="e#6974#6983#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -174,13 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/gs/dsfsd.java" />
-        <option value="$PROJECT_DIR$/src/gs/CountLengthOfCycle.java" />
-        <option value="$PROJECT_DIR$/src/gs/DequeueByLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/gs/GroupAnagram.java" />
-        <option value="$PROJECT_DIR$/src/gs/UniqueTuples.java" />
-        <option value="$PROJECT_DIR$/src/gs/UniqueTuplesInArray.java" />
-        <option value="$PROJECT_DIR$/src/gs/PrintSubArrayHavingSumExactlyToK.java" />
         <option value="$PROJECT_DIR$/src/gs/OptimalPath.java" />
         <option value="$PROJECT_DIR$/src/gs/MagicPotion.java" />
         <option value="$PROJECT_DIR$/src/gs/dfs.java" />
@@ -225,6 +159,13 @@
         <option value="$PROJECT_DIR$/src/ThreadExample.java" />
         <option value="$PROJECT_DIR$/src/gs/scsa.java" />
         <option value="$PROJECT_DIR$/src/gs/CustomHashSet.java" />
+        <option value="$PROJECT_DIR$/src/gs/dsvs.java" />
+        <option value="$PROJECT_DIR$/src/gs/Program3.java" />
+        <option value="$PROJECT_DIR$/src/gs/AddFraction.java" />
+        <option value="$PROJECT_DIR$/src/gs/sdew.java" />
+        <option value="$PROJECT_DIR$/src/gs/SolveStaticBlockExceptionExample.java" />
+        <option value="$PROJECT_DIR$/src/gs/DecimalConversion.java" />
+        <option value="$PROJECT_DIR$/src/gs/CountLengthOfCycle.java" />
       </list>
     </option>
   </component>
@@ -278,8 +219,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -298,41 +240,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="gs" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="Sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,7 +251,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/kapilarora/Sample/src/tree/MinimumDepth.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591539247185" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591622779555" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -363,15 +274,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CustomHashSet">
+  <component name="RunManager" selected="Application.CountLengthOfCycle">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gs.CustomHashSet" />
+    <configuration name="AddFraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gs.AddFraction" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -384,8 +295,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gs.CustomListDemo" />
+    <configuration name="CountLengthOfCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gs.CountLengthOfCycle" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -398,26 +309,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstNonRepeatingCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstNonRepeatingCharacter" />
+    <configuration name="DecimalConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gs.DecimalConversion" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort" />
+    <configuration name="Program3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gs.Program3" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadExample" />
+    <configuration name="SolveStaticBlockExceptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gs.SolveStaticBlockExceptionExample" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -452,19 +381,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Sort" />
-      <item itemvalue="Application.FirstNonRepeatingCharacter" />
-      <item itemvalue="Application.ThreadExample" />
-      <item itemvalue="Application.CustomListDemo" />
-      <item itemvalue="Application.CustomHashSet" />
+      <item itemvalue="Application.Program3" />
+      <item itemvalue="Application.SolveStaticBlockExceptionExample" />
+      <item itemvalue="Application.DecimalConversion" />
+      <item itemvalue="Application.AddFraction" />
+      <item itemvalue="Application.CountLengthOfCycle" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CustomHashSet" />
-        <item itemvalue="Application.CustomListDemo" />
-        <item itemvalue="Application.Sort" />
-        <item itemvalue="Application.ThreadExample" />
-        <item itemvalue="Application.FirstNonRepeatingCharacter" />
+        <item itemvalue="Application.CountLengthOfCycle" />
+        <item itemvalue="Application.AddFraction" />
+        <item itemvalue="Application.DecimalConversion" />
+        <item itemvalue="Application.SolveStaticBlockExceptionExample" />
+        <item itemvalue="Application.Program3" />
       </list>
     </recent_temporary>
   </component>
@@ -483,9 +412,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978102" weight="0.26494345" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978102" visible="true" weight="0.26898223" />
       <window_info id="Structure" order="1" sideWeight="0.50218976" side_tool="true" weight="0.24474959" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -509,7 +437,6 @@
       <window_info anchor="bottom" id="Console" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.329927" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32956383" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -518,6 +445,7 @@
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32956383" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.24474959" />
@@ -1037,12 +965,6 @@
           <option name="timeStamp" value="203" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gs/AddFraction.java</url>
-          <line>5</line>
-          <properties />
-          <option name="timeStamp" value="207" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/gs/SquareRoot.java</url>
           <line>54</line>
           <properties />
@@ -1103,30 +1025,6 @@
           <line>70</line>
           <properties />
           <option name="timeStamp" value="248" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gs/CountLengthOfCycle.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="251" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gs/CountLengthOfCycle.java</url>
-          <line>12</line>
-          <properties />
-          <option name="timeStamp" value="252" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gs/CountLengthOfCycle.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="253" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gs/CountLengthOfCycle.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="254" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/gs/LongestUniformSubstring.java</url>
@@ -1229,18 +1127,6 @@
           <line>24</line>
           <properties />
           <option name="timeStamp" value="296" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gs/AddFraction.java</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="297" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gs/AddFraction.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="298" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/gs/ApacheLog.java</url>
@@ -1368,6 +1254,18 @@
           <properties />
           <option name="timeStamp" value="328" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gs/DecimalConversion.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="335" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gs/AddFraction.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="337" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -1379,7 +1277,45 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>subString.substring(i, i + intermediateSubString.length())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>intermediateSubString.length()
+        
+        
+        
+        
+        
+        ` `</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>subString.substring(i, i + intermediateSubString.length())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>number.indexOf(&quot;.&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(numerator &lt; 0) &amp;&amp; (denominator &lt; 0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(numerator &lt; 0) ^ (denominator &lt; 0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>map.entrySet().stream()
                 .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
@@ -1412,122 +1348,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>str.charAt(i)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>str.charAt(i) == str.charAt(i + 1)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(char)firstNonRepeating(inputs[i])</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/gs/StringReverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gs/SubArrayExceedingSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gs/UniqueTuples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gs/UniqueTuplesInArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-523">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gs/DictionaryProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/CheckIfPossibleArrayAscDesc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="69" column="29" selection-start-line="69" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/ContiguousSumAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/DistanceBetweenClosestMinimum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/DoubleTheFirstElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/ElementAtIndexAfterRandRotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/LeftRotationByK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/FormBiggestNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/MaxJMinusI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/StockBuySellKTransactions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/MaxSumWithRotation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1689,21 +1512,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gs/CustomListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Objects.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="143" column="6" lean-forward="true" selection-start-line="143" selection-start-column="6" selection-end-line="143" selection-end-column="6" />
-          <folding>
-            <element signature="e#5987#5988#0" expanded="true" />
-            <element signature="e#6033#6034#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1711,16 +1523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="123" column="30" lean-forward="true" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="937">
-          <caret line="208" column="26" selection-start-line="208" selection-start-column="26" selection-end-line="208" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#30483#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1786,9 +1588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11">
           <caret line="121" column="19" selection-start-line="121" selection-end-line="122" />
-          <folding>
-            <element signature="e#0#8801#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1830,18 +1629,111 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
           <caret line="282" column="22" selection-start-line="282" selection-start-column="18" selection-end-line="282" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gs/Program3.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="110" column="25" selection-start-line="110" selection-start-column="25" selection-end-line="110" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="136" column="3" lean-forward="true" selection-start-line="136" selection-start-column="3" selection-end-line="136" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/threading/PrintingJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sapient/threading/LockExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2490">
+          <caret line="192" column="32" selection-start-line="192" selection-start-column="27" selection-end-line="192" selection-end-column="32" />
           <folding>
-            <element signature="e#0#94170#0" expanded="true" />
-            <element signature="e#25215#25216#0" expanded="true" />
-            <element signature="e#25280#25281#0" expanded="true" />
+            <element signature="e#0#30483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="1873" selection-start-line="1873" selection-end-line="1873" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gs/SolveStaticBlockExceptionExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gs/AddFraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="31" column="61" lean-forward="true" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gs/ApacheLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gs/Atoi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gs/BestAverageGrade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gs/CountLengthOfCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gs/CustomHashSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-775">
-          <caret line="89" selection-end-line="272" selection-end-column="1" />
+        <state relative-caret-position="-628">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="17" />
           <folding>
             <element signature="e#120#121#0" expanded="true" />
             <element signature="e#173#174#0" expanded="true" />
@@ -1853,14 +1745,25 @@
             <element signature="e#713#714#0" expanded="true" />
             <element signature="e#835#836#0" expanded="true" />
             <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#1588#1618#0" expanded="true" />
             <element signature="e#1529#1530#0" expanded="true" />
             <element signature="e#1572#1573#0" expanded="true" />
-            <element signature="e#2360#2366#0" expanded="true" />
             <element signature="e#6672#6673#0" expanded="true" />
             <element signature="e#6730#6731#0" expanded="true" />
-            <element signature="e#6974#6983#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gs/DecimalConversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gs/DequeueByLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
