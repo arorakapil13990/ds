@@ -2,6 +2,8 @@ package arrays;
 
 import java.util.Arrays;
 
+// https://www.geeksforgeeks.org/rearrange-array-such-that-even-positioned-are-greater-than-odd/
+
 public class RearrangeArrayEvenPosGreaterOddPos {
 
     public static void main(String[] args) {

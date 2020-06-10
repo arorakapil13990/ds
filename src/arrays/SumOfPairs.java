@@ -17,12 +17,27 @@ public class SumOfPairs {
         }
 
     }
+    static void pair() {
+        int a[] = {11, 15, 6, 8, 9, 10};
+        int num = 16;
+        Map<Integer, Integer> map = new HashMap<>();
 
+        for (int i = 0; i < a.length; i++) {
+            int rem = num - a[i];
+
+            if (map.containsKey(a[i])) {
+                System.out.println(rem + " " + a[i]);
+                break;
+            } else {
+                map.put(rem, i);
+            }
+
+        }
+    }
 
     public static void main(String[] args) {
-        int a[] = {10, 10, 30, 30};
+        int a[] = {11, 15, 6, 8, 9, 10};
         SumOfPairs sp = new SumOfPairs();
-        sp.findPair(a, 40);
-
+        sp.findPair(a, 16);
     }
 }

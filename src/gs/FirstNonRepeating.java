@@ -69,7 +69,10 @@ public class FirstNonRepeating {
 
     public static char getFirstNonRepeatedChar(String str) {
         Map<Character, Integer> counts = new LinkedHashMap<>(str.length());
-        for (char c : str.toCharArray()) {
+        str.chars().forEach(e -> counts.merge((char)e,1,Integer::sum));
+        return counts.entrySet().stream().filter(e -> 1 == e.getValue()).findFirst().get().getKey();
+
+        /*for (char c : str.toCharArray()) {
             counts.put(c, counts.containsKey(c) ? counts.get(c) + 1 : 1);
         }
         for (Map.Entry<Character, Integer> entry : counts.entrySet()) {
@@ -77,7 +80,7 @@ public class FirstNonRepeating {
                 return entry.getKey();
             }
         }
-        throw new RuntimeException("didn't find any non repeated Character");
+        throw new RuntimeException("didn't find any non repeated Character");*/
     }
 
 
@@ -106,6 +109,8 @@ public class FirstNonRepeating {
         }
 
         System.out.println(test("apple"));
+
+        System.out.println(getFirstNonRepeatedChar("ababdc"));
     }
 
 

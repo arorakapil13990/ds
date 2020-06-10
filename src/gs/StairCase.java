@@ -1,5 +1,7 @@
 package gs;
 
+import java.util.Arrays;
+
 public class StairCase {
 
 
@@ -44,7 +46,7 @@ public class StairCase {
         for (int i = 3; i <= n; i++)
             res[i] = res[i - 1] + res[i - 2]
                     + res[i - 3];
-
+        System.out.println(Arrays.toString(res));
         return res[n];
     }
 

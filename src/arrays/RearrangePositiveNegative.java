@@ -4,9 +4,27 @@ import java.util.Arrays;
 
 public class RearrangePositiveNegative {
 
+    // order not maintained for +ve number
+    static void rearrange() {
+        int a[] = {-12, 11, -13, -5, 6, -7, 5, -3, -6};
+
+        int i, j = 0, t;
+
+        for (i = 0; i < a.length; i++) {
+            if (a[i] < 0) {
+                t = a[j];
+                a[j] = a[i];
+                a[i] = t;
+                j++;
+            }
+        }
+        System.out.println(Arrays.toString(a));
+    }
+
+
     public static void reverse(int a[], int l, int r) {
         if (l < r) {
-            int mid = (l + (r - 1) )/ 2;
+            int mid = (l + (r - 1)) / 2;
             reverse(a, l, mid);
             reverse(a, mid + 1, r);
             merge(a, l, mid, r);
@@ -53,9 +71,10 @@ public class RearrangePositiveNegative {
 
     public static void main(String[] args) {
 
-        int arr[] = {-12, 11, -13, -5, 6, -7, 5, -3, -6 };
+        int arr[] = {-12, 11, -13, -5, 6, -7, 5, -3, -6};
         reverse(arr, 0, arr.length - 1);
         System.out.println(Arrays.toString(arr));
+        rearrange();
 
     }
 }

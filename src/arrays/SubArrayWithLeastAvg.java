@@ -1,5 +1,7 @@
 package arrays;
 
+// https://www.geeksforgeeks.org/find-subarray-least-average/
+
 public class SubArrayWithLeastAvg {
 
 

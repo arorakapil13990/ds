@@ -26,9 +26,9 @@ public class RearrangeArrayElementAtIndex {
         int a[] = {-1, -1, 6, 1, 9, 3, 2, -1, 4, -1};
 
         Map<Integer, Integer> map = Arrays.stream(a).filter(v -> v != -1)
-                .boxed().collect(Collectors.toMap(Integer::intValue, Integer::intValue));
+                .boxed().collect(Collectors.toMap(Integer::intValue, Integer::intValue)); // or Function.identity()
 
-
+        System.out.println(map);
         for (int i = 0; i < a.length; i++) {
             if (map.get(i) != null) {
                 a[i] = i;

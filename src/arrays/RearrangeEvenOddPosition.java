@@ -9,7 +9,7 @@ public class RearrangeEvenOddPosition {
     public static void reassign(int a[]) {
 
         Arrays.sort(a);
-
+        System.out.println(Arrays.toString(a));
         int i, t, r = a.length - 1;
 
         for (i = 1; i < a.length; i = i + 2) {
@@ -22,8 +22,10 @@ public class RearrangeEvenOddPosition {
 
     }
 
+
+
     public static void main(String[] args) {
-        int a[] = {1,2,3,4,5};
+        int a[] = {1, 2, 3, 4, 5};
         reassign(a);
     }
 }

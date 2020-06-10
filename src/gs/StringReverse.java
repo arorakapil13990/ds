@@ -12,14 +12,14 @@ public class StringReverse {
     }
 
 
-    static String stringReverse(String str){
+    private static String stringReverse(String str){
         if(str == null || str.length() <=1){
             return str;
         }
         return str.substring(str.length()-1)+ stringReverse(str.substring(0,str.length()-1));
     }
 
-    static void reverseRecursive(String str) {
+    private static void reverseRecursive(String str) {
 
         if (str == null || str.length() <= 1) {
             System.out.print(str);

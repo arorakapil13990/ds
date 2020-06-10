@@ -38,7 +38,7 @@ public class RearrangeSmallestLargest {
 
     public static void rearrange(int a[]) {
         Arrays.sort(a);
-
+        System.out.println(Arrays.toString(a));
         int i, j;
 
         for (i = 0; i < a.length; i++) {

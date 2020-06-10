@@ -1,15 +1,13 @@
 package arrays;
 
 /*
- *
  *  If the array is already increasing then the answer is Yes.
  *  If the array is already decreasing then the answer is Yes.
  *  If the array can be made increasing,
  *        this can be possible if the given array is first increasing up to the maximum element and then decreasing.
  *  If the array can be made decreasing,
  *        this can be possible if the given array is first decreasing up to the minimum element and then increasing.
- *
- * */
+ */
 
 
 public class CheckIfPossibleArrayAscDesc {
