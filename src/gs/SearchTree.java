@@ -1,11 +1,22 @@
 package gs;
 
-import tree.Node;
 
 import java.util.List;
 
 public class SearchTree {
     Node root;
+
+    class Node {
+
+        Node left, right;
+        int data;
+
+        public Node(int data) {
+            this.data = data;
+            this.left = null;
+            this.right = null;
+        }
+    }
 
     private Node put(int data, Node node) {
 
