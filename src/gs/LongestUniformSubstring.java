@@ -11,7 +11,7 @@ public class LongestUniformSubstring {
             System.out.println("-1,0");
             return;
         }
-        int startIndex = 0;
+        int startIndex;
         int endIndex = 0;
         int maxLength = 0;
         int startIndexOfRepeatingCharacter = 0;

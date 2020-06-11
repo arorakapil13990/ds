@@ -30,6 +30,8 @@ public class BestAverageGrade {
                 ));
         
         // map.values().stream().reduce(Double::max).get()
+
+        //System.out.println(map.values().stream().max(Double::compareTo));
         return map.values().stream().mapToDouble(s -> s).max().getAsDouble();
     }
 

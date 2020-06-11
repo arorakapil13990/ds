@@ -7,7 +7,7 @@ package gs;
  */
 public class CountLengthOfCycle {
 
-    public static int countLengthOfCycle(int[] arr, int startIndex) {
+    private static int countLengthOfCycle(int[] arr, int startIndex) {
         int[] aux = new int[arr.length];
         for (int i = 0; i < aux.length; i++)
             aux[i] = -1;
