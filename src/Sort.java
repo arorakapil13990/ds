@@ -22,8 +22,9 @@ public class Sort {
             }
         }
 
-
-        Comparator<String> comp = (o1, o2) -> o1.compareTo(o2);
+        //Comparator<String> comp = Comparator.naturalOrder();
+         Comparator<String> comp = String::compareTo;
+        //Comparator<String> comp = (o1, o2) -> o1.compareTo(o2);
 
         Arrays.stream(word).sorted(comp).forEach(System.out::println);
         System.out.println("0000000");

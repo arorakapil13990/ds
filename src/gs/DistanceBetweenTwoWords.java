@@ -31,7 +31,7 @@ public class DistanceBetweenTwoWords {
         if (wordOneLocation == 0 || wordTwoLocation == 0) {
             return -1;
         }
-
+        System.out.println(Math.floor(shortestDistance));
         return Math.floor(shortestDistance);
     }
 
@@ -62,17 +62,15 @@ public class DistanceBetweenTwoWords {
         return shortestDist;
     }
 
-    public static boolean pass() {
+    /*public static boolean pass() {
         return distance(document, "and", "graphic") == 6d
                 && distance(document, "transfer", "it") == 14d
                 && distance(document, "Design", "filler") == 25d;
-    }
-/*
+    }*/
 
     public static boolean pass() {
         return distance(document, "geeks", "practice") == 18d;
-
-        */
+    }
 /*return shortestDistance(document, "and", "graphic") == 6d
                 && shortestDistance(document, "transfer", "it") == 14d
                 && shortestDistance(document, "Design", "filler") == 25d;*//*
@@ -92,7 +90,7 @@ public class DistanceBetweenTwoWords {
     private static final String document;
 
     static {
-        StringBuffer sb = new StringBuffer();
+        /*StringBuffer sb = new StringBuffer();
         sb.append(
                 "In publishing and graphic design, lorem ipsum is a filler text commonly used to demonstrate the graphic elements");
         sb.append(
@@ -100,8 +98,8 @@ public class DistanceBetweenTwoWords {
         sb.append(
                 " for Letraset transfer sheets. It was introduced to the Information Age in the mid-1980s by Aldus Corporation, which");
 
-        document = sb.toString();
-        // document = "geeks for geeks contribute practice";
+        document = sb.toString();*/
+         document = "geeks for geeks contribute practice";
 
     }
 }

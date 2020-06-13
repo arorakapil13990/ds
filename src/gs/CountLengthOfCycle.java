@@ -25,7 +25,6 @@ public class CountLengthOfCycle {
 
     public static void main(String[] args) {
         boolean testsPassed = true;
-
         testsPassed &= countLengthOfCycle(new int[]{1, 0}, 0) == 2;
         testsPassed &= countLengthOfCycle(new int[]{1, 2, 0}, 0) == 3;
 

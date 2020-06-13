@@ -24,7 +24,7 @@ public class MedianOfSortedArray {
             c[k++] = b[j++];
         }
 
-        double median = 0.0;
+        double median;
         if (c.length % 2 == 0) {
             median = ((double) c[c.length / 2] + (double) c[c.length / 2 - 1]) / 2;
         } else {

@@ -37,7 +37,7 @@ public class LongestUniformSubstring {
 
 
     public static void main(String[] args) {
-        longestUniformSubstring("abbbccda");
+        longestUniformSubstring("abcdggggggg");
         longestUniformSubstring("");
         longestUniformSubstring("10000111");
         longestUniformSubstring("aabbbbbCdAA");

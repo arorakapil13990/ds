@@ -18,7 +18,7 @@ public class ProducerConsumerWaitNotify {
                         synchronized (stringQueue) {
                             System.out.println("Producer waiting");
                             stringQueue.wait();
-                            System.out.println("Producer notified");
+                           // System.out.println("Producer notified");
                         }
                     } catch (InterruptedException e) {
                         e.printStackTrace();
@@ -41,12 +41,12 @@ public class ProducerConsumerWaitNotify {
         //Consumer
         new Thread(() -> {
             while (true) {
-                while (stringQueue.size() <= 5) {
+                while (stringQueue.size() < 1) {
                     try {
                         synchronized (stringQueue) {
                             System.out.println("Consumer waiting");
                             stringQueue.wait();
-                            System.out.println("Consumer notified");
+                            //System.out.println("Consumer notified");
                         }
                     } catch (InterruptedException e) {
                         e.printStackTrace();

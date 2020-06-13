@@ -63,6 +63,8 @@ public class OptimalPath {
                     grid[i][j] += grid[i][j - 1];
             }
         }
+
+
         Integer rockCount = grid[0][colCount - 1];
         System.out.println(rockCount);
         return rockCount;

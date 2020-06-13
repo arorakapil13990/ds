@@ -70,6 +70,6 @@ public class SquareRoot {
         System.out.println(df.format(sqrt(2)));
         System.out.println(df.format(sqrt(4)));
         System.out.println(df.format(sqrt(100)));
-        System.out.println(squareRoot(2));
+        System.out.println(squareRoot(10));
     }
 }

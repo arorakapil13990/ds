@@ -1,14 +1,17 @@
 package sapient.serialization;
 
 import java.io.Serializable;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
 
 public class User extends Human implements Serializable {
     private static final long serialVersionUID = 4L;
 
     private String name;
     private int age;
-    private static volatile User user=null;
-    private  User() {
+    private static volatile User user = null;
+
+    private User() {
     }
 
     public static User getInstance() {
@@ -35,7 +38,7 @@ public class User extends Human implements Serializable {
         this.age = age;
     }
 
-    private Object readResolve()  {
+    private Object readResolve() {
         System.out.println("Read resolve is called");
         return user;
     }
@@ -46,5 +49,19 @@ public class User extends Human implements Serializable {
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
+    }
+
+    public static void main(String[] args) throws IllegalAccessException, InvocationTargetException, InstantiationException {
+
+        User u = User.getInstance();
+        User u1 = null;
+        Constructor<?>[] constructors = User.class.getDeclaredConstructors();
+
+        for (Constructor constructor : constructors) {
+            constructor.setAccessible(true);
+            u1 = (User) constructor.newInstance();
+        }
+        System.out.println(u.hashCode() + " " + u1.hashCode());
+
     }
 }
