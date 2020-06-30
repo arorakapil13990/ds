@@ -91,7 +91,7 @@ class HashMapCustom<K, V> {
             return;    //does not allow to store null.
 
         int hash = hash(newKey);
-        Entry<K, V> newEntry = new Entry<K, V>(newKey, data, null);
+        Entry<K, V> newEntry = new Entry<>(newKey, data, null);
 
         if (table[hash] == null) {
             table[hash] = newEntry;

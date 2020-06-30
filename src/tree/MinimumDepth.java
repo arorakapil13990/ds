@@ -17,6 +17,7 @@ public class MinimumDepth {
         System.out.println(p.findMinimumDepth(p.root));
     }
 
+
     private int findMinimumDepth(Node node) {
         int count = 0;
         Queue<Node> q = new LinkedList<>();

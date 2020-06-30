@@ -1,14 +1,12 @@
 package tree;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class LevelLinkedList {
     Node root;
 
     public static void main(String[] args) {
+
         LevelLinkedList p = new LevelLinkedList();
         p.root = new Node(1);
         p.root.left = new Node(2);

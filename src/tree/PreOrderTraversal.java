@@ -8,6 +8,8 @@ package tree;
  *
  * */
 
+import java.util.Stack;
+
 public class PreOrderTraversal {
     Node root;
 
@@ -17,6 +19,26 @@ public class PreOrderTraversal {
             preOrder(node.left);
             preOrder(node.right);
         }
+    }
+
+    private static void preorder(Node node) {
+        System.out.println();
+        Stack<Node> st = new Stack<>();
+
+        st.push(node);
+
+        while (!st.isEmpty()) {
+            Node temp = st.pop();
+            System.out.print(temp.data + " ");
+
+            if (temp.right != null) {
+                st.push(temp.right);
+            }
+            if (temp.left != null) {
+                st.push(temp.left);
+            }
+        }
+
     }
 
     public static void main(String[] args) {
@@ -29,5 +51,6 @@ public class PreOrderTraversal {
         p.root.right.left = new Node(6);
         p.root.right.right = new Node(7);
         p.preOrder(p.root);
+        preorder(p.root);
     }
 }
