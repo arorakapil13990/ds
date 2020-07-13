@@ -2,7 +2,7 @@ package tree;
 
 import java.util.Stack;
 // https://www.techiedelight.com/inorder-tree-traversal-iterative-recursive/
-public class Inorder {
+public class InOrder {
     Node root;
 
     public static void inorderIterative(Node root) {
@@ -32,7 +32,7 @@ public class Inorder {
 
 
         public static void main (String[]args){
-            Inorder p = new Inorder();
+            InOrder p = new InOrder();
             p.root = new Node(1);
             p.root.left = new Node(2);
             p.root.right = new Node(3);

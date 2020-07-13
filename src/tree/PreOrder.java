@@ -10,10 +10,10 @@ package tree;
 
 import java.util.Stack;
 
-public class PreOrderTraversal {
+public class PreOrder {
     Node root;
 
-    private void preOrder(Node node) {
+    public static void preOrder(Node node) {
         if (node != null) {
             System.out.print(node.data + " ");
             preOrder(node.left);
@@ -24,9 +24,7 @@ public class PreOrderTraversal {
     private static void preorder(Node node) {
         System.out.println();
         Stack<Node> st = new Stack<>();
-
         st.push(node);
-
         while (!st.isEmpty()) {
             Node temp = st.pop();
             System.out.print(temp.data + " ");
@@ -42,7 +40,7 @@ public class PreOrderTraversal {
     }
 
     public static void main(String[] args) {
-        PreOrderTraversal p = new PreOrderTraversal();
+        PreOrder p = new PreOrder();
         p.root = new Node(1);
         p.root.left = new Node(2);
         p.root.right = new Node(3);
