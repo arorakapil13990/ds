@@ -2,6 +2,7 @@ package tree;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
+// https://www.youtube.com/watch?v=LU4fGD-fgJQ&t=621s
 public class CheckBalancedTree {
 
     Node root;

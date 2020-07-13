@@ -1,5 +1,7 @@
 package tree;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.stream.IntStream;
 
 public class PrintAllPathsFromRootToLeaf {
@@ -12,12 +14,13 @@ public class PrintAllPathsFromRootToLeaf {
         p.root = new Node(1);
         p.root.left = new Node(2);
         p.root.right = new Node(3);
-        p.root.left.left = new Node(4);
-        p.root.left.right = new Node(5);
-        p.root.right.left = new Node(6);
-        p.root.right.right = new Node(7);
-        p.root.right.right.right = new Node(8);
-        printPaths(p.root);
+        p.root.right.left = new Node(4);
+        p.root.right.left.right = new Node(5);
+        //printPaths(p.root);
+        List<Integer> res = new ArrayList<>();
+        path(p.root, res, 5);
+        res.stream().forEach(System.out::print);
+
     }
 
 
@@ -29,17 +32,26 @@ public class PrintAllPathsFromRootToLeaf {
     private static void findPath(Node node, int[] arr, int index) {
         if (node == null)
             return;
-
         arr[index++] = node.data;
 
         if (node.left == null && node.right == null) {
-            IntStream.range(0,index).mapToObj(i -> arr[i]).forEach(System.out::print);
+            IntStream.range(0, index).mapToObj(i -> arr[i]).forEach(System.out::print);
             System.out.println();
-        }else {
-            findPath(node.left,arr,index);
-            findPath(node.right,arr,index);
+        } else {
+            findPath(node.left, arr, index);
+            findPath(node.right, arr, index);
         }
-
-
     }
+
+
+    private static boolean path(Node node, List<Integer> list, int num) {
+        if (node == null) return false;
+        list.add(node.data);
+        if (node.data == num) return true;
+        if (path(node.left, list, num) || path(node.right, list, num)) return true;
+        list.remove(list.size() - 1);
+        return false;
+    }
+
+
 }

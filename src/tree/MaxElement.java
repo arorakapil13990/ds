@@ -9,16 +9,7 @@ public class MaxElement {
         if (node != null) {
             int leftMax = findMax(node.left);
             int rightMax = findMax(node.right);
-
-            if (leftMax > rightMax) {
-                max = leftMax;
-            } else {
-                max = rightMax;
-            }
-
-            if (node.data > max) {
-                max = node.data;
-            }
+            max = Math.max(Math.max(leftMax,rightMax),node.data);
         }
         return max;
     }
