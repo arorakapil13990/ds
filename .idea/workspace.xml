@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="09728682-12e3-49f5-945a-bc0f3a91308d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/tree/Inorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/tree/Inorder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/tree/PreOrderTraversal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/CreateBinaryTreeFromInAndPre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/CreateBinaryTreeFromInAndPre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/Inorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/InOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/PreOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/PreOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +93,8 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/kapilarora/Sample/src/tree/MinimumDepth.java" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593545198596" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -110,7 +107,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreateBinaryTreeFromInAndPost">
+  <component name="RunManager" selected="Application.SumVerticalLevel">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -131,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateBinaryTreeFromInAndPre" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.CreateBinaryTreeFromInAndPre" />
+    <configuration name="LowestCommonAncestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.LowestCommonAncestor" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -145,8 +142,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.InOrder" />
+    <configuration name="PrintAncestorOfNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.PrintAncestorOfNode" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -159,8 +156,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.PostOrder" />
+    <configuration name="SumVerticalLevel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.SumVerticalLevel" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -173,8 +170,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiralOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.SpiralOrder" />
+    <configuration name="VerticalLevelTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.VerticalLevelTraversal" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -219,19 +216,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.InOrder" />
-      <item itemvalue="Application.PostOrder" />
-      <item itemvalue="Application.SpiralOrder" />
-      <item itemvalue="Application.CreateBinaryTreeFromInAndPre" />
       <item itemvalue="Application.CreateBinaryTreeFromInAndPost" />
+      <item itemvalue="Application.PrintAncestorOfNode" />
+      <item itemvalue="Application.LowestCommonAncestor" />
+      <item itemvalue="Application.VerticalLevelTraversal" />
+      <item itemvalue="Application.SumVerticalLevel" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumVerticalLevel" />
+        <item itemvalue="Application.VerticalLevelTraversal" />
+        <item itemvalue="Application.LowestCommonAncestor" />
+        <item itemvalue="Application.PrintAncestorOfNode" />
         <item itemvalue="Application.CreateBinaryTreeFromInAndPost" />
-        <item itemvalue="Application.CreateBinaryTreeFromInAndPre" />
-        <item itemvalue="Application.SpiralOrder" />
-        <item itemvalue="Application.PostOrder" />
-        <item itemvalue="Application.InOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -249,42 +246,46 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="453" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1594750424993">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="453" y="134" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1594750424993" />
     <state x="227" y="23" key="CommitChangelistDialog2" timestamp="1594471954437">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="227" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1594471954437" />
-    <state width="1238" height="177" key="GridCell.Tab.0.bottom" timestamp="1594666170168">
+    <state width="1238" height="246" key="GridCell.Tab.0.bottom" timestamp="1594751598629">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="177" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1594666170168" />
-    <state width="1238" height="177" key="GridCell.Tab.0.center" timestamp="1594666170167">
+    <state width="1238" height="246" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1594751598629" />
+    <state width="1238" height="246" key="GridCell.Tab.0.center" timestamp="1594751598629">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="177" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1594666170167" />
-    <state width="1238" height="177" key="GridCell.Tab.0.left" timestamp="1594666170166">
+    <state width="1238" height="246" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1594751598629" />
+    <state width="1238" height="246" key="GridCell.Tab.0.left" timestamp="1594751598629">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="177" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1594666170166" />
-    <state width="1238" height="177" key="GridCell.Tab.0.right" timestamp="1594666170168">
+    <state width="1238" height="246" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1594751598629" />
+    <state width="1238" height="246" key="GridCell.Tab.0.right" timestamp="1594751598629">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="177" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1594666170168" />
-    <state width="1238" height="246" key="GridCell.Tab.1.bottom" timestamp="1594665503466">
+    <state width="1238" height="246" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1594751598629" />
+    <state width="1238" height="246" key="GridCell.Tab.1.bottom" timestamp="1594751598630">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="246" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1594665503466" />
-    <state width="1238" height="246" key="GridCell.Tab.1.center" timestamp="1594665503466">
+    <state width="1238" height="246" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1594751598630" />
+    <state width="1238" height="246" key="GridCell.Tab.1.center" timestamp="1594751598630">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="246" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1594665503466" />
-    <state width="1238" height="246" key="GridCell.Tab.1.left" timestamp="1594665503465">
+    <state width="1238" height="246" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1594751598630" />
+    <state width="1238" height="246" key="GridCell.Tab.1.left" timestamp="1594751598630">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="246" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1594665503465" />
-    <state width="1238" height="246" key="GridCell.Tab.1.right" timestamp="1594665503466">
+    <state width="1238" height="246" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1594751598630" />
+    <state width="1238" height="246" key="GridCell.Tab.1.right" timestamp="1594751598630">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="246" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1594665503466" />
+    <state width="1238" height="246" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1594751598630" />
     <state x="228" y="153" key="IDE.errors.dialog" timestamp="1594637406670">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -293,6 +294,10 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="149" y="50" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1594471895325" />
+    <state x="129" y="147" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1594718423253">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="129" y="147" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1280.777@0.23.1280.777" timestamp="1594718423253" />
     <state x="305" y="62" width="670" height="676" key="search.everywhere.popup" timestamp="1594634287406">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -983,6 +988,16 @@
           <url>file://$PROJECT_DIR$/src/tree/CreateBinaryTreeFromInAndPre.java</url>
           <line>20</line>
           <option name="timeStamp" value="370" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/SumVerticalLevel.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="372" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/SumVerticalLevel.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="373" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
