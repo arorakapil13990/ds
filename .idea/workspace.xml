@@ -2,47 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09728682-12e3-49f5-945a-bc0f3a91308d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/META-INF/Sample.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/AlternateSplit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/AlternateSplit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/CircularList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/CircularList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/CountRotationInSorted.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/CountRotationInSorted.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/DLLDeletion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/DLLDeletion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/DeleteAlternate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/DeleteAlternate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/DeleteEveryKthNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/DeleteEveryKthNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/DeleteLesserNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/DeleteLesserNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/FindLoopInLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/FindLoopInLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/InsertNodeInSortedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/InsertNodeInSortedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/LinkedListAddition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/LinkedListAddition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/LinkedListDeletion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/LinkedListDeletion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/LinkedListInsertion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/LinkedListInsertion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/LinkedlistAscDesc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/LinkedlistAscDesc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/MergeInSortedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/MergeInSortedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/Rearrange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/Rearrange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/RemoveAllDuplicatesSortedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/RemoveAllDuplicatesSortedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/RemoveDuplicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/RemoveDuplicates.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/ReverseNodeInGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/ReverseNodeInGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/AlternateSplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/AlternateSplit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/CircularList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/CircularList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/CountRotationInSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/CountRotationInSorted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/DLLDeletion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/DLLDeletion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/DeleteAlternate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/DeleteAlternate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/DeleteEveryKthNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/DeleteEveryKthNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/DeleteLesserNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/DeleteLesserNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/DeleteNAfterM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/DeleteNAfterM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/FindLoopInLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/FindLoopInLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/InsertNodeInSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/InsertNodeInSortedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedListAddition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedListAddition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedListDeletion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedListDeletion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedListInsertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedListInsertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedlistAscDesc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedlistAscDesc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/MergeInSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/MergeInSortedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/Rearrange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/Rearrange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/RemoveAllDuplicatesSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/RemoveAllDuplicatesSortedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/RemoveDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/ReverseNodeInGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/ReverseNodeInGroup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,20 +94,20 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
+  <component name="RunManager" selected="Application.Singleton">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.S" />
+    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.singleton.Singleton" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8.*" />
+          <option name="PATTERN" value="pattern.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,19 +203,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.S" />
       <item itemvalue="Application.User" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Test (2)" />
+      <item itemvalue="Application.Singleton" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Singleton" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.User" />
-        <item itemvalue="Application.S" />
       </list>
     </recent_temporary>
   </component>
@@ -290,26 +250,26 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="328" y="154" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1280.777@0.23.1280.777" timestamp="1607062904413" />
-    <state width="1238" height="332" key="GridCell.Tab.0.bottom" timestamp="1614683318889">
+    <state width="1238" height="332" key="GridCell.Tab.0.bottom" timestamp="1614880491466">
       <screen x="0" y="25" width="1280" height="775" />
     </state>
     <state width="1238" height="338" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1609863284986" />
-    <state width="1238" height="332" key="GridCell.Tab.0.bottom/0.25.1280.775@0.25.1280.775" timestamp="1614683318889" />
-    <state width="1238" height="332" key="GridCell.Tab.0.center" timestamp="1614683318887">
+    <state width="1238" height="332" key="GridCell.Tab.0.bottom/0.25.1280.775@0.25.1280.775" timestamp="1614880491466" />
+    <state width="1238" height="332" key="GridCell.Tab.0.center" timestamp="1614880491465">
       <screen x="0" y="25" width="1280" height="775" />
     </state>
     <state width="1238" height="338" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1609863284984" />
-    <state width="1238" height="332" key="GridCell.Tab.0.center/0.25.1280.775@0.25.1280.775" timestamp="1614683318887" />
-    <state width="1238" height="332" key="GridCell.Tab.0.left" timestamp="1614683318887">
+    <state width="1238" height="332" key="GridCell.Tab.0.center/0.25.1280.775@0.25.1280.775" timestamp="1614880491465" />
+    <state width="1238" height="332" key="GridCell.Tab.0.left" timestamp="1614880491465">
       <screen x="0" y="25" width="1280" height="775" />
     </state>
     <state width="1238" height="338" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1609863284983" />
-    <state width="1238" height="332" key="GridCell.Tab.0.left/0.25.1280.775@0.25.1280.775" timestamp="1614683318887" />
-    <state width="1238" height="332" key="GridCell.Tab.0.right" timestamp="1614683318888">
+    <state width="1238" height="332" key="GridCell.Tab.0.left/0.25.1280.775@0.25.1280.775" timestamp="1614880491465" />
+    <state width="1238" height="332" key="GridCell.Tab.0.right" timestamp="1614880491466">
       <screen x="0" y="25" width="1280" height="775" />
     </state>
     <state width="1238" height="338" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1609863284985" />
-    <state width="1238" height="332" key="GridCell.Tab.0.right/0.25.1280.775@0.25.1280.775" timestamp="1614683318888" />
+    <state width="1238" height="332" key="GridCell.Tab.0.right/0.25.1280.775@0.25.1280.775" timestamp="1614880491466" />
     <state width="1238" height="242" key="GridCell.Tab.1.bottom" timestamp="1614667928165">
       <screen x="0" y="25" width="1280" height="775" />
     </state>
@@ -338,11 +298,11 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="370" y="150" width="540" height="524" key="StructurePopup/0.23.1280.777@0.23.1280.777" timestamp="1609777683664" />
-    <state x="305" y="126" width="670" height="675" key="search.everywhere.popup" timestamp="1612943549562">
+    <state x="305" y="126" width="670" height="675" key="search.everywhere.popup" timestamp="1614880502010">
       <screen x="0" y="25" width="1280" height="775" />
     </state>
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1609777670296" />
-    <state x="305" y="126" width="670" height="675" key="search.everywhere.popup/0.25.1280.775@0.25.1280.775" timestamp="1612943549562" />
+    <state x="305" y="126" width="670" height="675" key="search.everywhere.popup/0.25.1280.775@0.25.1280.775" timestamp="1614880502010" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
