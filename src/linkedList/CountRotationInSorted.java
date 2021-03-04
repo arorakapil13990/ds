@@ -17,8 +17,19 @@ public class CountRotationInSorted {
             node = node.next;
         }
         System.out.println(count);
+    }
 
-
+    private void rotation(Node node) {
+        int count = 1;
+        while (node != null) {
+            if (node.data > node.next.data) {
+                break;
+            } else {
+                node = node.next;
+                count++;
+            }
+        }
+        System.out.println(count);
     }
 
     public void addToTail(int data) {
@@ -51,7 +62,7 @@ public class CountRotationInSorted {
         d.addToTail(11);
         d.addToTail(12);
         d.countRotation(d.head);
-
+        d.rotation(d.head);
     }
 
 

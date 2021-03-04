@@ -34,7 +34,8 @@ public class LinkedlistAscDesc {
         evenHead = reverse(evenHead);
         even = evenHead;
         odd = oddHead;
-        Node res = null, newHead = null;
+        Node res = null;
+        Node newHead;
         if (odd.data < even.data) {
             res = odd;
             odd = odd.next;

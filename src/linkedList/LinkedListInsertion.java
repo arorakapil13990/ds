@@ -60,8 +60,26 @@ public class LinkedListInsertion {
             current = current.next;
         }
 
-        n.next=current;
-        prev.next=n;
+        n.next = current;
+        prev.next = n;
+    }
+
+    private void insertAtPos(int data, int pos) {
+        Node node = new Node(data);
+        Node current = head;
+        Node prev = head;
+
+        while (pos - 1 > 0 && current.next != null) {
+            prev = current;
+            current = current.next;
+            pos--;
+        }
+
+        if (pos - 1 == 0) {
+            prev.next = node;
+            node.next = current;
+        }
+
     }
 
 
@@ -91,7 +109,7 @@ public class LinkedListInsertion {
         l.insertAtLast(11);
         l.printList(l.head);
         System.out.println("---------------");
-        l.insertAtPosition(15,3);
+        l.insertAtPos(15, 3);
         l.printList(l.head);
 
 

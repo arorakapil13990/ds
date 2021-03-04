@@ -12,12 +12,10 @@ public class Rearrange {
 
         Stack<Node> st = new Stack<>();
 
-        while (node != null) {
+        while (current != null) {
             st.push(node);
-            node = node.next;
+            current = current.next;
         }
-
-        node = head;
 
         int c = l / 2;
 

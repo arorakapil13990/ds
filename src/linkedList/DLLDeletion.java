@@ -26,7 +26,6 @@ public class DLLDeletion {
 
 
     public void deleteAtPosition(int pos) {
-
         if (pos == 1) {
             deleteHead();
             return;
@@ -41,7 +40,6 @@ public class DLLDeletion {
         if (current.next != null) {
             current.next.prev = current.prev;
         }
-
     }
 
     public void printList(DLLNode node) {

@@ -45,8 +45,26 @@ public class InsertNodeInSortedList {
         i.head.next.next = new Node(4);
         i.head.next.next.next = new Node(5);
 
-        i.insertNode(3, i.head);
+        i.insert(3, i.head);
         i.printList(i.head);
 
+    }
+
+    private void insert(int n, Node node) {
+        Node pre = null;
+        Node newNode = new Node(n);
+        while (node != null) {
+            if (node.data < n) {
+                pre = node;
+                node = node.next;
+            } else {
+                pre.next = newNode;
+                newNode.next = node;
+                break;
+            }
+        }
+        if(pre != null && pre.data < n){
+            pre.next = newNode;
+        }
     }
 }

@@ -10,9 +10,7 @@ public class DeleteLesserNode {
 
     Node head;
 
-
-    void reverseList()
-    {
+    void reverseList() {
         Node current = head;
         Node prev = null;
         Node next;
@@ -25,8 +23,7 @@ public class DeleteLesserNode {
         head = prev;
     }
 
-    void delLesserNodes()
-    {
+    void delLesserNodes() {
         /* 1.Reverse the linked list */
         reverseList(); // 60 50 40 30 20 10
 
@@ -42,8 +39,7 @@ public class DeleteLesserNode {
         reverseList();
     }
 
-    void delete()
-    {
+    void delete() {
         Node current = head;
 
         Node maxnode = head;
@@ -78,24 +74,23 @@ public class DeleteLesserNode {
     reverse 99 39 5      ans
 
     */
-    void deleteNew(){
+    void deleteNew() {
 
-        int max  = head.data;
+        int max = head.data;
         Node current = head;
 
-        while(current.next != null){
+        while (current.next != null) {
 
-            if(current.next.data>max){
-                max=current.next.data;
-                current=current.next;
-            }else{
-                current.next=current.next.next;
+            if (current.next.data > max) {
+                max = current.next.data;
+                current = current.next;
+            } else {
+                current.next = current.next.next;
             }
 
         }
 
     }
-
 
 
     public void printList(Node node) {
@@ -127,6 +122,5 @@ public class DeleteLesserNode {
         m.delLesserNodes();
         m.printList(m.head);
     }
-
 
 }

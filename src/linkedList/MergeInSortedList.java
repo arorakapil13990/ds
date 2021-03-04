@@ -61,6 +61,41 @@ public class MergeInSortedList {
         m.head2 = new Node(20);
         m.head2.next = new Node(40);
         m.head2.next.next = new Node(60);
-        m.printList(m.mergeList(m.head1, m.head2, m.sortedNode));
+      //  m.printList(m.mergeList(m.head1, m.head2, m.sortedNode));
+        System.out.println(" ======= ");
+        m.printList(m.merge(m.head1, m.head2));
+    }
+
+    private Node merge(Node p, Node q) {
+        Node res;
+        Node head;
+
+        if (p.data < q.data) {
+            head = p;
+            p = p.next;
+        } else {
+            head = q;
+            q = q.next;
+        }
+        res = head;
+        while (p != null && q != null) {
+            if (p.data < q.data) {
+                res.next = p;
+                p = p.next;
+            } else {
+                res.next = q;
+                q = q.next;
+            }
+            res = res.next;
+        }
+
+        if (p != null) {
+            res.next = p;
+        }
+
+        if (q != null) {
+            res.next = q;
+        }
+        return head;
     }
 }

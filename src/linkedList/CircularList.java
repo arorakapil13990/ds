@@ -17,24 +17,18 @@ public class CircularList {
 
 
     public void create(int data) {
-
         Node n = new Node(data);
-
         Node current = head;
-
         if (head == null) {
             head = n;
             n.next = head;
             return;
         }
-
         while (current.next != head) {
             current = current.next;
         }
         current.next=n;
         n.next=head;
-
-
     }
 
     public void printList(Node node) {

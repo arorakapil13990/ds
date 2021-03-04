@@ -17,8 +17,6 @@ public class FindLoopInLinkedList {
                 return n;
             }
         }
-
-
         return null;
     }
 

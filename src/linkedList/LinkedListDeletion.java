@@ -24,7 +24,6 @@ public class LinkedListDeletion {
     public void deleteHead() {
         Node current = head;
         head = current.next;
-        current = null;
     }
 
 
@@ -66,20 +65,15 @@ public class LinkedListDeletion {
     public void deleteAtPosition(int pos) {
         Node current = head;
         Node prev = head;
-
-
         if (pos == 1) {
             head = head.next;
         }
-
         while (pos - 1 > 0 && current.next != null) {
             prev = current;
             current = current.next;
             pos--;
         }
         prev.next = current.next;
-        current = null;
-
     }
 
     public void printList(Node node) {

@@ -2,7 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09728682-12e3-49f5-945a-bc0f3a91308d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/META-INF/Sample.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/AlternateSplit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/AlternateSplit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/CircularList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/CircularList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/CountRotationInSorted.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/CountRotationInSorted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/DLLDeletion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/DLLDeletion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/DeleteAlternate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/DeleteAlternate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/DeleteEveryKthNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/DeleteEveryKthNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/DeleteLesserNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/DeleteLesserNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/FindLoopInLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/FindLoopInLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/InsertNodeInSortedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/InsertNodeInSortedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/LinkedListAddition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/LinkedListAddition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/LinkedListDeletion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/LinkedListDeletion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/LinkedListInsertion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/LinkedListInsertion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/LinkedlistAscDesc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/LinkedlistAscDesc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/MergeInSortedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/MergeInSortedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/Rearrange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/Rearrange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/RemoveAllDuplicatesSortedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/RemoveAllDuplicatesSortedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/RemoveDuplicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/RemoveDuplicates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/ReverseNodeInGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/ReverseNodeInGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/AlternateSplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/AlternateSplit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/CircularList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/CircularList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/CountRotationInSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/CountRotationInSorted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/DLLDeletion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/DLLDeletion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/DeleteAlternate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/DeleteAlternate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/DeleteEveryKthNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/DeleteEveryKthNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/DeleteLesserNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/DeleteLesserNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/DeleteNAfterM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/DeleteNAfterM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/FindLoopInLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/FindLoopInLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/InsertNodeInSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/InsertNodeInSortedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedListAddition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedListAddition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedListDeletion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedListDeletion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedListInsertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedListInsertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedlistAscDesc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedlistAscDesc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/MergeInSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/MergeInSortedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/Rearrange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/Rearrange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/RemoveAllDuplicatesSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/RemoveAllDuplicatesSortedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/RemoveDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/ReverseNodeInGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/ReverseNodeInGroup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,31 +57,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>modCount</find>
-      <find>int expectedModCount = modCount;</find>
-      <find>ArrayList</find>
-      <find>HashMapEntry</find>
-      <find>itera</find>
-      <find>iterator</find>
-      <find>iterator()</find>
-      <find>modcount</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="777" />
   </component>
   <component name="ProjectId" id="1eXa4nLMAEBfVKt1KZq37OGOCw9" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -97,30 +120,34 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/kapilarora/Sample/src/tree/MinimumDepth.java" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593545198596" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="java8" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumVerticalLevel">
+  <component name="RunManager" selected="Application.Test (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateBinaryTreeFromInAndPost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.CreateBinaryTreeFromInAndPost" />
+    <configuration name="S" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.S" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,13 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LowestCommonAncestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.LowestCommonAncestor" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.observer.Test" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="pattern.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,13 +169,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintAncestorOfNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.PrintAncestorOfNode" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.adaptor.Test" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="pattern.adaptor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,13 +183,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumVerticalLevel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.SumVerticalLevel" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.chainofresponsibility.Test" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="pattern.chainofresponsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,13 +197,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerticalLevelTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.VerticalLevelTraversal" />
+    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.builder.User" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="pattern.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,19 +243,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CreateBinaryTreeFromInAndPost" />
-      <item itemvalue="Application.PrintAncestorOfNode" />
-      <item itemvalue="Application.LowestCommonAncestor" />
-      <item itemvalue="Application.VerticalLevelTraversal" />
-      <item itemvalue="Application.SumVerticalLevel" />
+      <item itemvalue="Application.S" />
+      <item itemvalue="Application.User" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.Test (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SumVerticalLevel" />
-        <item itemvalue="Application.VerticalLevelTraversal" />
-        <item itemvalue="Application.LowestCommonAncestor" />
-        <item itemvalue="Application.PrintAncestorOfNode" />
-        <item itemvalue="Application.CreateBinaryTreeFromInAndPost" />
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.User" />
+        <item itemvalue="Application.S" />
       </list>
     </recent_temporary>
   </component>
@@ -246,62 +273,76 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="453" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1594750424993">
+    <state x="128" y="23" key="#Project_Structure" timestamp="1607066201446">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="453" y="134" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1594750424993" />
-    <state x="227" y="23" key="CommitChangelistDialog2" timestamp="1594471954437">
+    <state x="128" y="23" key="#Project_Structure/0.23.1280.777@0.23.1280.777" timestamp="1607066201446" />
+    <state x="104" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607066225756">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="227" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1594471954437" />
-    <state width="1238" height="246" key="GridCell.Tab.0.bottom" timestamp="1594751598629">
+    <state x="104" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777@0.23.1280.777" timestamp="1607066225756" />
+    <state x="453" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1614864702211">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state x="453" y="134" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1609745482026" />
+    <state x="453" y="136" key="#com.intellij.ide.util.MemberChooser/0.25.1280.775@0.25.1280.775" timestamp="1614864702211" />
+    <state x="328" y="154" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1607062904413">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="246" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1594751598629" />
-    <state width="1238" height="246" key="GridCell.Tab.0.center" timestamp="1594751598629">
+    <state x="328" y="154" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1280.777@0.23.1280.777" timestamp="1607062904413" />
+    <state width="1238" height="332" key="GridCell.Tab.0.bottom" timestamp="1614683318889">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="1238" height="338" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1609863284986" />
+    <state width="1238" height="332" key="GridCell.Tab.0.bottom/0.25.1280.775@0.25.1280.775" timestamp="1614683318889" />
+    <state width="1238" height="332" key="GridCell.Tab.0.center" timestamp="1614683318887">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="1238" height="338" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1609863284984" />
+    <state width="1238" height="332" key="GridCell.Tab.0.center/0.25.1280.775@0.25.1280.775" timestamp="1614683318887" />
+    <state width="1238" height="332" key="GridCell.Tab.0.left" timestamp="1614683318887">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="1238" height="338" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1609863284983" />
+    <state width="1238" height="332" key="GridCell.Tab.0.left/0.25.1280.775@0.25.1280.775" timestamp="1614683318887" />
+    <state width="1238" height="332" key="GridCell.Tab.0.right" timestamp="1614683318888">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="1238" height="338" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1609863284985" />
+    <state width="1238" height="332" key="GridCell.Tab.0.right/0.25.1280.775@0.25.1280.775" timestamp="1614683318888" />
+    <state width="1238" height="242" key="GridCell.Tab.1.bottom" timestamp="1614667928165">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="1238" height="246" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1608734317985" />
+    <state width="1238" height="242" key="GridCell.Tab.1.bottom/0.25.1280.775@0.25.1280.775" timestamp="1614667928165" />
+    <state width="1238" height="242" key="GridCell.Tab.1.center" timestamp="1614667928164">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="1238" height="246" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1608734317985" />
+    <state width="1238" height="242" key="GridCell.Tab.1.center/0.25.1280.775@0.25.1280.775" timestamp="1614667928164" />
+    <state width="1238" height="242" key="GridCell.Tab.1.left" timestamp="1614667928164">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="1238" height="246" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1608734317984" />
+    <state width="1238" height="242" key="GridCell.Tab.1.left/0.25.1280.775@0.25.1280.775" timestamp="1614667928164" />
+    <state width="1238" height="242" key="GridCell.Tab.1.right" timestamp="1614667928164">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="1238" height="246" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1608734317985" />
+    <state width="1238" height="242" key="GridCell.Tab.1.right/0.25.1280.775@0.25.1280.775" timestamp="1614667928164" />
+    <state x="128" y="23" key="SettingsEditor" timestamp="1607066322163">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="246" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1594751598629" />
-    <state width="1238" height="246" key="GridCell.Tab.0.left" timestamp="1594751598629">
+    <state x="128" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1607066322163" />
+    <state x="370" y="150" width="540" height="524" key="StructurePopup" timestamp="1609777683664">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="246" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1594751598629" />
-    <state width="1238" height="246" key="GridCell.Tab.0.right" timestamp="1594751598629">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="370" y="150" width="540" height="524" key="StructurePopup/0.23.1280.777@0.23.1280.777" timestamp="1609777683664" />
+    <state x="305" y="126" width="670" height="675" key="search.everywhere.popup" timestamp="1612943549562">
+      <screen x="0" y="25" width="1280" height="775" />
     </state>
-    <state width="1238" height="246" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1594751598629" />
-    <state width="1238" height="246" key="GridCell.Tab.1.bottom" timestamp="1594751598630">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1238" height="246" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1594751598630" />
-    <state width="1238" height="246" key="GridCell.Tab.1.center" timestamp="1594751598630">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1238" height="246" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1594751598630" />
-    <state width="1238" height="246" key="GridCell.Tab.1.left" timestamp="1594751598630">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1238" height="246" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1594751598630" />
-    <state width="1238" height="246" key="GridCell.Tab.1.right" timestamp="1594751598630">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1238" height="246" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1594751598630" />
-    <state x="228" y="153" key="IDE.errors.dialog" timestamp="1594637406670">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="228" y="153" key="IDE.errors.dialog/0.23.1280.777@0.23.1280.777" timestamp="1594637406670" />
-    <state x="149" y="50" key="SettingsEditor" timestamp="1594471895325">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="149" y="50" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1594471895325" />
-    <state x="129" y="147" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1594718423253">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="129" y="147" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1280.777@0.23.1280.777" timestamp="1594718423253" />
-    <state x="305" y="62" width="670" height="676" key="search.everywhere.popup" timestamp="1594634287406">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="305" y="62" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1594634287406" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1609777670296" />
+    <state x="305" y="126" width="670" height="675" key="search.everywhere.popup/0.25.1280.775@0.25.1280.775" timestamp="1612943549562" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -318,22 +359,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/linkedList/LinkedListDeletion.java</url>
-          <line>41</line>
+          <line>40</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/linkedList/LinkedListDeletion.java</url>
-          <line>87</line>
+          <line>81</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/linkedList/DLLDeletion.java</url>
-          <line>29</line>
+          <line>28</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/linkedList/CircularList.java</url>
-          <line>41</line>
+          <line>35</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -348,7 +389,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/linkedList/FindLoopInLinkedList.java</url>
-          <line>27</line>
+          <line>25</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -373,7 +414,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/linkedList/DeleteLesserNode.java</url>
-          <line>46</line>
+          <line>42</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -388,58 +429,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/linkedList/Rearrange.java</url>
-          <line>23</line>
+          <line>21</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/linkedList/Rearrange.java</url>
-          <line>30</line>
+          <line>28</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/linkedList/LinkedlistAscDesc.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/linkedList/LinkedlistAscDesc.java</url>
-          <line>65</line>
+          <line>66</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/linkedList/LinkedlistAscDesc.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/linkedList/LinkedlistAscDesc.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/linkedList/LinkedlistAscDesc.java</url>
-          <line>58</line>
+          <line>59</line>
           <option name="timeStamp" value="78" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/linkedList/AddOneToNumber.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/linkedList/CountRotationInSorted.java</url>
           <line>7</line>
           <option name="timeStamp" value="81" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/linkedList/RemoveDuplicateSortedList.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="86" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/linkedList/RemoveDuplicateSortedList.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/linkedList/SumLastNNodes.java</url>
@@ -453,7 +464,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/linkedList/DeleteAlternate.java</url>
-          <line>67</line>
+          <line>83</line>
           <option name="timeStamp" value="96" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -657,18 +668,13 @@
           <option name="timeStamp" value="183" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/linkedList/AddOneToNumber.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="189" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/linkedList/AlternateMinMax.java</url>
           <line>23</line>
           <option name="timeStamp" value="190" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/linkedList/DeleteAlternate.java</url>
-          <line>33</line>
+          <line>36</line>
           <option name="timeStamp" value="191" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -850,16 +856,6 @@
           <option name="timeStamp" value="313" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/linkedList/DeleteNAfterM.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="314" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/linkedList/LinkedlistAscDesc.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="315" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/linkedList/Rotate.java</url>
           <line>14</line>
           <option name="timeStamp" value="316" />
@@ -999,110 +995,66 @@
           <line>64</line>
           <option name="timeStamp" value="373" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedList/AddOneToNumber.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="374" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedList/AlternateSplit.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="375" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedList/DeleteAlternate.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="376" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedList/RemoveDuplicates.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="377" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedList/ReverseAlternateKNodes.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="378" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedList/ReverseFirstKNode.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="379" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedList/ReverseNodeInGroup.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="380" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pattern/chainofresponsibility/Dollar20Dispenser.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="382" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pattern/chainofresponsibility/Dollar50Dispenser.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="386" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pattern/chainofresponsibility/Test.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="387" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="pattern.chainofresponsibility.Dollar50Dispenser" fieldName="next" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Sample</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>eu.ocathain.javax.activation:activation:1.1.1</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

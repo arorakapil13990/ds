@@ -8,15 +8,11 @@ public class RemoveAllDuplicatesSortedList {
 
 
     private void removeDuplicate(Node node) {
-
-
         Map<Integer, Integer> map = new HashMap<>();
-
         while (node != null) {
             map.merge(node.data, 1, Integer::sum);
             node = node.next;
         }
-
         Node res = null, newHead = null;
         for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
             if (entry.getValue() == 1) {
@@ -33,7 +29,6 @@ public class RemoveAllDuplicatesSortedList {
         head = newHead;
     }
 
-
     public void printList(Node node) {
         while (node != null) {
             System.out.print(node.data + " ");
@@ -41,7 +36,6 @@ public class RemoveAllDuplicatesSortedList {
         }
         System.out.println();
     }
-
 
     public static void main(String[] args) {
 

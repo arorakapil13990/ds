@@ -21,7 +21,7 @@ public class AlternateSplit {
         a.head.next.next.next = new Node(4);
         a.head.next.next.next.next = new Node(5);
         a.head.next.next.next.next.next = new Node(6);
-        a.split(a.head);
+        a.splitNode(a.head);
         a.printList(a.head);
         a.printList(a.head1);
         a.printList(a.head2);
@@ -33,25 +33,40 @@ public class AlternateSplit {
         while (node != null) {
             Node k = new Node(node.data);
             if (counter % 2 == 0) {
-                if (head2 == null) {
-                     head2 = k;
-                } else {
-                    k.next=head2;
-                    head2=k;
+                if (head2 != null) {
+                    k.next = head2;
                 }
+                head2 = k;
             } else {
-                if (head1 == null) {
-                    head1 = k;
-                } else {
-                    k.next=head1;
-                    head1=k;
+                if (head1 != null) {
+                    k.next = head1;
                 }
+                head1 = k;
             }
             counter++;
             node = node.next;
 
         }
-
-
     }
+
+    private void splitNode(Node node) {
+        int counter = 1;
+        while (node != null) {
+            Node k = new Node(node.data);
+            if (counter % 2 == 0) {
+                if (head1 != null) {
+                    k.next = head1;
+                }
+                head1 = k;
+            } else {
+                if (head2 != null) {
+                    k.next = head2;
+                }
+                head2 = k;
+            }
+            node = node.next;
+            counter++;
+        }
+    }
+
 }

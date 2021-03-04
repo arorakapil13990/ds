@@ -19,7 +19,7 @@ public class DeleteNAfterM {
         if (node == null) {
             return current;
         }
-        node = node.next; // move to the next node i.e node = 3;
+        node = node.next; // move to the next node i.e node = 5;
 
         c = 1;
         while (c < n && node != null) {

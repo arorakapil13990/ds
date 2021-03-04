@@ -39,7 +39,7 @@ public class ReverseNodeInGroup {
         }
 
         if (next != null) {
-            head.next = printReverseRecursive(next, i);
+            head.next = printReverseRecursive(current, i);
         }
 
         return prev;

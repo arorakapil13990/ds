@@ -17,7 +17,7 @@ public class DeleteEveryKthNode {
         Node prev = null;
 
         if (k == 1) {
-            head = freeList(head);  // head = null;
+            head = null;  // freeList(head);
             return;
         }
         while (node != null) {
@@ -34,6 +34,22 @@ public class DeleteEveryKthNode {
 
     }
 
+
+    private void deleteNode(Node node, int k) {
+        int count = 1;
+        Node pre = null;
+
+        while (node != null) {
+            if (count == k) {
+                pre.next = node.next;
+                count = 0;
+            }
+            pre = node;
+            node = node.next;
+            count++;
+        }
+
+    }
 
     public void deleteEveryKthNode(Node node, int k) {
 
@@ -88,9 +104,24 @@ public class DeleteEveryKthNode {
         d.addToTail(6);
         d.addToTail(7);
         d.addToTail(8);
-        d.delete(d.head, 3);
+        d.deleteNew(d.head, 5);
         d.print(d.head);
     }
 
+    private void deleteNew(Node node, int k) {
+        int c = 1;
+        Node prev = node;
+        while (node != null) {
+            if (c < k) {
+                prev = node;
+                node = node.next;
+                c++;
+            } else {
+                prev.next = node.next;
+                node = node.next;
+                c = 1;
+            }
+        }
+    }
 
 }

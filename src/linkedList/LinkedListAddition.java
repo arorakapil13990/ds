@@ -6,12 +6,14 @@ public class LinkedListAddition {
     Node head1, head2;
 
 
+
     public Node addTwoList(Node first, Node second) {
         int carry = 0;
         int sum = 0;
         Node res = null;
         Node tmp = null;
-        Node prev = null;
+        Node newHead = null;
+
 
         while (first != null || second != null) {
 
@@ -23,10 +25,11 @@ public class LinkedListAddition {
 
             if (res == null) {
                 res = tmp;
+                newHead = res;
             } else {
-                prev.next = tmp;
+                res.next= tmp;
+                res = res.next;
             }
-            prev = tmp;
 
             if (first != null) {
                 first = first.next;
@@ -41,7 +44,7 @@ public class LinkedListAddition {
             tmp.next = new Node(carry);
         }
 
-        return res;
+        return newHead;
     }
 
     public void printList(Node node) {
@@ -68,5 +71,7 @@ public class LinkedListAddition {
         Node n = l.addTwoList(l.head1, l.head2);
         l.printList(n);
     }
+
+
 
 }
