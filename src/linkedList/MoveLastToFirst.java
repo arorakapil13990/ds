@@ -7,13 +7,13 @@ public class MoveLastToFirst {
     private void moveToFront() {
         Node node = head;
         Node pre = null;
-        while(node.next != null){
-            pre=node;
-            node=node.next;
+        while (node.next != null) {
+            pre = node;
+            node = node.next;
         }
-        pre.next=null;
-        node.next=head;
-        head=node;
+        pre.next = null;
+        node.next = head;
+        head = node;
     }
 
     public void printList(Node node) {
@@ -34,10 +34,21 @@ public class MoveLastToFirst {
         s.head.next.next.next = new Node(4);
         s.head.next.next.next.next = new Node(5);
         s.head.next.next.next.next.next = new Node(6);
-        s.moveToFront();
+        s.moveLastToFront();
         s.printList(s.head);
 
     }
 
+    private void moveLastToFront() {
+        Node prev = null;
+        Node current = head;
+        while (current.next != null) {
+            prev = current;
+            current = current.next;
+        }
+        prev.next = null;
+        current.next = head;
+        head=current;
+    }
 
 }

@@ -2,6 +2,8 @@ package gs;
 
 import java.util.Arrays;
 
+// https://www.youtube.com/watch?v=Y0lT9Fck7qI  --- good explanation
+
 public class StairCase {
 
 
@@ -36,7 +38,7 @@ public class StairCase {
         Print the value of dp[n], as the Count of the number of ways to reach n th step.
         filter_none
     */
-
+// https://www.youtube.com/watch?v=Hr8HDhhSvZc
     public static int countWays(int n) {
         int[] res = new int[n + 1];
         res[0] = 1;
@@ -70,4 +72,36 @@ public class StairCase {
             System.out.println(n + " steps => " + numberOfCombinations);
         }
     }
+
+
+
+    /*// take either 1 or 2 step -- O(n)
+    private static void countStep(int n) {
+        int a = 1, b = 1;
+        int temp;
+        for (int i = 0; i < n - 1; i++) {
+            temp = a;
+            a = a + b;
+            b= temp;
+        }
+        System.out.println(a);
+    }*/
+
+    /*// take either 1 or 2 step or 3 step
+    private static int countStep(int n) {
+        int a = 1, b = 1, c=2;
+        int t, t1;
+        for (int i = 0; i < n - 2; i++) {
+            t = a;
+            t1 = b;
+            if(i == 0) {
+                a = a + b + c;
+            }else {
+                a=a+b+c+1; // hack
+            }
+            c=t1 ;
+            b=t;
+        }
+        return a;
+    }*/
 }

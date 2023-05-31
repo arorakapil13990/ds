@@ -1,5 +1,6 @@
 package linkedList;
 
+// this is in pairs
 public class ReverseNodeInGroup {
     Node head;
 
@@ -24,6 +25,7 @@ public class ReverseNodeInGroup {
     }
 
 
+    // this works in pairs
     private Node printReverseRecursive(Node head, int i) {
         Node current = head;
         Node prev = null;
@@ -45,3 +47,54 @@ public class ReverseNodeInGroup {
         return prev;
     }
 }
+
+
+// this works for swapping nodes in Kth group
+
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+/*class Solution {
+
+    int length(ListNode node){
+        int l =0;
+
+        while(node != null){
+            l++;
+            node = node.next;
+        }
+        return l;
+    }
+    public ListNode reverseKGroup(ListNode head, int k) {
+
+
+
+        int count = 0;
+        ListNode current = head;
+
+        if(length(current) < k){
+            return head;
+        }
+
+        ListNode pre= null;
+        ListNode next = null;
+        while(count< k && current != null){
+            count++;
+            next = current.next;
+            current.next = pre;
+            pre = current;
+            current = next;
+        }
+        if(next != null){
+            head.next = reverseKGroup(current,k);
+        }
+        return pre;
+    }
+}*/

@@ -39,5 +39,17 @@ public class RemoveDuplicateSortedList {
 
     }
 
+    void duplicates(Node node) {
+        Node pre = node;
+        while (node != null) {
+            while (node != null && node.next != null && node.data == node.next.data) {
+                node = node.next;
+            }
+            node = node.next;
+            pre.next = node;
+            pre = node;
+        }
+    }
+
 
 }

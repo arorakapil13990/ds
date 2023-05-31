@@ -106,6 +106,6 @@ public class TransactionTest {
         System.out.println("----findSmallestValueTransaction----");
         System.out.println(transactions.stream().map(Transaction::getValue).reduce(Integer::min).get());
         System.out.println("----findSmallestValueTransaction----");
-        System.out.println(transactions.stream().min(Comparator.comparing(Transaction::getValue)));
+        System.out.println(transactions.stream().min(Comparator.comparing(Transaction::getValue)).get());
     }
 }

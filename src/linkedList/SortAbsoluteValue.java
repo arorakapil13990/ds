@@ -1,13 +1,15 @@
 package linkedList;
-
+//https://www.geeksforgeeks.org/sort-linked-list-already-sorted-absolute-values/
 public class SortAbsoluteValue {
 
     Node head;
+    // To sort a linked list by actual values.
+    // The list is assumed to be sorted by absolute
+    // values.
+    private Node sort(Node head) {
 
-    private Node sort(Node node) {
-
-        Node prev = node;
-        Node current = node.next;
+        Node prev = head;
+        Node current = head.next;
 
         while (current != null) {
             if (current.data < prev.data) {   // compare current = -2 and prev = 1
@@ -52,8 +54,8 @@ public class SortAbsoluteValue {
         d.addToTail(-3);
         d.addToTail(4);
         d.addToTail(-5);
+        d.print(d.head);
+        System.out.println();
         d.print(d.sort(d.head));
     }
-
-
 }

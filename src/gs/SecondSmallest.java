@@ -22,6 +22,6 @@ public class SecondSmallest {
     }
 
     public static void main(String[] args) {
-        smallest(new int[]{10,4,6,199});
+        smallest(new int[]{1,2,3,4,5});
     }
 }

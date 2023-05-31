@@ -30,7 +30,6 @@ public class PascalTriangle {
             }
             System.out.println();
         }
-
         System.out.println("2,1 :: " + a[2][1]);
         System.out.println("6,5 :: " + a[6][5]);
     }

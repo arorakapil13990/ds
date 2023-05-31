@@ -20,7 +20,7 @@ public class ReverseFirstKNode {
 
         newHead = node;
 
-        for(Integer i : lt){
+        for (Integer i : lt) {
             Node n = new Node(i);
             n.next = newHead;
             newHead = n;
@@ -44,8 +44,24 @@ public class ReverseFirstKNode {
         s.head.next.next.next = new Node(4);
         s.head.next.next.next.next = new Node(5);
         s.head.next.next.next.next.next = new Node(6);
-        s.printList(s.printReverse(s.head, 3));
+        s.printList(s.reverse(s.head, 3));
     }
 
+    Node reverse(Node node, int k) {
+        Node pre = null, current = node, next = null;
+        while (k > 0 && current != null) {
+            next = current.next;
+            current.next = pre;
+            pre = current;
+            current = next;
+            k--;
+        }
+        Node newHead = pre;
+        while (pre.next != null){
+            pre=pre.next;
+        }
+        pre.next = next;
+        return newHead;
+    }
 
 }

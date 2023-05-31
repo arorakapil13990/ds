@@ -3,11 +3,9 @@ package linkedList;
 public class MergeReverse {
     Node head1, head2;
 
-
-
     public Node mergeReverseOrder(Node n, Node m) {
 
-        Node sortedHead = null;
+        Node sortedHead;
         if (n.data < m.data) {
             sortedHead = new Node(n.data);
             n = n.next;
@@ -20,12 +18,12 @@ public class MergeReverse {
 
             if (n.data < m.data) {
                 Node newNode = new Node(n.data);
-                newNode.next=sortedHead;
+                newNode.next = sortedHead;
                 sortedHead = newNode;
                 n = n.next;
             } else {
                 Node newNode = new Node(m.data);
-                newNode.next=sortedHead;
+                newNode.next = sortedHead;
                 sortedHead = newNode;
                 m = m.next;
             }
@@ -34,7 +32,7 @@ public class MergeReverse {
         if (n == null) {
             while (m != null) {
                 Node newNode = new Node(m.data);
-                newNode.next=sortedHead;
+                newNode.next = sortedHead;
                 sortedHead = newNode;
                 m = m.next;
             }
@@ -42,7 +40,7 @@ public class MergeReverse {
         if (m == null) {
             while (n != null) {
                 Node newNode = new Node(n.data);
-                newNode.next=sortedHead;
+                newNode.next = sortedHead;
                 sortedHead = newNode;
                 n = n.next;
             }
@@ -69,8 +67,42 @@ public class MergeReverse {
         m.head2.next = new Node(40);
         m.head2.next.next = new Node(60);
 
-        m.printList(m.mergeReverseOrder(m.head1, m.head2));
+        m.printList(m.reverse(m.head1, m.head2));
     }
 
+    private Node reverse(Node m, Node n) {
+        Node res = null, newHead = null, k;
+        while (m != null && n != null) {
+            if (m.data < n.data) {
+                k = new Node(m.data);
+                m = m.next;
+            } else {
+                k = new Node(n.data);
+                n = n.next;
+            }
+            if (res != null) {
+                k.next = res;
+            }
+            res = k;
+            newHead = res;
+        }
 
+        while (m != null) {
+            k = new Node(m.data);
+            k.next = res;
+            res = k;
+            newHead = res;
+            m = m.next;
+        }
+
+        while (n != null) {
+            k = new Node(n.data);
+            k.next = res;
+            res = k;
+            newHead = res;
+            n = n.next;
+        }
+
+        return newHead;
+    }
 }

@@ -28,7 +28,6 @@ public class PreOrder {
         while (!st.isEmpty()) {
             Node temp = st.pop();
             System.out.print(temp.data + " ");
-
             if (temp.right != null) {
                 st.push(temp.right);
             }
@@ -36,7 +35,6 @@ public class PreOrder {
                 st.push(temp.left);
             }
         }
-
     }
 
     public static void main(String[] args) {

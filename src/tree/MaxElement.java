@@ -18,7 +18,7 @@ public class MaxElement {
         MaxElement p = new MaxElement();
         p.root = new Node(1);
         p.root.left = new Node(2);
-        p.root.right = new Node(3);
+        p.root.right = new Node(399);
         p.root.left.left = new Node(48);
         p.root.left.right = new Node(5);
         p.root.right.left = new Node(6);

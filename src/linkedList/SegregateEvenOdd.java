@@ -18,14 +18,16 @@ public class SegregateEvenOdd {
                     evenHead = evenTail = node;
                 } else {
                     evenTail.next = node;
-                    evenTail = evenTail.next;
+                    evenTail= node;
+                   // evenTail = evenTail.next;
                 }
             } else {
                 if (oddHead == null) {
                     oddHead = oddTail = node;
                 } else {
                     oddTail.next = node;
-                    oddTail = oddTail.next;
+                    oddTail = node;
+                    //oddTail = oddTail.next;
                 }
             }
             node = node.next;
@@ -51,7 +53,7 @@ public class SegregateEvenOdd {
 
         SegregateEvenOdd s = new SegregateEvenOdd();
         s.head = new Node(8);
-        s.head.next = new Node(20);
+        s.head.next = new Node(21);
         s.head.next.next = new Node(10);
         s.head.next.next.next = new Node(4);
         s.head.next.next.next.next = new Node(5);

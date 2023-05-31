@@ -4,9 +4,8 @@ public class DLLInsertion {
 
     DLLNode head;
 
-
     public void createList(int data) {
-        DLLNode n = new DLLNode(null, null, data);
+        DLLNode n = new DLLNode(data);
         if (head == null) {
             head = n;
         } else {
@@ -20,7 +19,7 @@ public class DLLInsertion {
     }
 
     public void insertAtLast(int data){
-        DLLNode d = new DLLNode(null, null, data);
+        DLLNode d = new DLLNode( data);
 
         DLLNode current = head;
         while (current.next != null){

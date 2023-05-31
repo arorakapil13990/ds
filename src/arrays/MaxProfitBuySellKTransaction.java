@@ -1,5 +1,23 @@
 package arrays;
 
+/**
+ * This is faster method which does optimization on slower method
+ * Time complexity here is O(K * number of days)
+ *
+ * Formula is
+ * T[i][j] = max(T[i][j-1], prices[j] + maxDiff)
+ * maxDiff = max(maxDiff, T[i-1][j] - prices[j])
+ *
+ *
+ * or
+ *
+ * Formula is
+ *   T[i][j] = max(T[i][j-1], XX)
+ *   XX = (price[j] - price[m]) + T[i-1][j] m =0,1... j-1
+ *
+ * https://www.youtube.com/watch?v=oDhu5uGq_ic
+ */
+
 public class MaxProfitBuySellKTransaction {
 
     public static void findMaxProfit(int prices[], int k) {

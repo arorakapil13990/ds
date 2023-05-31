@@ -105,7 +105,22 @@ public class LinkedListDeletion {
         l.deleteGivenNode(4);
         l.printList(l.head);
 
-        l.deleteAtPosition(2);
+        l.deleteAtPos(3);
         l.printList(l.head);
+    }
+
+    private void deleteAtPos(int pos){
+        if(pos == 1){
+            deleteHead();
+        }else {
+            Node current = head, pre = null;
+            while (--pos > 0 && current.next != null){
+                pre = current;
+                current= current.next;
+            }
+            if(pos == 0){
+                pre.next = current.next;
+            }
+        }
     }
 }

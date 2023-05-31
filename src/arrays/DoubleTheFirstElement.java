@@ -10,7 +10,6 @@ import java.util.Arrays;
  * After the modification, rearrange the array such that all 0’s are shifted to the end.
  *
  * */
-
 public class DoubleTheFirstElement {
 
     public static void rearrange(int a[]) {

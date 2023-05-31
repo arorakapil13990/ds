@@ -19,7 +19,6 @@ public class PostOrder {
             if (temp.right != null) {
                 st.push(temp.right);
             }
-
         }
         while (!out.isEmpty()){
             System.out.print(out.pop() + " ");

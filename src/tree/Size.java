@@ -1,5 +1,8 @@
 package tree;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class Size {
 
     Node root;
@@ -14,6 +17,7 @@ public class Size {
         p.root.right.left = new Node(6);
         p.root.right.right = new Node(7);
         System.out.println(p.size(p.root));
+        p.treeSize(p.root);
     }
 
     private int size(Node node) {
@@ -26,5 +30,23 @@ public class Size {
         return 1 + left + right;
     }
 
+    private void treeSize(Node node){
+        int c = 0;
+        Queue<Node> q = new LinkedList<>();
+        q.offer(node);
+        while (!q.isEmpty()){
+            Node temp = q.poll();
+            c++;
 
+            if(temp.left != null){
+                q.offer(temp.left);
+            }
+
+            if(temp.right != null){
+                q.offer(temp.right);
+            }
+
+        }
+        System.out.println(c);
+    }
 }

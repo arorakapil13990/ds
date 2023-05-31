@@ -45,7 +45,7 @@ public class InsertNodeInSortedList {
         i.head.next.next = new Node(4);
         i.head.next.next.next = new Node(5);
 
-        i.insert(3, i.head);
+        i.insert(0, i.head);
         i.printList(i.head);
 
     }
@@ -58,12 +58,17 @@ public class InsertNodeInSortedList {
                 pre = node;
                 node = node.next;
             } else {
-                pre.next = newNode;
-                newNode.next = node;
+                if (pre != null) {
+                    pre.next = newNode;
+                    newNode.next = node;
+                }else {
+                    newNode.next = head;
+                    head = newNode;
+                }
                 break;
             }
         }
-        if(pre != null && pre.data < n){
+        if (node == null && pre != null && pre.data < n) {
             pre.next = newNode;
         }
     }

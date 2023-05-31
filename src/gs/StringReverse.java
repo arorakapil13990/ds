@@ -8,7 +8,7 @@ public class StringReverse {
         for (int i = str.length() - 1; i >= 0; i--) {
             sb.append(str.charAt(i));
         }
-        System.out.println(sb.toString());
+        System.out.println(sb);
     }
 
 
@@ -30,9 +30,9 @@ public class StringReverse {
     }
 
     public static void main(String[] args) {
-        reverse("abcd");
-        reverseRecursive("abcd");
+        reverse("kapil");
+        reverseRecursive("jasleen");
         System.out.println();
-        System.out.println(stringReverse("abcd"));
+        System.out.println(stringReverse("noni"));
     }
 }

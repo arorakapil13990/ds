@@ -29,14 +29,14 @@ public class PowerOfTen {
         int[] isNotPowerList = {3, 1100};
 
         for (int i : isPowerList) {
-            if (!isPowerOfTen(i)) {
+            if (!isPowerOf10(i)) {
                 System.out.println("Test failed for: " + i);
                 return false;
             }
         }
 
         for (int i : isNotPowerList) {
-            if (isPowerOfTen(i)) {
+            if (!isPowerOf10(i)) {
                 System.out.println("Test failed for: " + i);
                 return false;
             }

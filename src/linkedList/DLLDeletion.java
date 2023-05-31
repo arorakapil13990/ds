@@ -5,7 +5,7 @@ public class DLLDeletion {
     DLLNode head;
 
     public void createList(int data) {
-        DLLNode n = new DLLNode(null, null, data);
+        DLLNode n = new DLLNode(data);
         if (head == null) {
             head = n;
         } else {
@@ -28,17 +28,17 @@ public class DLLDeletion {
     public void deleteAtPosition(int pos) {
         if (pos == 1) {
             deleteHead();
-            return;
-        }
-        DLLNode current = head;
-        while (pos - 1 > 0 && current.next != null) {
-            pos--;
-            current = current.next;
-        }
+        } else {
+            DLLNode current = head;
+            while (pos - 1 > 0 && current.next != null) {
+                pos--;
+                current = current.next;
+            }
 
-        current.prev.next = current.next;
-        if (current.next != null) {
-            current.next.prev = current.prev;
+            current.prev.next = current.next;
+            if (current.next != null) {
+                current.next.prev = current.prev;
+            }
         }
     }
 

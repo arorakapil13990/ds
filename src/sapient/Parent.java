@@ -2,7 +2,7 @@ package sapient;
 
 public class Parent {
 
-    protected void printParent(){
+    public void printParent(){
         System.out.println("Parent");
 
     }

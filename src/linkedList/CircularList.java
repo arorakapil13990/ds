@@ -2,17 +2,33 @@ package linkedList;
 
 public class CircularList {
 
-    Node head, tail;
+    Node head;
 
-    public void createList(int data) {
+    private void createList(int data) {
         Node n = new Node(data);
         if (head == null) {
             head = n;
         } else {
-            tail.next = n;
+            Node current = head;
+            while (current.next != head) {
+                current = current.next;
+            }
+            current.next = n;
         }
-        tail = n;
-        tail.next = head;
+        n.next = head;
+    }
+
+    private void insertAtFront(int data) {
+        Node n = new Node(data);
+        Node current = head;
+        if (head != null) {
+            while (current.next != head) {
+                current = current.next;
+            }
+            n.next = head;
+        }
+        head = n;
+        current.next = head;
     }
 
 
@@ -27,8 +43,8 @@ public class CircularList {
         while (current.next != head) {
             current = current.next;
         }
-        current.next=n;
-        n.next=head;
+        current.next = n;
+        n.next = head;
     }
 
     public void printList(Node node) {
@@ -53,12 +69,12 @@ public class CircularList {
 
     public static void main(String[] args) {
         CircularList c = new CircularList();
-        c.create(1);
-        c.create(2);
-        c.create(3);
-        c.create(4);
+        c.createList(1);
+        c.createList(2);
+        c.createList(3);
+        c.createList(4);
         c.printList(c.head);
-        c.insertAtLast(5);
+        c.insertAtFront(5);
         c.printList(c.head);
 
     }

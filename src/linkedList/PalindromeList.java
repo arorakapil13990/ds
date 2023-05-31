@@ -6,7 +6,6 @@ public class PalindromeList {
 
     Node head;
 
-
     public void isPalindrome(Node node) {
 
         Node current = node;

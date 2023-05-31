@@ -32,7 +32,6 @@ public class ApacheLog {
 
         });*/
 
-
         Arrays.stream(inputs).forEach(e ->{
             String[] arr = e.split("-");
             map.merge(arr[0],1,Integer::sum);

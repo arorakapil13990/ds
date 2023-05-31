@@ -77,7 +77,6 @@ public class RobotMovement {
         return checkResult;
     }
 
-
     public static void main(String[] args) {
         if (doTestsPass()) {
             System.out.println("All tests pass");

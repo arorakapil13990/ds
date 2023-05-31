@@ -28,27 +28,6 @@ public class AlternateSplit {
 
     }
 
-    private void split(Node node) {
-        int counter = 1;
-        while (node != null) {
-            Node k = new Node(node.data);
-            if (counter % 2 == 0) {
-                if (head2 != null) {
-                    k.next = head2;
-                }
-                head2 = k;
-            } else {
-                if (head1 != null) {
-                    k.next = head1;
-                }
-                head1 = k;
-            }
-            counter++;
-            node = node.next;
-
-        }
-    }
-
     private void splitNode(Node node) {
         int counter = 1;
         while (node != null) {

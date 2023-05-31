@@ -1,6 +1,9 @@
 package linkedList;
-
+ // to the left
 public class Rotate {
+
+
+    // to the right https://www.geeksforgeeks.org/clockwise-rotation-of-linked-list/
 
     Node head;
 
@@ -23,7 +26,6 @@ public class Rotate {
         return head;
     }
 
-
     public void printList(Node node) {
         while (node != null) {
             System.out.print(node.data + " ");
@@ -43,7 +45,7 @@ public class Rotate {
         s.head.next.next.next.next = new Node(50);
         s.head.next.next.next.next.next = new Node(60);
 
-        s.printList(s.rotateByK(s.head, 4));
+        s.printList(s.rotateByK(s.head, 2));
     }
 
 }

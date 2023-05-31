@@ -4,9 +4,7 @@ public class CountRotationInSorted {
     Node head;
 
     private void countRotation(Node node) {
-
         int count = 0;
-
         int min = node.data;
 
         while (node != null) {
@@ -21,7 +19,7 @@ public class CountRotationInSorted {
 
     private void rotation(Node node) {
         int count = 1;
-        while (node != null) {
+        while (node != null && node.next != null) {
             if (node.data > node.next.data) {
                 break;
             } else {
@@ -63,7 +61,16 @@ public class CountRotationInSorted {
         d.addToTail(12);
         d.countRotation(d.head);
         d.rotation(d.head);
+        d.count(d.head);
     }
 
+    private void count(Node node) {
+        int c = 1;
+        while (node != null && node.next != null && node.data < node.next.data) {
+            node=node.next;
+            c++;
+        }
+        System.out.println(c);
+    }
 
 }

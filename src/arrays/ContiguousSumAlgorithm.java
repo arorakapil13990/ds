@@ -1,6 +1,7 @@
 package arrays;
 
 // Largest Sum Contiguous Subarray
+// https://www.youtube.com/watch?v=kekmCQXYwQ0&t=713s
 
 public class ContiguousSumAlgorithm {
 

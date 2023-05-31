@@ -5,8 +5,6 @@ public class LinkedListAddition {
 
     Node head1, head2;
 
-
-
     public Node addTwoList(Node first, Node second) {
         int carry = 0;
         int sum = 0;
@@ -71,7 +69,5 @@ public class LinkedListAddition {
         Node n = l.addTwoList(l.head1, l.head2);
         l.printList(n);
     }
-
-
 
 }

@@ -1,5 +1,8 @@
 package linkedList;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class SortZeroOneTwo {
     Node head;
 
@@ -12,6 +15,7 @@ public class SortZeroOneTwo {
             count[node.data]++;
             node = node.next;
         }
+
         node = head;
         int i = 0;
         while (node != null) {

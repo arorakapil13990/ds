@@ -1,8 +1,7 @@
 package linkedList;
 
 public class CompareString {
-    Node head;
-    static Node a, b;
+     Node a, b;
 
     static class Node {
         Node next;
@@ -44,7 +43,6 @@ public class CompareString {
     public static void main(String[] args) {
 
         CompareString list = new CompareString();
-        Node result = null;
 
         list.a = new Node('g');
         list.a.next = new Node('e');
@@ -61,7 +59,7 @@ public class CompareString {
         list.b.next.next.next.next.next = new Node('a');
 
         int value;
-        value = list.compare(a, b);
+        value = list.compare(list.a, list.b);
         System.out.println(value);
 
     }

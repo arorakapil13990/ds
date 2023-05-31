@@ -13,7 +13,6 @@ public class SumLastNNodes {
         System.out.println();
     }
 
-
     public static void main(String[] args) {
 
         SumLastNNodes s = new SumLastNNodes();

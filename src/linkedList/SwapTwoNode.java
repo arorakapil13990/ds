@@ -6,55 +6,44 @@ public class SwapTwoNode {
 
 
     public void swapNode(int x, int y) {
-        Node node = head;
+        // Nothing to do if x and y are same
+        if (x == y)
+            return;
 
-        Node preX = null;
-        Node preY = null;
-        Node nextX = null;
-        Node nextY = null;
-
-        boolean isXFound = false;
-        boolean isYFound = false;
-        while (node.next != null) {
-
-            if (!isXFound && node.data == x) {
-                isXFound = true;
-                nextX=node.next;
-            }
-
-            if (!isYFound && node.data == y) {
-                isYFound = true;
-                nextY=node.next;
-            }
-            if (!isXFound)
-                preX = node;
-            if (!isYFound)
-                preY = node;
-            node = node.next;
+        // Search for x (keep track of prevX and CurrX)
+        Node prevX = null, currX = head;
+        while (currX != null && currX.data != x) {
+            prevX = currX;
+            currX = currX.next;
         }
 
-        if (!isXFound) {
-            if (node.data == x) {
-                isXFound = true;
-            }
+        // Search for y (keep track of prevY and currY)
+        Node prevY = null, currY = head;
+        while (currY != null && currY.data != y) {
+            prevY = currY;
+            currY = currY.next;
         }
 
-        if (!isYFound) {
-            if (node.data == y) {
-                isYFound = true;
-            }
-        }
+        // If either x or y is not present, nothing to do
+        if (currX == null || currY == null)
+            return;
 
+        // If x is not head of linked list
+        if (prevX != null)
+            prevX.next = currY;
+        else // make y the new head
+            head = currY;
 
-       if(preX!=null && preY != null){
-           Node temp = preX.next;
+        // If y is not head of linked list
+        if (prevY != null)
+            prevY.next = currX;
+        else // make x the new head
+            head = currX;
 
-           preX.next=preY.next;
-           preY.next=temp;
-           preX.next.next=nextX;
-           preY.next.next=nextY;
-
-       }
+        // Swap next pointers
+        Node temp = currX.next;
+        currX.next = currY.next;
+        currY.next = temp;
 
     }
 
@@ -77,8 +66,43 @@ public class SwapTwoNode {
         s.head.next.next.next = new Node(13);
         s.head.next.next.next.next = new Node(20);
         s.head.next.next.next.next.next = new Node(14);
-        s.swapNode(12, 20);
+        //s.swapNode(12, 20);
+        s.swap(12, 20);
         s.printList(s.head);
+
+    }
+
+    private void swap(int x, int y) {
+        if (x == y)
+            return;
+        Node currX = head, preX = null;
+        while (currX != null && currX.data != x) {
+            preX = currX;
+            currX = currX.next;
+        }
+
+        Node currY = head, preY = null;
+        while (currY != null && currY.data != y) {
+            preY = currY;
+            currY = currY.next;
+        }
+
+        if(currX == null || currY == null)
+            return;
+
+        if(preX != null)
+            preX.next=currY;
+        else
+            head=currY;
+
+        if(preY != null)
+            preY.next=currX;
+        else
+            head=currX;
+
+        Node temp = currX.next;
+        currX.next=currY.next;
+        currY.next = temp;
 
     }
 }

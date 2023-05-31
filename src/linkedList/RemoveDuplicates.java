@@ -45,15 +45,13 @@ public class RemoveDuplicates {
         r.head.next.next.next.next.next.next = new Node(4);*/
 
         r.head = new Node(1);
-        r.head.next = new Node(1);
+        r.head.next = new Node(4);
         r.head.next.next = new Node(3);
         r.head.next.next.next = new Node(4);
         r.head.next.next.next.next = new Node(4);
         r.head.next.next.next.next.next = new Node(4);
-
         r.deleteDuplicates(r.head);
         r.printList(r.head);
-
     }
 
     private void deleteDuplicates(Node node) {

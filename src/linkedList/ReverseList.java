@@ -18,7 +18,6 @@ public class ReverseList {
         head = prev;
     }
 
-
     public void printList(Node node) {
         while (node != null) {
             System.out.print(node.data + " ");
@@ -39,4 +38,5 @@ public class ReverseList {
         r.printList(r.head);
 
     }
+
 }

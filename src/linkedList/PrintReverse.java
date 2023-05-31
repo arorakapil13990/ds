@@ -1,7 +1,6 @@
 package linkedList;
 
 public class PrintReverse {
-
     Node head;
 
     public static void main(String[] args) {

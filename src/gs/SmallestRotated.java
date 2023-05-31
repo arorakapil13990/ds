@@ -28,7 +28,6 @@ public class SmallestRotated {
             return a[mid];
         }
 
-
         // Decide whether we need to go to left half or right half
         // If middle element is higher than last element, then the minimum element lies in right half
         if (a[mid] > a[high]) {

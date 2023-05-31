@@ -42,7 +42,6 @@ public class MiddleHead {
             System.out.print(node.data + " ");
             node = node.next;
         }
-
     }
 
     public static void main(String[] args) {
@@ -52,9 +51,21 @@ public class MiddleHead {
         d.addToTail(3);
         d.addToTail(4);
         d.addToTail(5);
-        d.makeMiddleHead(d.head);
+        d.middle(d.head);
         d.print(d.head);
-
     }
 
+    private void middle(Node node) {
+        Node slow = node, fast = node, pre = null;
+
+        while (fast != null && fast.next != null) {
+            pre = slow;
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        pre.next = slow.next;
+        slow.next = head;
+        head = slow;
+
+    }
 }

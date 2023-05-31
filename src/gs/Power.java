@@ -26,18 +26,18 @@ public class Power {
     }
 
     public static boolean doTestPass() {
-        return powerOptimised(2, 4) == 16.0 &&
-                powerOptimised(2, 1) == 2.0 &&
-                powerOptimised(2, 0) == 1.0 &&
-                powerOptimised(2, -4) == 0.0625;
+        return power(2, 4) == 16.0 &&
+                power(2, 1) == 2.0 &&
+                power(2, 0) == 1.0 &&
+                power(2, -4) == 0.0625;
     }
 
     public static void main(String[] args) {
-       /* if (doTestPass()) {
+        if (doTestPass()) {
             System.out.println("Pass");
         } else {
             System.out.println("There are failures");
-        }*/
+        }
 
         System.out.println(powerOptimised(2,5));
     }

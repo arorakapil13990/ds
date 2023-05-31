@@ -32,7 +32,6 @@ public class Depth {
         return left > right ? left + 1 : right + 1;
     }
 
-
     private static void depthLevelWise(Node node) {
 
         Queue<Node> q = new LinkedList<>();

@@ -63,7 +63,6 @@ public class PriorityQueueExample {
 
             System.out.println(e);
         }*/
-
         Comparator comparator = Comparator.comparing(Employee::getName);
         PriorityQueue<Employee> queue = new PriorityQueue<>(comparator);
         queue.add(new Employee(5, "q"));

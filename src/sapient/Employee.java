@@ -1,6 +1,7 @@
 package sapient;
 
 
+import java.util.List;
 import java.util.Objects;
 
 public class Employee implements Comparable<Employee> {
@@ -9,10 +10,24 @@ public class Employee implements Comparable<Employee> {
     private String name;
     public int age = 30;
     public static double salary = 3000.00;
+    private List<Address> address;
 
-    public Employee(int id, String name) {
-        this.id = id;
+
+    public Employee( int age,String name) {
         this.name = name;
+        this.age = age;
+    }
+
+    public Employee(String name) {
+        this.name = name;
+    }
+
+    public List<Address> getAddress() {
+        return address;
+    }
+
+    public void setAddress(List<Address> address) {
+        this.address = address;
     }
 
     public Employee() {
@@ -25,6 +40,10 @@ public class Employee implements Comparable<Employee> {
 
     {
         System.out.println("Parent Instance block");
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public String getName() {

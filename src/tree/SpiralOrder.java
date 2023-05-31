@@ -10,7 +10,6 @@ public class SpiralOrder {
         Stack<Node> s2 = new Stack<>();
         s1.push(node);
         while (!s1.isEmpty() || !s2.isEmpty()) {
-
             while (!s1.isEmpty()) {
                 Node temp = s1.pop();
                 System.out.print(temp.data +" ");

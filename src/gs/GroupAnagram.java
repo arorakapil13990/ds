@@ -52,6 +52,23 @@ public class GroupAnagram {
 
     public static void main(String[] args) {
         String input = "cat dog tac sat tas god dog";
-        groupAnagram(input);
+        groupAna(input);
+    }
+
+    private static void groupAna(String str){
+        Map<String, List<String>> map = new HashMap<>();
+
+        Arrays.stream(str.split(" ")).forEach(e -> {
+            char[] ch = e.toCharArray();
+            Arrays.sort(ch);
+            List<String> list = map.get(String.valueOf(ch));
+            if(list == null){
+                list = new ArrayList<>();
+            }
+            list.add(e);
+            map.put(String.valueOf(ch),list);
+        });
+
+        map.values().stream().forEach(System.out::println);
     }
 }

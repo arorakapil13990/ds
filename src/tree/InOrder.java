@@ -30,7 +30,6 @@ public class InOrder {
         }
     }
 
-
         public static void main (String[]args){
             InOrder p = new InOrder();
             p.root = new Node(1);

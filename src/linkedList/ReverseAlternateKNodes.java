@@ -40,7 +40,6 @@ public class ReverseAlternateKNodes {
             current.next = reverse(current.next, i);
         }
 
-
         return prev;
     }
 

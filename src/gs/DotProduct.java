@@ -7,7 +7,6 @@ import static java.lang.Integer.min;
 
 public class DotProduct {
 
-
     public static void main(String[] args) {
         int a[] = new int[]{1, 2};
         int b[] = new int[]{2, 3};

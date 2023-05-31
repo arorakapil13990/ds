@@ -40,7 +40,6 @@ public class SortedIntersect {
         System.out.println();
     }
 
-
     public static void main(String[] args) {
 
         SortedIntersect s = new SortedIntersect();

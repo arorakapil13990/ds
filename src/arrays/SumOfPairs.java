@@ -2,7 +2,6 @@ package arrays;
 
 import java.util.HashMap;
 import java.util.Map;
-
 public class SumOfPairs {
 
     public void findPair(int a[], int sum) {
@@ -36,8 +35,9 @@ public class SumOfPairs {
     }
 
     public static void main(String[] args) {
-        int a[] = {11, 15, 6, 8, 9, 10};
+        int a[] = {1,3,4,2};
         SumOfPairs sp = new SumOfPairs();
-        sp.findPair(a, 16);
+        sp.findPair(a, 6);
     }
+
 }

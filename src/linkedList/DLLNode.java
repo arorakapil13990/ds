@@ -6,6 +6,7 @@ public class DLLNode {
 
     public DLLNode(int data) {
         this.data = data;
+        next = prev =null;
     }
 
     public DLLNode(DLLNode next, DLLNode prev, int data) {
