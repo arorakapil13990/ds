@@ -20,23 +20,19 @@ public class LevelOrderReversal {
         p.levelTraversal(p.root);
     }
 
-
     private void levelTraversal(Node node) {
 
         Queue<Node> q = new LinkedList<>();
         Stack<Node> s = new Stack<>();
         q.offer(node);
         while (!q.isEmpty()) {
-
             Node tmp = q.poll();
-
             if (tmp.right != null) {
                 q.offer(tmp.right);
             }
             if (tmp.left != null) {
                 q.offer(tmp.left);
             }
-
             s.push(tmp);
         }
 
@@ -45,6 +41,4 @@ public class LevelOrderReversal {
         }
 
     }
-
-
 }

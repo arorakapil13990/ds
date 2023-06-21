@@ -1,7 +1,6 @@
 package tree;
 
 public class MaxElement {
-
     Node root;
 
     private int findMax(Node node) {

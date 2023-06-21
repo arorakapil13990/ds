@@ -3,7 +3,6 @@ package tree;
 public class CheckBST {
     Node root;
 
-
     private static boolean isBST(Node node, Node left, Node right) {
 
         if (node == null) {

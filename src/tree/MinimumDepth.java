@@ -40,7 +40,6 @@ public class MinimumDepth {
         if (root.right == null) {
             return 1 + l;
         }
-
         // otherwise, choose the minimum depth returned by the
         // left and right subtree
         return Integer.min(l, r) + 1;

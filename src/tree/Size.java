@@ -45,7 +45,6 @@ public class Size {
             if(temp.right != null){
                 q.offer(temp.right);
             }
-
         }
         System.out.println(c);
     }

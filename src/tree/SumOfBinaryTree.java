@@ -19,3 +19,4 @@ public class SumOfBinaryTree {
         System.out.println(sum(c.root));
     }
 }
+

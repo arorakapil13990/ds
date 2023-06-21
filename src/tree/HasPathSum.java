@@ -24,7 +24,6 @@ public class HasPathSum {
             return false;
             //return sum == 0;
         }
-
         if (node.left == null && node.right == null && sum == 0) {
             return true;
         } else {

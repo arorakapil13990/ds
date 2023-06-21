@@ -23,7 +23,6 @@ public class PostOrder {
         while (!out.isEmpty()){
             System.out.print(out.pop() + " ");
         }
-
     }
 
     public static void main(String[] args) {

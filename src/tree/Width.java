@@ -38,7 +38,6 @@ public class Width {
         System.out.println("Width :: " + max);
     }
 
-
     private static int depth(Node node, int level) {
 
         if (node == null) {

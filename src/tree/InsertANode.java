@@ -16,7 +16,6 @@ public class InsertANode {
         }
     }
 
-
     public static void main(String[] args) {
         InsertANode p = new InsertANode();
         p.root = new Node(1);
@@ -28,6 +27,12 @@ public class InsertANode {
         p.insert(p.root, 51);
 
         p.inOrder(p.root);
+
+        System.out.println(" --------- ");
+
+        p.insert(p.root, 32);
+        p.inOrder(p.root);
+
     }
 
     private void insert(Node node, int element) {
@@ -50,6 +55,28 @@ public class InsertANode {
                 break;
             }
 
+        }
+    }
+
+    public void insertRecursive(Node root, int data){
+        if(root == null){
+            root = new Node(data);
+        }else {
+            helper(root,data);
+        }
+    }
+
+    private void helper(Node node, int data) {
+        if(node.left == null){
+            node.left = new Node(data);
+        }else {
+            helper(node.right,data);
+        }
+
+        if(node.right == null){
+            node.right = new Node(data);
+        }else {
+            helper(node.left,data);
         }
     }
 }

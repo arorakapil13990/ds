@@ -23,7 +23,6 @@ public class LowestCommonAncestor {
             return left != null ? left : right;
         }
     }
-
     public static void main(String[] args) {
         LowestCommonAncestor p = new LowestCommonAncestor();
         p.root = new Node(1);

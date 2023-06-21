@@ -33,35 +33,28 @@ public class Depth {
     }
 
     private static void depthLevelWise(Node node) {
-
         Queue<Node> q = new LinkedList<>();
         q.add(node);
         q.add(null);
         int c = 1;
-
         while (!q.isEmpty()) {
-
             Node temp = q.poll();
-
             if (temp != null) {
-
                 if (temp.left != null) {
                     q.add(temp.left);
                 }
                 if (temp.right != null) {
                     q.add(temp.right);
                 }
-
             } else {
                 if (!q.isEmpty()) {
                     c++;
                     q.add(null);
                 }
             }
-
         }
-
         System.out.println("Depth :: " + c);
     }
+
 
 }

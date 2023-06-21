@@ -8,7 +8,6 @@ import java.util.stream.IntStream;
 
 public class CreateBinaryTreeFromInAndPost {
 
-
     static Node construct(int[] in, int[] post) {
 
         Map<Integer, Integer> map = new HashMap<>();

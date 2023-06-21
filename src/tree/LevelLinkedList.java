@@ -21,7 +21,6 @@ public class LevelLinkedList {
        // p.createLevelLinkedList(p.root);
         p.levelOrder(p.root);
     }
-
     // fast
     public void levelOrder(Node root) {
         List<List<Integer>> result = new ArrayList<>();

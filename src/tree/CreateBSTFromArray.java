@@ -5,7 +5,6 @@ public class CreateBSTFromArray {
         if (end < start) {
             return null;
         }
-
         int mid = (start + end) / 2;
 
         Node n = new Node(a[mid]);
