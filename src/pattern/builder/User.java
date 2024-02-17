@@ -32,13 +32,13 @@ public class User {
     }
 
     public static void main(String[] args) {
-        /*User user1 = new UserBuilder("Kapil", "Arora").age(30).build();
+        User user1 = new UserBuilder("Kapil", "Arora").age(30).build();
         User user2 = new UserBuilder("Jasleen", "Arora").age(27).address("129 BMK").build();
 
         System.out.println(user1);
         System.out.println("---------");
-        System.out.println(user2);*/
-        System.out.println(User.getBuilder().address("129 BMK").firstName("kapil").build());
+        System.out.println(user2);
+       // System.out.println(User.getBuilder().address("129 BMK").firstName("kapil").build());
     }
 
     private static class Builder {

@@ -1,9 +1,9 @@
 package sapient.java8;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
+
+// https://blog.devgenius.io/java-8-coding-and-programming-interview-questions-and-answers-62512c44f062
 
 public class PracticeJava8 {
 
@@ -31,6 +31,7 @@ public class PracticeJava8 {
         findAllTransactionValueFromTradersInCambridge(transactions);
         findHighestValueOfTransaction(transactions);
         findSmallestValueTransaction(transactions);
+
     }
 
     public static void findTransactionInYear2011AndSortByValue(List<Transaction> transactions) {

@@ -1,7 +1,9 @@
 package sapient.java8;
 
 import java.util.Arrays;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 public class Java8MapExample {
@@ -23,6 +25,15 @@ public class Java8MapExample {
             System.out.println(Arrays.toString(array.get(i)));
         }
 
-
+        System.out.println(findCountOfChars("string data to count each character"));
     }
+    public static Map<String, Long> findCountOfChars(String s) {
+        Map<String, Long> map = Arrays.stream(s.split(""))
+                .map(String::toLowerCase)
+                .collect(Collectors
+                        .groupingBy(str -> str,
+                                LinkedHashMap::new, Collectors.counting()));
+        return map;
+    }
+
 }

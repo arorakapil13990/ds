@@ -23,7 +23,7 @@ public class ThreeSum {
                 while (low < high) {
                     if (a[low] + a[high] == sum) {
                         output.add(Arrays.asList(a[i], a[low], a[high]));
-                        while (low < high && a[low] == a[low + 1]) low++; // we don't have duplicates in the resulting array
+                        while (low < high && a[low] == a[low + 1]) low++; // we don't want duplicates in the resulting array
                         while (low < high && a[high] == a[high - 1]) high--;
                         low++;
                         high--;

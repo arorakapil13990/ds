@@ -5,175 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09728682-12e3-49f5-945a-bc0f3a91308d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/Demo/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/arrays/ContiguousSumAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/arrays/ContiguousSumAlgorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/arrays/CyclicallyRotateByOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/arrays/CyclicallyRotateByOne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/arrays/DoubleTheFirstElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/arrays/DoubleTheFirstElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/arrays/MaxProfitBuySellKTransaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/arrays/MaxProfitBuySellKTransaction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/arrays/SearchElementInRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/arrays/SearchElementInRotatedSortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/arrays/SumOfPairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/arrays/SumOfPairs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/ApacheLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/ApacheLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/Atoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/Atoi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/BestAverageGrade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/BestAverageGrade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/CountLengthOfCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/CountLengthOfCycle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/DotProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/DotProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/GroupAnagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/GroupAnagram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/PascalTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/PascalTriangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/Power.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/Power.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/PowerOfTen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/PowerOfTen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/PriorityQueueExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/PriorityQueueExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/RobotMovement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/RobotMovement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/SecondSmallest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/SecondSmallest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/SmallestRotated.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/SmallestRotated.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/Snowpack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/Snowpack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/StairCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/StairCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/gs/StringReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/gs/StringReverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/java8/Dish.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/java8/Dish.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/java8/FlatMapExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/java8/FlatMapExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/java8/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/java8/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/java8/TransactionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/java8/TransactionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/AddOneToNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/AddOneToNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/AlternateEvenOdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/AlternateEvenOdd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/AlternateSplit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/AlternateSplit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/CircularList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/CircularList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/CompareString$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/CompareString$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/CompareString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/CompareString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/CountRotationInSorted.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/CountRotationInSorted.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/DLLDeletion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/DLLDeletion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/DLLInsertion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/DLLInsertion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/DLLNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/DLLNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/FindLoopInLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/FindLoopInLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/InsertNodeInSortedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/InsertNodeInSortedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/IntersectionNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/IntersectionNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/LinkedListAddition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/LinkedListAddition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/LinkedListDeletion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/LinkedListDeletion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/LinkedListInsertion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/LinkedListInsertion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/MergeInSortedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/MergeInSortedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/MergeReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/MergeReverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/MiddleHead.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/MiddleHead.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/MoveLastToFirst.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/MoveLastToFirst.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/PalindromeList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/PalindromeList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/PrintReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/PrintReverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/RemoveAllDuplicatesSortedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/RemoveAllDuplicatesSortedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/RemoveDuplicateSortedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/RemoveDuplicateSortedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/RemoveDuplicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/RemoveDuplicates.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/ReverseAlternateKNodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/ReverseAlternateKNodes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/ReverseFirstKNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/ReverseFirstKNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/ReverseList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/ReverseList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/ReverseNodeInGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/ReverseNodeInGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/Rotate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/Rotate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/SegregateEvenOdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/SegregateEvenOdd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/SortAbsoluteValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/SortAbsoluteValue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/SortZeroOneTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/SortZeroOneTwo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/SortedIntersect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/SortedIntersect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/StackUsingLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/StackUsingLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/SumLastNNodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/SumLastNNodes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/linkedList/SwapTwoNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/linkedList/SwapTwoNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/pattern/singleton/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/pattern/singleton/Singleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/sapient/Child.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/sapient/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/sapient/Parent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/sapient/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/designPatterns/strategy/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/sapient/designPatterns/strategy/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/arrays/MinimumInSortedRotatedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/arrays/MinimumInSortedRotatedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/pattern/builder/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/pattern/builder/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/pattern/chainofresponsibility/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/pattern/chainofresponsibility/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/java8/Java8MapExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/sapient/java8/Java8MapExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/sapient/java8/PracticeJava8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/sapient/java8/PracticeJava8.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Sample/tree/CheckBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/tree/CheckBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/tree/CheckStructure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/tree/CheckStructure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/tree/CreateBSTFromArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/tree/CreateBSTFromArray.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Sample/tree/CreateBinaryTreeFromInAndPost.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/tree/CreateBinaryTreeFromInAndPost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/tree/CreateBinaryTreeFromInAndPre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/tree/CreateBinaryTreeFromInAndPre.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Sample/tree/Depth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/tree/Depth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/tree/HasPathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/tree/HasPathSum.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Sample/tree/Inorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/tree/Inorder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/tree/InsertANode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/tree/InsertANode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Sample/tree/LevelLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/tree/LevelLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/tree/LevelOrderReversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/tree/LevelOrderReversal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Sample/tree/LevelOrderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/tree/LevelOrderTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/tree/LowestCommonAncestor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/tree/LowestCommonAncestor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Sample/tree/MaxElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/tree/MaxElement.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Sample/tree/MinimumDepth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/tree/MinimumDepth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/tree/MirrorOfBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/tree/MirrorOfBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sample/tree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/tree/Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Sample/tree/PostOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/tree/PostOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/tree/PreOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/tree/PreOrder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Sample/tree/Size.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/tree/Size.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sample/tree/SpiralOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/tree/SpiralOrder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Sample/tree/Width.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sample/tree/Width.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Demo/Test.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/arrays/ContiguousSumAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/ContiguousSumAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/CyclicallyRotateByOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/CyclicallyRotateByOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/DoubleTheFirstElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/DoubleTheFirstElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/MaxProfitBuySellKTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/MaxProfitBuySellKTransaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/SearchElementInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/SearchElementInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/SumOfPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/SumOfPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gs/ApacheLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/ApacheLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gs/Atoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/Atoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gs/BestAverageGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/BestAverageGrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gs/CountLengthOfCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/CountLengthOfCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gs/DotProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/DotProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gs/GroupAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/GroupAnagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gs/PascalTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/PascalTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gs/Power.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/Power.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gs/PowerOfTen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/PowerOfTen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gs/PriorityQueueExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/PriorityQueueExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gs/RobotMovement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/RobotMovement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gs/SecondSmallest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/SecondSmallest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gs/SmallestRotated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/SmallestRotated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gs/Snowpack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/Snowpack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gs/StairCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/StairCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gs/StringReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/StringReverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java8/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8/Dish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java8/FlatMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8/FlatMapExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java8/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java8/TransactionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8/TransactionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/AddOneToNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/AddOneToNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/AlternateEvenOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/AlternateEvenOdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/AlternateSplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/AlternateSplit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/CircularList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/CircularList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/CompareString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/CompareString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/CountRotationInSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/CountRotationInSorted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/DLLDeletion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/DLLDeletion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/DLLInsertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/DLLInsertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/DLLNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/DLLNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/FindLoopInLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/FindLoopInLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/InsertNodeInSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/InsertNodeInSortedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/IntersectionNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/IntersectionNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedListAddition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedListAddition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedListDeletion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedListDeletion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedListInsertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedListInsertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/MergeInSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/MergeInSortedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/MergeReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/MergeReverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/MiddleHead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/MiddleHead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/MoveLastToFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/MoveLastToFirst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/PalindromeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/PalindromeList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/PrintReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/PrintReverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/RemoveAllDuplicatesSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/RemoveAllDuplicatesSortedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/RemoveDuplicateSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/RemoveDuplicateSortedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/RemoveDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/ReverseAlternateKNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/ReverseAlternateKNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/ReverseFirstKNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/ReverseFirstKNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/ReverseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/ReverseNodeInGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/ReverseNodeInGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/Rotate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/Rotate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/SegregateEvenOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/SegregateEvenOdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/SortAbsoluteValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/SortAbsoluteValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/SortZeroOneTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/SortZeroOneTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/SortedIntersect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/SortedIntersect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/StackUsingLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/StackUsingLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/SumLastNNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/SumLastNNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/SwapTwoNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/SwapTwoNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sapient/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sapient/Child.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sapient/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sapient/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sapient/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sapient/Parent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sapient/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sapient/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sapient/designPatterns/strategy/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sapient/designPatterns/strategy/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/CheckBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/CheckBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/CreateBinaryTreeFromInAndPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/CreateBinaryTreeFromInAndPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/Depth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/Depth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/HasPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/HasPathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/InOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/InOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/LevelLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/LevelLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/LevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/LevelOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/MaxElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/MaxElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/MinimumDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/MinimumDepth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/PostOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/PostOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/PreOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/PreOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/SearchInBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/SearchInBT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/Size.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/Size.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/SpiralOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/SpiralOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/Width.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/Width.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/builder/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pattern/builder/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/chainofresponsibility/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pattern/chainofresponsibility/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sapient/java8/Java8MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sapient/java8/Java8MapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sapient/java8/PracticeJava8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sapient/java8/PracticeJava8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,51 +114,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/kapilarora/Sample/src/tree/MinimumDepth.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593545198596" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Facets" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kapilarora/Downloads/ds/src/arrays&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="java8" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/arrays" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinimumInSortedRotatedArray">
+  <component name="RunManager" selected="Application.PublicKeyGeneration">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gs.GroupAnagram" />
-      <module name="Sample" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxProductSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.MaxProductSubArray" />
+    <configuration name="CelebrityProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.CelebrityProblem" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -308,8 +151,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumInSortedRotatedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.MinimumInSortedRotatedArray" />
+    <configuration name="MaxProductSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.MaxProductSubArray" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -336,8 +179,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchElementInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.SearchElementInRotatedSortedArray" />
+    <configuration name="PublicKeyGeneration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.PublicKeyGeneration" />
+      <module name="Sample" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ThreeSum" />
       <module name="Sample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -382,19 +239,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MinimumInSortedRotatedArray" />
-      <item itemvalue="Application.SearchElementInRotatedSortedArray" />
-      <item itemvalue="Application.GroupAnagram" />
+      <item itemvalue="Application.PublicKeyGeneration" />
+      <item itemvalue="Application.CelebrityProblem" />
       <item itemvalue="Application.MaxProductSubArray" />
       <item itemvalue="Application.ProductArrayExceptSelf" />
+      <item itemvalue="Application.ThreeSum" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MinimumInSortedRotatedArray" />
-        <item itemvalue="Application.SearchElementInRotatedSortedArray" />
+        <item itemvalue="Application.PublicKeyGeneration" />
         <item itemvalue="Application.MaxProductSubArray" />
+        <item itemvalue="Application.CelebrityProblem" />
+        <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.ProductArrayExceptSelf" />
-        <item itemvalue="Application.GroupAnagram" />
       </list>
     </recent_temporary>
   </component>
@@ -607,7 +464,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tree/MaxElement.java</url>
-          <line>8</line>
+          <line>7</line>
           <option name="timeStamp" value="152" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -617,7 +474,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tree/LevelLinkedList.java</url>
-          <line>54</line>
+          <line>53</line>
           <option name="timeStamp" value="162" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -935,7 +792,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tree/CreateBSTFromArray.java</url>
-          <line>17</line>
+          <line>16</line>
           <option name="timeStamp" value="356" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -945,12 +802,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tree/MirrorOfBinaryTree.java</url>
-          <line>7</line>
+          <line>8</line>
           <option name="timeStamp" value="364" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tree/CreateBinaryTreeFromInAndPre.java</url>
-          <line>20</line>
+          <line>29</line>
           <option name="timeStamp" value="370" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1134,24 +991,14 @@
           <option name="timeStamp" value="447" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/tree/PostOrder.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="448" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tree/InOrder.java</url>
           <line>18</line>
           <option name="timeStamp" value="449" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tree/LevelLinkedList.java</url>
-          <line>26</line>
+          <line>25</line>
           <option name="timeStamp" value="450" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/tree/CheckBST.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="451" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/gs/CountLengthOfCycle.java</url>
@@ -1213,11 +1060,43 @@
           <line>75</line>
           <option name="timeStamp" value="466" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/TreeSerialization.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="467" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/TreeSerialization.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="468" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/WordDictionary.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="469" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/WordDictionary.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="470" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/WordSearchII.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="473" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/WordSearchII.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="474" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo />
+        <PinnedItemInfo parentTag="tree.WordDictionary$TrieNode" memberName="links" />
+        <PinnedItemInfo parentTag="tree.WordDictionary$TrieNode" memberName="this$0" />
       </pinned-members>
     </pin-to-top-manager>
   </component>

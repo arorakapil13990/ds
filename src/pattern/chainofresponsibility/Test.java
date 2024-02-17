@@ -4,7 +4,7 @@ public class Test {
 
     public static void main(String[] args) {
 
-        Currency currency = new Currency(120);
+        Currency currency = new Currency(130);
         DispenseChain dispenseChainOf50 = new Dollar50Dispenser();
         DispenseChain dispenseChainOf20 = new Dollar20Dispenser();
         DispenseChain dispenseChainOf10 = new Dollar10Dispenser();

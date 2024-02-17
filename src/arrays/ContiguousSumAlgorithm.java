@@ -10,17 +10,17 @@ public class ContiguousSumAlgorithm {
 
         int start = 0, end = 0, s = 0;
         for (int i = 1; i < a.length; i++) {
-            maxEndingHere = maxEndingHere + a[i];
+                maxEndingHere = maxEndingHere + a[i];
 
-            if (maxSoFar < maxEndingHere) {
-                maxSoFar = maxEndingHere;
-                start = s;
-                end = i;
-            }
-            if (maxEndingHere < 0) {
-                maxEndingHere = 0;
-                s = i + 1;
-            }
+                if (maxSoFar < maxEndingHere) {
+                    maxSoFar = maxEndingHere;
+                    start = s;
+                    end = i;
+                }
+                if (maxEndingHere < 0) {
+                    maxEndingHere = 0;
+                    s = i + 1;
+                }
         }
         System.out.println(maxSoFar);
         System.out.println(start + " " + end);
